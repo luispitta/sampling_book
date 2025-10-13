@@ -1,0 +1,55 @@
+---
+title: "Sampling as a Research Tool"
+---
+
+## Unit 1: Sampling as a Research Tool
+
+### Lecture 0: Course Overview
+
+Sampling is woven into daily life and across the sciences. We sample foods and experiences, scientists sample patients and physical systems, and even our visual perception continuously samples the environment. Because entire populations are rarely accessible, we rely on carefully chosen subsets to understand the wider world. This course focuses on probability-based sampling for people, records, and networks within the social and health sciences, where assumptions of uniformity seldom hold.
+
+The course spans six units. Unit 1 introduces surveys as research tools and lays the foundation for thoughtful sample design. Unit 2 studies simple random sampling as the baseline for probabilistic selection. Units 3 and 4 extend the toolkit with clustering and stratification to manage cost and precision. Unit 5 examines systematic selection, highlighting both its convenience and its pitfalls. Unit 6 concludes with specialized designs for records and networks and considers the implications of complex designs on inference quality.
+
+Throughout the lectures, slide callouts indicate the active unit, lecture, and subtopics to keep the narrative anchored. The goal is to treat randomization as the engine that mixes the sample, freeing us from unrealistic assumptions about homogeneous populations. By grounding every deviation from the ideal design in first principles, we can judge when practical compromises remain defensible.
+
+### Lecture 1: Research Design and Surveys
+
+#### Research Designs with Human Subjects
+
+Scientific inquiry often starts with experiments that manipulate exposure to a treatment and compare outcomes with a control condition. Randomization assigns participants to conditions through an external, objective mechanism, balancing background characteristics and protecting against bias from disturbing variables.
+
+A landmark illustration is the 1954 Salk poliomyelitis vaccine field trial. The study originally planned to immunize first- and third-grade students while leaving second graders untreated, but critics noted that families and physicians would know each child’s status. Awareness of immunization could change care-seeking behavior and blur the true vaccine effect. The final design therefore included a randomized, double-blind arm: first- through third-grade volunteers all received injections, yet a random half received the vaccine while the remainder received a saline placebo. No one outside the central research team knew who had received which injection, so both groups received equal attention. Among nearly half a million children, the vaccine cut polio incidence by more than half relative to the placebo group. The randomized evidence enabled immediate public health action, something the nonrandomized grade-based comparison could not conclusively provide.
+
+Randomization is not always practical. Doll and Hill’s classic prospective cohort of British physicians demonstrates how observational designs fill the gap. More than 40,000 physicians reported their tobacco use and were then followed through national death registrations. Researchers could not randomly assign physicians to smoke, yet the observed mortality differences—especially the elevated lung cancer risk among smokers—were so large and consistent that they compelled policy attention despite the absence of experimental control.
+
+#### Surveys as Research Designs
+
+Sample surveys share the observational nature of quasi-experiments, yet they deploy randomization in a different location: the sample selection itself. Their roots lie in nineteenth-century European efforts to describe populations. Modern surveys serve both descriptive aims—capturing snapshots of population characteristics—and analytic goals—testing hypotheses about relationships. In practice, both functions intertwine.
+
+Consider Turkey’s Demographic and Health Survey. Conducted at five-year intervals, it samples about 12,000 households and interviews nearly 10,000 women aged 15–49. The survey documents fertility, mortality, and health behaviors in naturally occurring settings without manipulating exposures. Randomization enters through the sampling frame: households are selected probabilistically so that, on average, the sample mirrors the national population. By repeating the design across years, analysts can attribute observed changes to real demographic shifts rather than to alterations in sampling.
+
+Leslie Kish summarized effective research design with three principles—the “three R’s”:
+
+- **Realism**: Study phenomena in settings that reflect everyday conditions. Surveys and observational cohorts excel here, while laboratory experiments may sacrifice realism for control.
+- **Randomization**: Use objective chance mechanisms to guard against bias. Experiments randomize treatment assignment; surveys randomize who enters the sample.
+- **Representation**: Ensure the study group resembles the target population. Surveys claim their place in scientific research by striving for representative samples, often layering additional design features on top of random selection to achieve this goal.
+
+### Lecture 2: Surveys and the Role of Sampling
+
+Surveys formalize a research activity that spans many scientific domains: selecting units to observe when a full census is impractical. Everyday research tasks—such as extrapolating laboratory findings to the universe or generalizing case studies to populations—rely on implicit sampling assumptions. This lecture reframes those assumptions through the deliberate structure of survey research.
+
+#### The Survey Process
+
+A survey can be sketched as four interconnected stages, with sampling as an essential cross-cutting component:
+
+1. **Problem specification**: Define the research questions and, crucially, the population of interest. Limits on geography, eligibility (such as age or voter status), or other characteristics must be explicit so that later inferences have a clear target.
+2. **Measurement design**: Translate constructs into observable variables. Some features—height or weight—have direct instruments. Others, like stress, require proxy measures such as physiological indicators or behavioral reports. Designing questionnaires or protocols includes specifying instruments, procedures, and any staff training necessary to implement them consistently.
+3. **Data collection and processing**: Apply the instruments, capture responses, and prepare the data for analysis. High-quality measurements are impossible without the planning invested in the prior stage.
+4. **Analysis and inference**: Summarize findings, assess relationships, and relate results back to the original problem.
+
+Sampling, while often a modest line item in the project budget, ties each step to the intended population. It requires:
+
+- Identifying a **frame**—a concrete list or operational representation of all eligible units. Discrepancies between the frame and the true population (for example, missing new hires on a personnel roster) must be recognized and mitigated.
+- Selecting units through specified **probability mechanisms** rather than convenience recruitment. Field staff follow documented procedures to implement the design faithfully.
+
+By grounding sample selection in probability principles, surveys provide a defensible baseline for inference. Understanding that baseline clarifies the consequences when practical constraints force departures. The remainder of Unit 1 explores why sampling is preferable to a census and how randomization, stratification, and clustering work together to deliver efficient, credible survey estimates.
