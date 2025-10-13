@@ -1,0 +1,117 @@
+---
+title: "Sampling as a Research Tool"
+---
+
+## Unit 1: Sampling as a Research Tool
+
+### Lecture 0: Course Overview
+
+Sampling is woven into daily life and across the sciences. We sample foods and experiences, scientists sample patients and physical systems, and even our visual perception continuously samples the environment. Because entire populations are rarely accessible, we rely on carefully chosen subsets to understand the wider world. This course focuses on probability-based sampling for people, records, and networks within the social and health sciences, where assumptions of uniformity seldom hold.
+
+The course spans six units. Unit 1 introduces surveys as research tools and lays the foundation for thoughtful sample design. Unit 2 studies simple random sampling as the baseline for probabilistic selection. Units 3 and 4 extend the toolkit with clustering and stratification to manage cost and precision. Unit 5 examines systematic selection, highlighting both its convenience and its pitfalls. Unit 6 concludes with specialized designs for records and networks and considers the implications of complex designs on inference quality.
+
+Throughout the lectures, slide callouts indicate the active unit, lecture, and subtopics to keep the narrative anchored. The goal is to treat randomization as the engine that mixes the sample, freeing us from unrealistic assumptions about homogeneous populations. By grounding every deviation from the ideal design in first principles, we can judge when practical compromises remain defensible.
+
+### Lecture 1: Research Design and Surveys
+
+#### Research Designs with Human Subjects
+
+Scientific inquiry often starts with experiments that manipulate exposure to a treatment and compare outcomes with a control condition. Randomization assigns participants to conditions through an external, objective mechanism, balancing background characteristics and protecting against bias from disturbing variables.
+
+A landmark illustration is the 1954 Salk poliomyelitis vaccine field trial. The study originally planned to immunize first- and third-grade students while leaving second graders untreated, but critics noted that families and physicians would know each child’s status. Awareness of immunization could change care-seeking behavior and blur the true vaccine effect. The final design therefore included a randomized, double-blind arm: first- through third-grade volunteers all received injections, yet a random half received the vaccine while the remainder received a saline placebo. No one outside the central research team knew who had received which injection, so both groups received equal attention. Among nearly half a million children, the vaccine cut polio incidence by more than half relative to the placebo group. The randomized evidence enabled immediate public health action, something the nonrandomized grade-based comparison could not conclusively provide.
+
+Randomization is not always practical. Doll and Hill’s classic prospective cohort of British physicians demonstrates how observational designs fill the gap. More than 40,000 physicians reported their tobacco use and were then followed through national death registrations. Researchers could not randomly assign physicians to smoke, yet the observed mortality differences—especially the elevated lung cancer risk among smokers—were so large and consistent that they compelled policy attention despite the absence of experimental control.
+
+#### Surveys as Research Designs
+
+Sample surveys share the observational nature of quasi-experiments, yet they deploy randomization in a different location: the sample selection itself. Their roots lie in nineteenth-century European efforts to describe populations. Modern surveys serve both descriptive aims—capturing snapshots of population characteristics—and analytic goals—testing hypotheses about relationships. In practice, both functions intertwine.
+
+Consider Turkey’s Demographic and Health Survey. Conducted at five-year intervals, it samples about 12,000 households and interviews nearly 10,000 women aged 15–49. The survey documents fertility, mortality, and health behaviors in naturally occurring settings without manipulating exposures. Randomization enters through the sampling frame: households are selected probabilistically so that, on average, the sample mirrors the national population. By repeating the design across years, analysts can attribute observed changes to real demographic shifts rather than to alterations in sampling.
+
+Leslie Kish summarized effective research design with three principles—the “three R’s”:
+
+- **Realism**: Study phenomena in settings that reflect everyday conditions. Surveys and observational cohorts excel here, while laboratory experiments may sacrifice realism for control.
+- **Randomization**: Use objective chance mechanisms to guard against bias. Experiments randomize treatment assignment; surveys randomize who enters the sample.
+- **Representation**: Ensure the study group resembles the target population. Surveys claim their place in scientific research by striving for representative samples, often layering additional design features on top of random selection to achieve this goal.
+
+### Lecture 2: Surveys and the Role of Sampling
+
+Surveys formalize a research activity that spans many scientific domains: selecting units to observe when a full census is impractical. Everyday research tasks—such as extrapolating laboratory findings to the universe or generalizing case studies to populations—rely on implicit sampling assumptions. This lecture reframes those assumptions through the deliberate structure of survey research.
+
+#### The Survey Process
+
+A survey can be sketched as four interconnected stages, with sampling as an essential cross-cutting component:
+
+1. **Problem specification**: Define the research questions and, crucially, the population of interest. Limits on geography, eligibility (such as age or voter status), or other characteristics must be explicit so that later inferences have a clear target.
+2. **Measurement design**: Translate constructs into observable variables. Some features—height or weight—have direct instruments. Others, like stress, require proxy measures such as physiological indicators or behavioral reports. Designing questionnaires or protocols includes specifying instruments, procedures, and any staff training necessary to implement them consistently.
+3. **Data collection and processing**: Apply the instruments, capture responses, and prepare the data for analysis. High-quality measurements are impossible without the planning invested in the prior stage.
+4. **Analysis and inference**: Summarize findings, assess relationships, and relate results back to the original problem.
+
+Sampling, while often a modest line item in the project budget, ties each step to the intended population. It requires:
+
+- Identifying a **frame**—a concrete list or operational representation of all eligible units. Discrepancies between the frame and the true population (for example, missing new hires on a personnel roster) must be recognized and mitigated.
+- Selecting units through specified **probability mechanisms** rather than convenience recruitment. Field staff follow documented procedures to implement the design faithfully.
+
+By grounding sample selection in probability principles, surveys provide a defensible baseline for inference. Understanding that baseline clarifies the consequences when practical constraints force departures. The remainder of Unit 1 explores why sampling is preferable to a census and how randomization, stratification, and clustering work together to deliver efficient, credible survey estimates.
+
+### Lecture 3: Why Sample Instead of Taking a Census?
+
+Sampling becomes necessary when censuses are too costly, slow, or shallow to support modern research. A census aims to enumerate every element of a population, yet even national statistical offices can only afford the exercise once a decade, and they necessarily limit the scope of questions to minimize burden. Samples, by contrast, provide timely snapshots, allow deeper measurement on each participating unit, and can be repeated frequently to monitor change. They are therefore the practical companion to any census program: censuses describe the universe at long intervals, while probability samples fill in the gaps between those full counts and expand the range of measured variables.【F:unit1.qmd†L52-L61】
+
+#### Accuracy and Total Survey Error
+
+Accepting a sample means accepting error, but error does not always worsen when the study shrinks. Concentrating resources on a smaller set of cases can improve data quality relative to a stretched census operation. Accuracy depends on four familiar “target” outcomes: a sample can be both centered on the truth and precise; centered but imprecise; off target yet tightly clustered; or off target and widely dispersed. Survey statisticians refer to these as combinations of bias (systematic displacement from the target) and variance (spread across repetitions). The goal is to control both components through careful design and estimation rather than chase impossible perfection.【F:unit1.qmd†L63-L78】
+
+#### Frames, Techniques, and Their Deficiencies
+
+Every sample begins with a frame—a concrete manifestation of the population from which random selection is feasible. Frames range from simple lists to multistage constructions assembled from geography, housing units, and finally people. Each step introduces the risk of undercoverage or extraneous units, and every probability technique—simple random sampling, stratification, systematic sampling, or clustered multistage selection—must be matched to the frame’s structure. After selection comes recruitment, where nonresponse and item missingness can sever the hard-won link between the frame and the realized data. Weighting, including post-stratification, repairs some of the damage by aligning the sample with known population margins, yet it also adds complexity to estimation.【F:unit1.qmd†L80-L95】
+
+#### Complex Designs and Estimation
+
+Real-world surveys rarely stop at simple random sampling. Cost constraints, logistical realities, and coverage goals motivate stratification, clustering, and differential weighting. These features deliver feasible designs but demand specialized estimators and software to compute statistics and their variability correctly. Keeping the sampling procedure “married” to the estimation process is essential; once departures from the simple design accumulate, naïve formulas misrepresent precision. Subsequent units in the course unpack these complications and show how to manage them responsibly.【F:unit1.qmd†L97-L105】
+
+### Lecture 4: Why Randomize the Sample?
+
+Randomization is more than a gesture toward fairness—it is the device that makes inference from samples defensible. Random numbers can be generated in many guises: as decimals between 0 and 1, as single digits, or in tailored blocks that mimic other distributions such as the normal curve. Tables of random digits, whether printed in classic texts or generated by software, embody the idea that every eligible number has an equal chance of selection. Even pseudo-random generators, such as the RAND Corporation’s famous million-digit table, approximate this ideal closely enough for survey work while providing reproducible streams of digits.【F:unit1.qmd†L107-L121】
+
+#### Using Random Digits in Practice
+
+To sample from a list, researchers pair the sequence numbers on the frame with suitably formatted random digits. A three-digit sequence (001–370) aligns neatly with a faculty roster of 370 records, making the selection efficient: digits that fall outside the range are skipped, while those within are marked for inclusion. The starting point on the random-digit table is arbitrary, provided the procedure is documented. Grouping digits in blocks aids bookkeeping and allows the same table to supply one-, two-, or three-digit draws as needed.【F:unit1.qmd†L123-L134】
+
+#### Replacement Decisions and Selection Without Lists
+
+Random selection also forces decisions about replacement. When a sampled unit is returned to the frame before the next draw, every selection is independent—a useful property for some analytic tasks. Without replacement, the sample contains unique units, which is often preferred for surveys of people or records. Chance mechanisms extend beyond tidy lists: coin flips, dice, and computer programs can implement probability selection in the field, provided the rules are explicit and auditable.【F:unit1.qmd†L136-L145】
+
+#### Example: Faculty Salary Sample
+
+In the faculty roster example, random digits identify twenty professors for interview, after which the study team records their salaries and other attributes. Each sampled record represents one of many possible combinations that the random mechanism could have produced. The resulting dataset becomes a single realization from a much larger universe of potential samples, setting the stage for understanding sampling variability in the next lecture.【F:unit1.qmd†L147-L153】
+
+### Lecture 5: What Happens When We Randomize?
+
+Random sampling launches a seven-step journey from population to inference:
+
+1. **Define the population.** Specify the universe of elements under study, such as all faculty at a university.
+2. **Assemble a frame.** Translate that population into operational materials—lists, maps, or constructed frames—that make selection possible, even if some mismatch remains.
+3. **Select a sample.** Apply the random mechanism to choose units and collect the necessary measurements.
+4. **Estimate quantities.** Compute statistics such as means or proportions from the realized sample.
+5. **Imagine all possible samples.** Conceptually repeat the selection process billions of times to acknowledge the distribution of estimates the design could generate.
+6. **Quantify variability.** Use algebraic results to compute the standard error from a single sample, summarizing the spread across all possible samples without enumerating them.
+7. **Express uncertainty.** Translate the standard error into confidence intervals or other inferential statements that communicate the plausible range for population values.【F:unit1.qmd†L155-L177】
+
+These steps reveal why probability sampling is so powerful. Even though only one sample is observed, the design’s properties allow analysts to characterize the unobserved distribution of estimates and to calibrate sample size decisions. Larger samples shrink standard errors, while smaller ones widen the “bullseye” diameter, signaling greater uncertainty.【F:unit1.qmd†L179-L186】
+
+### Lecture 6: How Do We Evaluate Sample Quality?
+
+Evaluating a probability sample means revisiting the sampling distribution and focusing on two dimensions of quality: bias and variance. Bias reflects systematic displacement from the population truth; variance captures how widely estimates would scatter across hypothetical repetitions. Visual metaphors—such as dartboards dotted with clustered or dispersed hits—help distinguish designs that are accurate and precise from those that are not. Simple random sampling is unbiased by construction, though its variance depends on sample size. Complex or poorly executed designs can introduce both bias and excess variance.【F:unit1.qmd†L188-L201】
+
+Standard errors computed from a single probability sample quantify variance directly, enabling comparisons across designs or design options. Bias is harder to measure empirically, but the conceptual framework clarifies how departures from random selection—through coverage gaps, nonresponse, or convenience recruitment—require strong assumptions to justify inference. Analysts using mall intercepts or other non-probability approaches must either argue that their process mimics random selection or impose additional distributional assumptions to support standard errors and confidence intervals.【F:unit1.qmd†L203-L217】
+
+### Lecture 7: What Do We Sample?
+
+The techniques developed in Unit 1 extend across people, records, and networks, each with its own framing challenges.
+
+- **People.** A roster of university faculty illustrates a classic list frame: units are numbered, auxiliary data such as division and rank accompany each record, and random digits draw a subset for detailed interviewing. The resulting sample supports estimation while acknowledging that other random draws could have produced different combinations.【F:unit1.qmd†L219-L229】
+- **Records.** Administrative transactions—credit card purchases, billing histories, or other event logs—can also form sampling units. Analysts may sample records to code additional details, validate entries, or conduct costly audits that would be impractical on the full database. Random selection ensures that inferences extend to the underlying population of events.【F:unit1.qmd†L231-L238】
+- **Networks.** Sampling can begin with individuals and then expand to linked entities, such as siblings or other relational ties. In multiplicity sampling, each network member provides another path into the study, increasing the probability that densely connected units appear. Proper estimation requires accounting for these multiple chances of selection so that results remain unbiased.【F:unit1.qmd†L240-L250】
+
+The unit closes by foreshadowing Unit 2’s focus on “mere randomization,” better known as simple random sampling. That foundational design, stripped of stratification or clustering, establishes the baseline against which more elaborate methods are judged.【F:unit1.qmd†L252-L255】
