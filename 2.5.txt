@@ -1,0 +1,220 @@
+Hello, again. Welcome to our lectures on sampling
+people, records, and networks. My name is Jim Lepkowski, and we're
+continuing our discussion here in unit two on near randomization,
+that is sampling from people, records, or networks when really the only
+device we're using is randomization in order to determine what
+elements fall in to the sample. We've been talking about in
+Lecture 4 about sample size and we're moving to Lecture 5 here. An extension of that discussion. We're going to be looking at a label
+here that's common in the press. It's common in everyday usage. Margin of error. Now our focus here is we want to
+understand what margin of error is, but we also want to understand how it can
+be used in calculating sample size. We're going to talk about again,
+what we've learned in the past about using desired standard errors as
+a way of determining sample size, and we'll reframe that in the context
+of a margin of error. And then in the end we'll come up
+with an alternative formula for calculating sample size. It's an extension of
+what we've done already. So there's nothing really
+dramatically new here. We're going to introduce a couple of
+pieces of terminology that will make it a little bit more useful to you as
+you look at these sample designs and think about how to draw these samples. Recall that what we did in calculating
+sample size for simple random samples before, was to deal with two
+quantities to begin with, initially. We need to know what the variances
+of the population elements. The population variance,
+some would call that. That's the numerator of this
+formula that we see in front of us. That has an s squared in it, that s
+squared is the variability of the values for the characteristic we're interested
+in across the elements in the population. Now that may not be known to us exactly a
+matter of fact very seldom would be known to us exactly, we will calculate it
+from other sources of information. For example,
+when we're dealing with proportions. You'll recall that we were able to
+calculate an estimate of that population variance, by taking the proportion
+times one minus the proportion. That's a very good approximation
+to that population variance. We don't actually need the element
+values themselves, but merely the mean, when were dealing with characteristics
+that are zeros and ones. You are going to, you think
+President Obama's doing a good job? You don't think President Obama's
+doing a good job. Okay, so when you know that population
+variance will get that from past data or a calculation around a proportion. The second piece, the denominator,
+Is the desired level of precision. We were calling that things like
+the desired sampling variance. So its a V for variance,
+sub d for desired. That's a tricky part, its hard enough
+to think about the population variance. But then we also have to
+think in advance what kind of Variance do we want for our estimate? So we're dealing with a proportion. We need to specify how large the standard
+error of that portion would be, how large the sampling variance would be. Taking the ratio of those two quantities
+gives us a provisional sample size, n'. And then we can adjust or see whether
+an adjustment for population size matters. As a matter of fact, or last lecturer in this series will deal
+with this formula in a little more detail. And so the second formula there,
+shown at the bottom, takes the n prime, the provisional value, and divides it by 1 plus n prime
+over capital N where capital N. Is the population size. And again, with simple random sampling,
+we know that population size. We have the count of
+the elements in the list. That's what we need in
+order to do our sampling. All right,
+that's what we were doing before. We actually talked about an example that
+looked at desired levels of precision. That denominator then In terms
+of a confidence interval. How wide a confidence interval do we want,
+so a way to re-express this would be
+able to turn to someone and so. Well if you had an estimate
+of this particular character, a proportion of around 0.6, and you were to have a 95% confidence
+interval that went from 0.58 to 0.62. Would that be satisfactory? And if their response is yes,
+that should be okay. Now we've specified a desired
+width of a confidence interval. And from that we can work backwards
+to getting a standard error. Because the upper limit and the lower
+limit both depend on the standard error of the estimate itself. So we can see in the upper formula there,
+the lower limit and the upper limit, the lower limit is the,
+will deal with proportion still. The proportion minus a multiplier. A multiplier reflecting the distribution
+properties of our sampling distribution, Z for the normal distribution
+times the standard errors. And the upper limit is that proportion
+plus Z times that standard error. So if we know what those upper and lower limits are, we can back out
+what that standard error would be. But well, we'll look at that. So for a 95% confidence interval,
+that z value would ordinarily be 1.96, there's a modification to it when
+we have smaller sample sizes but we're not going to deal with that. We're just going to assume that our
+sample sizes are large enough that 1.96 is a standard value. Actually, many people will round that to
+2, make our life a little bit easier. That is, we're going to take
+two times the standard air and we're going to subtract it from the
+proportion and add it to the proportion. And this is where we begin to
+talk about margins of error. As a matter of fact, going on with
+the example I was beginning to lay out, suppose our lower 95% limit and
+upper 95% limit for a proportion, were (.58 .62). Now because these [INAUDIBLE] intervals
+were symmetric, we're adding and subtracting the same thing
+from the middle value. We know what that proportion is already. It's right in the middle. Itś 0.06. That distance now between the lower limit
+and the middle, the upper limit and the middle, is often referred to in
+literature as a margin of error. Now some literatures, the more statistical
+literatures don´t often deal with this, this kind of terminology appears more
+the social science literature and political science, or
+polling kinds of work. But it's that distance, we'll call it e,
+from the upper limit to the middle or the lower limit to the middle. And in most practice, margins of error
+are almost exclusively talked about with respect to proportions or
+percentages. So here we're doing a proportion,
+0.58 to 0.62 is the limits. A proportion of .6, but we could express
+it in terms of percentages as well. In a few areas of application, this distance is also sometimes
+called the precision. People who work in auditing,
+where they're drawing samples of records, that they're going to check and
+see whether. What they've paid was actually
+what they should have paid. And so they're going to be
+drawing a sample of records and then looking at them and doing
+a calculation of the difference between what they paid and
+what they should have paid. Often because they are concerned
+that they have been overpaying. But they will often to use the term
+rather than margin of error for these kinds of things, precision. But there's a variety of terminology,
+it is not uniform. It's not standard in its application
+across many different types of problems. But to continue on then. We want the 95% confidence interval. We're going to deal with
+that margin of error, the distance from the middle
+to the upper lower limit. So we're going to calculate that margin of
+error when we know that comps interval by taking the upper limit, 0.62, subtracting
+the lower limit, 0.58, and dividing by 2. That will give us that distance. So we don't even need to
+know calculate the meddle, we can just simply take that total spread
+of the comps interval and divide by two. Now that margin of error in
+our particular case is .02. Now that margin of error is 2,
+95% comps interval, rounding 1.96 to 2,
+times the standard error. So now we know that 2 times
+the standard error is .02, which means the standard error is 0.01,
+and we're back in the realm we were
+before in calculating sample sizes. Once we know that desired standard error
+that drives this interval of that nature, we can square it to get
+a desired sampling variance and continue on with our
+sample size calculation. Now you may see this kind of thing, or you
+may have seen it in newspaper reportings. Reporting on election outcomes, or expected election outcomes where they're
+talking about the margin of error. They never talk about the standard error. They talk about the margin of error. So they'll say something like, President Obama's approval rating
+now stands at 60% plus or minus 2%. The plus or
+minus the 2% is the margin of error. And the plus or minus,
+adding/subtracting, from the 60%. And a pretty sizable share of
+readers understand what that means, or they have an interpretation for it. It makes sense to them. It's saying, well,
+they're getting 60% in this poll, but there's some uncertainty
+because it's a sample. And so that uncertainty is modest. It's only 2% on a rate of 60%. And they can form their own assessment, their own evaluation of whether this
+is a goo number or not so good. So if this happened to be plus or
+minus 5%, they'd feel like there's a lot more
+uncertainty there than plus or minus 2%. So it helps the public understand
+the uncertainty that comes with using randomized selection,
+random samples. Okay so the publics got used to
+forming these 95% confidence intervals from this kind of a statement. What we're going to do
+is go backwards now. We're going to determine what kind of sample size we need to achieve
+a certain level of precision. In advance of doing our survey, we're going to specify what
+we want as an outcome. And then, based on that specification, calculate what sample
+size will achieve it. So in our particular case now,
+our margin of error is 0.02, the standard there is half of that. Two times the standard of error is the
+margin of error, so we're going to divide the margin of error by two, .02 divided by
+2 is .01 and that is the standard error. Now in our funny notation here that's
+the square root of the desired variance. So I know this notations a little
+bit hard to keep track of but just follow the logic. We'll lay it out in several steps
+in the next couple of slides. So the desired variance, which is what we
+need in that sample sized calculation is 0.1 squared, or 0.0001. Now that allows us then to
+calculate a sample size taking the population variance,
+s squared, which would be the proportion. In our particular case,
+.6 x 1-.6, that's the f squared, or at least our calculation of a value
+that's reasonable to use there. And then we're going to divide
+by that desired variance, .0001. Sometimes though, what you'll see are
+sample size formulas that are based on e. Rather than converting e
+to a standard error and then a variance in using the one formula. Others prefer to write out a formula
+that is just based on e, so don't worry about standard errors,
+don't worry about these precision levels. Just figure out what that margin of
+error is that you want to have, and then use the following formula. This leads to confusion. People will have been
+trained with one formula and then they're starting a job in a new firm
+and that firm doesn't use that approach. They use a slightly different one. They may use the formulation
+that I've been giving us. And so then it's some confusion here. So let's just sort of de-confuse this, sort this out a little bit and
+talk about then the necessary sample size, that n prime now,
+as S squared again in the numerator. For the denominator what we've got there
+is the margin of error divided by 2, which is the standard error we want,
+squared. So now we can just write
+that simply as the formula, S squared over The quantity
+e over 2 squared. And we would then adjust this to
+account for the finite population size. We would take tha n prime and
+divide it by 1 plus n prime over N. All right so
+that might be one form we would see it. Sometimes what we're going to
+see though is another formula. They take the 2 in the denominator
+of the denominator. They square it and
+they put it up in the numerator. So, sometimes you'll see
+the formula written as 4, or something like that, 1.96 squared
+times S squared over E squared. Okay, well we can see that's just
+an algebraic restatement of the problem. Nothing has changed. We certainly aren't going to
+change our adjustment down below. So that's another we
+have sometimes written. Well wouldn't you know it? Other people prefer to
+go back to the origins. They say well really supposed we don't
+have a 95% confidence interval but a 90%. Well then you don't
+want to put 4 in there. You don't want to divide e by 2. We want to divide by
+the appropriate multiplier. So if it's a 90% confidence interval
+that multiplier is really about 1.64. So let's write this then. Z squared, whatever that multiplier is,
+that's substituted for 4. And we've got Z squared,
+S squared over e squared. It's the same formula, different way of expressing it
+depending on where you're starting. This is a little more general formula. So it's not necessarily for
+95 percent comp series. Some still get fancier still, and they say well look at it,
+we're really doing proportions. S squared is P times one minus P. So we're going to put that in there. So we get Z squared times P times
+one minus P over E squared. All this is getting confusing. I mean it's a different expression and
+if someone learns that expression and they come across the one that I've been presenting here they get
+a little bit confused. There's even further variation here. Sometimes they'll put in the z squared and
+they'll say, look, it's z squared for the 1 minus alfa over 2 level. The alpha level is the part
+of the compass interval. So a 95% comps interval, that corresponds
+to an alpha 0.05, a 5% type 1 error rate. And so that error is going to be
+divided by 2 and put in each tail. And there's a cut point there, and we want to use that z value,
+that cut point directly. But itś z squared for the 1- alpha over 2 point, times p,
+( 1- p) over e squared, you get the idea. A variety of formulas, why do they
+do that, why can´t we just have one. It depends on the application,
+it depends on preference sometimes. And itś hard to come up with just one
+expression that everybody agrees with. Okay, but you're getting the idea then. Margins of error are built around
+the idea of comps intervals. There are different ways to calculate
+the sample size based on them. But they could follow
+this basic structure. Now it's also possible that
+we could do that calculation, rather than doing it in two steps
+we could do it all in one step. So to go back to the formula that I had, that was S squared over
+the quantity e over 2 squared. [COUGH] That gets us the sample size,
+the provisional sample size, preliminary. And then we adjust it, we can also
+do the calculation s squared over the quantity e over two squared, plus s
+squared over capital n in the denominator. Now we don´t have to do
+that further adjustment, this will give us the result of first
+calculating the provisional value, and then adjusting it for the population size. So, one step instead of two. And as we do this kind of thing, again,
+we can substitute for S squared. We can take that 2 squared out of
+the denominator of the denominator. It will be more complicated. The expression,
+there are different ways of writing this. And so you may encounter formulas
+that look a little bit different than what I'm doing here. But they're all revolving
+around the same basic idea. Well let's go back to our example now. So in our example where that margin of
+error was 0.02 and the actual proportion or the proportion that we think we're
+going to get in our survey is around 0.6. Then our s squared value p
+times 1 minus p is 0.6 times. 1 minus 0.6. 0.6 times 0.24 and so
+you see the 0.24 in the numerator. The 0.24 in the numerator of
+the second term of the denominator. Our margin of error is 0.02 divided by 2
+squared and then yes our population size. 250 persons who were eligible to vote,
+or eligible to give a rating. 18 years of age and older. And so
+our sample size comes out to be 23,99.97. We round that up to 24. Okay, margin of error. That's the margin of error applied
+in the sample size calculation. Let's do one more thing with
+simple random sampling and that is this population
+size keep popping up. How important is it? Does it drive anything? Does it create anything new here? Could we ignore that? Well, let's look at the relationship
+between sample size and population size. In the last lecture in this series on mere
+randomization on simple random sampling. Thank you.

@@ -1,0 +1,224 @@
+There's a problem that's difficult to
+grasp that arises once we understand how to do simple random sampling. And that is how to plan the next one. And this requires working backwards, thinking backwards from what
+we've just been talking about. So in this lecture, which is about
+sample size and simple random sampling, in Unit 2,
+this is our fourth lecture on sample size. We're going to be going backwards now. Now that we understand something about the
+properties of the sampling distributions for simple random samples, let's work
+through those kinds of formulas. To say, if I've got to figure out
+what I need to do to plan for the next survey,
+I've gotta estimate the cost. I've gotta figure out what is
+going to cost me, or maybe, yeah, what it would cost me to do something to
+get a certain level of quality in my data, a certain width of confidence interval,
+a certain standard error. I've gotta know the sample size. I've gotta know how many elements there
+are going to be in the sample in order to do this. And so what we're going to do
+is talk about three things here. We're going to talk about the background, some things we need to know in
+order to address this question. Of, I'm getting ready now
+not to analyze the sample, but what's going to be
+needed to draw a sample. And we're going to be anticipating that
+this is leading to budget kinds of considerations. So in a way, in the background is cost, but we're
+not going to formally deal with cost. That's a different matter here. We're just going to deal
+with that sample size. So what do we have to know? What sample size are we
+going to calculate? Is there a formula? How do I go about it? What's the process? And then go through an example. So the question we have is,
+what sample size do we need to use to obtain a given standard
+error of the estimator. And it turns out that there are two
+things we need to know in this. One of these is the population variance. Now, I just said we didn't know
+that in our previous lecture, we don't know what that S squared is. We estimate it from the data. We're going to have to get this from
+somewhere, but we don't have a sample. But we're going to have to
+get data from a past census, from a past sample survey,
+maybe even from administrative records. Using that data, we're going to
+calculate an estimate of that S squared. We're going to put it into Excel and calculate the variance
+of a bunch of values. We're going to obtain a value for S
+squared from our historic data collection. Maybe not ours, we borrow it from others
+who published and reported those values. That's why it's so important,
+these published findings. I know there's all sorts of gamesmanship
+that goes on with publishing papers. But it really is to put in place data that
+others can use to plan new investigations. And so here, we're going to get a value
+of S squared from someplace like that. And I'll show you where it
+might come from in our example. The second thing that
+we need is the target. What size standard error, what precision do we want in order
+to have a satisfactory result? This is going to be driven by
+considerations about the decision making that we're going to do with the data. So the size of that standard error,
+the quality of the estimates depends on what it is we have to
+make decisions about. Do we need really precise estimates? Sometimes we do. In other cases, it's not so
+important to get really precise estimates. We're willing to live with
+things that are less precise. Because they're a phenomena
+that is large in scale and contrasted with another phenomena
+that's quite different. So the decision making requirements
+are going to be a part of that as well. Now, I say there's these
+two parts that are needed. Because I'm coming back and thinking
+in my own minds about our formulas here that we we just dealt with when we
+talked about simple random sampling. Remember, our sampling variance
+up in the upper right-hand side involved a finite
+population correction, 1- n/N, an element variance, S squared,
+and dividing by a sample size. What I need to know is,
+what's the sample size? I know the population size,
+I know the sample size, what's unknown to me are the element
+variance and the target. What level of sampling variance do I need? So just for the time being, let's get rid
+of that finite population correction. Let's simplify this, because that thing's
+kind of a headache to worry about. It makes the algebra
+a little more complicated. And just go with the sampling
+variance of the mean, that is, without that finite population correction. Because if the sample size is a small
+fraction of the total population, it's only 1% of the population or
+less, then n/N is 0.01 or less. That means 1 minus that is 0.99 or larger. It essentially rounds to 1 anyway. Let's just set it aside for the time
+being and figure out what we need here. And when we look at the sampling variance
+expression involving S squared over n, well, then it's very easy to do
+the algebra and say, well, look. The sample size just needs to be that
+element variance divided by that variance. But I've replaced it with something. I said, but wait a minute. It's not the variance,
+it's not the actual sampling variance, it is the desired sampling variance. So let me just call it, a little notation
+just to remind us that what we're doing is a part of the process in which we have
+an object, a desired level of precision. Let's call that V sub d. Now, it may be that we started
+with the standard error. Well, we square it to get that V sub d. Maybe we've got the sampling variance,
+maybe we've got a confidence interval. We'll figure that out as we go along. But there is some level of sampling
+variance that we've decided is necessary. And so the sample size is just that
+element variance divided by that desired level of precision. Now, we're not just going to ignore
+that finite population correction. It turns out that what we just did really
+was to take that sampling variance that we were just looking at. And essentially absorb this
+finite population correction, the 1- n/N in that expression. We just sort of moved it in to
+the denominator of the denominator. We literally divided n by that value. And so, what we really have down
+there is kind of a provisional sample size that has already got
+embedded in it that adjustment. And that allows us then to work backwards. It'll say, look, if we get a provisional
+sample size, n' in this case, then what we can do,
+we know what n' is, but we want n. And so what we're going to do then
+is get the provisional sample size. Let's call it the necessary
+sample size on this slide, the necessary sample size, that's that n'. And we'll do our simple calculation, S squared over that V sub d,
+that desired level of precision. And then what we're going to do is
+calculate n by taking the n' and plugging it into this formula. And if you like just plugging into
+formulas, we used to call this plug and chug in my day, then it's straightforward. We're going to get a provisional value and
+then adjust it, and that adjustment involves N. And that's all we need to do, okay? So that's the process. But, well, we need to go through it. I mean, this is all notation, so
+we need to work through an example, but this is the basic idea. Calculate a necessary sample size based
+on two pieces of information I'm going to have to have. And I'm going to have
+to do some work here. One of them is an element variance,
+the other is desired level of precision. And both of them require work to obtain,
+and assumptions. And then when I've got that necessary
+sample size, I adjust for the N. I adjust that for
+the N to get my sample size. Well, let's look at an example here. Suppose that what we're
+interested in are attitudes, attitudes about a political figure. And in this case, I've chosen attitudes
+about the current US President, the current President
+of the United States, and how he is doing his
+job at the present time. It could be soon his or her job,
+how well they're doing. And this is a question that's
+been going on for a long time. This goes back to the 1950s, where
+polling began asking the public about their attitude, their opinion about how
+well the President's fulfilling that role. So here's the way the question
+has been worded for a number of years now in
+many of these surveys. Do you approve or disapprove of the job
+Barack Obama is doing as President? And if you approve or disapprove, do you
+approve/disapprove strongly or somewhat? Now, in those two questions,
+you get four categories. You get I strongly approve,
+I somewhat approve, I somewhat disapprove, or I strongly
+disapprove, a four-category scale. And basically, what we're going to do
+is convert that into an answer that is a proportion, the proportion approving
+strongly or somewhat in a new survey. Now, these surveys, as I say, that
+question sequence has been going on for a long time. This is one example,
+there are other ways that this is asked. But it's converted into a proportion,
+proportion strongly or somewhat approving of how
+the President is doing his or her job. Now, [COUGH] suppose, as is in
+the case of President Barack Obama, late in his term in office,
+his approval rating, that proportion, as it's referred to
+as an approval rating, is about 60%. Six-tenths of the fraction of
+the people asked in the last survey said they think he's doing a good job,
+strongly or somewhat approve of the job. Now, it turns out that that allows us to
+calculate S squared from the past survey. This is past survey data. Roughly and approximately,
+if you recall what we were looking at, that is S squared is p(1- p), the
+proportion times 1 minus the proportion. 0.6 times 1- 0.6, or 0.24,
+there's our S squared from past data. That's what I was referring to,
+going back and looking at that past data. Now, maybe I didn't have exactly
+the same question wording I'm using now. Maybe it was slightly different. Maybe there was a set neutral category. I may have to do some work to
+manipulate to get to this point, but that's beyond [COUGH]
+the scope of what we're doing. Here, we're just worrying about
+getting a value like that. And there are lots and
+lots of ways that we obtain these things. So for our new survey, then, we're going to use S squared
+equal to 0.24 for this. And again, that drawing in the lower left, that's the approval ratings over time,
+right? The red are the disapproval,
+the green are the approval. And then this particular one is coming
+from a series of surveys in which there was a group of people who
+are undecided in the middle. Those are the yellows, okay? But it's that kind of thing, and
+you can see it's bouncing up and down. Month by month this is done, and
+we've got lots of past data. It's not true of all, I know you've
+probably got in your mind, well, what about the brand new measure
+no one's ever done before? All those things can be
+dealt with in the same way. We just want to do the basics here for
+a case that's well documented. We also need to specify in
+advance what the new survey is going to do in terms of quality. What sampling variance do we want? Now, here's where we
+need to work backwards. Here, we need to think about what
+we would like to end up with in the way of an uncertainty statement. So suppose that we said my
+uncertainty statement would really be best if what I could have is
+a 95% confidence interval that gives me a lower limit of 58% and
+an upper limit of 62%. That's really what I want. I want a really good estimate. Now, you may say, well,
+59% to 61% is really good. But labels are labels here. Let's think of this as
+our target precision. This is specifying a standard error,
+believe it or not. It's saying,
+look at the United States overall. And this is the confidence
+level I want to have for that, to project back to the population. So that upper confidence limit,
+that 62%, is the proportion, if you recall, 60%,
+0.6 in fractional terms, plus a multiplier times
+the standard error. That's coming from that
+normal distribution, recall. That is, that 62% is 60% plus a z
+times the standard error of the 60%. So if that's what we want,
+that means that, what's the z? The z, that's that 1.96,
+let's use that 1.96. That's that thing from the normal
+distribution, remembering that that 60% number is actually normally distributed
+across all possible samples. That's the drawing in the lower left,
+that bell-shaped curve. And the 1.96 gives us the limits on that,
+that gives us the 95% confidence level. So I'm just going to round it to
+2 to simplify our calculations. We can be more precise if we need to,
+if we're doing this in a spreadsheet or writing a report about it. But for our purposes, there we have it. Now we know the upper limit, we know
+the middle, the 62%, the 60%, and the z. So now we can figure out
+what the standard error is. And it turns out that the standard error
+that we need to satisfy this requirement is 1%. The standard error of that
+60% that we need to get that interval from 58 to 62 is 1%. That is that 0.02, 0.62 minus 60,
+2%, divided by 2 is 1%. Now, it's better to work
+with the proportions here than it is the percentages. So I'm going to move back and forth, and
+this may be a little bit foreign for you. But that 1% translates into
+0.01 as a fraction, okay? That's what we want our
+standard error to be. So we're not going to say it in
+terms of percentage anymore, we're going to say it in
+terms of that proportion. And now we've got our V,
+now we have our variance. Well, no, no, not quite, because what we've got
+is the standard error that we want. That standard error is 0.01. The variance that we want, then,
+is the square of that standard error. We've gotta work backwards. Remember what I said, going forward,
+we calculated a variance and then got to a standard error. Here, we’ve determined a standard error, we’re going to work
+backwards to a variance. So we’re going to square that thing so that what we realize is that we
+need a desired variance of 0.0001. Now, that’s a small number. But that’s what is determined or
+driven by that decision to make a 95% confidence interval
+that went from 58% to 62%. And so
+we work backwards through those steps. Now, you may have to go back through this
+a couple of times to get the feel for it. But where we are now is at the point
+where we have our S squared and our V, our S squared of 0.24 and
+our V of 0.0001. And what we're going to
+do is do our calculation. And in doing our calculation now, we're
+going to calculate our provisional value. As the insert in the left says,
+a wise man once said, never begin data collection without calculating
+the necessary sample size first. Well, there it is,
+that's the necessary sample size, 0.24 divided by 0.0001 is 2,400. Now, what difference does the finite
+population correction make? Now, remember that conversion formula. I'm going to take that n', and
+now I'm going to do one more step. And in this n' adjustment, what we're
+going to do is take that provisional n', that necessary sample size n',
+and adjust it by N. How do we do that? In this formula, I'm going to take
+the 2,400 and divide it by 1 + 2,400/N. Now, I don't actually know N. What do I mean by that? Well, we probably are talking
+about here the number of voters, the number of persons eligible to vote. Those are the people to whom this matters. Yes, it matters to others who can't vote,
+but the people who are 18 years of age and
+older. And that's about 250 million people. I don't know it exactly, but it doesn't matter whether it's 250
+million or 251,837,000 and so on. It just doesn't matter to that
+extent how close we get it. Because when I do the adjustment,
+notice what happens. In this adjustment scheme, my sample
+size comes out to be 2,399.97, 2,400. In this case, that adjustment
+doesn't make any difference. I'm still going to go with
+the necessary sample size. So I've got an estimated sample size now,
+having gone through the process of figuring out what element
+variance is there in the population. What level of precision I
+need to meet something, like a constructed confidence interval,
+an anticipated confidence interval. And I've got my sample size. But there are two more questions
+that we want to address here, and these will be the last
+two lectures that we do. Is there a more direct way to figure this
+out from a projected confidence interval? But we'll actually go through
+the way to just take that width of confidence interval and
+put it into a formula. And then that sample size, it wasn't
+affected very much by population size. I'm surprised, I would have thought that
+the population size really would magnify that sample size. Let's look at that problem
+in our last lecture. So in our next lecture, we're going to
+turn to talking about margin of error. Margin of error is the expression for
+that half width of the constant interval. And we're going to talk a little bit about
+why it's called a margin of error, and then how to work with it directly
+to figure out the sample size. And then our last lecture in the the
+series will be about sample size and population size and their relationship. Thank you.

@@ -1,0 +1,245 @@
+Welcome back to unit six,
+we're moving on to lecture four now in the sixth lectures in
+this particular unit. We've been talking about issues that
+are extensions of our basic ideas and in particular,
+things having to do with weights. Our last lecture was about weighting for
+under or over sampling. Here we're going to talk about weighting
+as it's used to compensate for or adjust for two problems that
+may arise in our samples. That are outside of our control,
+nonresponse and noncoverage. And as we do this, we'll talk a little bit
+about nonresponse and about adjusting for nonresponse, a little about
+noncoverage weighting that we'll refer to as something
+called post-stratification. And then how these things are combined
+together with the weights for over or under sampling, for our final weight. So you recall in our last lecture,
+we were dealing with the sample of 12,000 tenth graders, drawn from
+population of 4 million tenth graders. And there were two groups that we had
+identified in that sample selection process. And made selections either based
+on a proportion of allocation or a disproportion of allocation. But what we may discover is, may discover,
+we will discover non response. We will see the non response is not
+the same across these two groups. Some of the children that we select,
+some of the students we select will not be available for data collection, will
+refuse to participate in data collection. Their parents will refuse to allow them
+to participate in the data collection. And so there we're going to
+need to do something about a potential problem that might
+arise with missing data. Missing this among our sample elements. So we already saw this framework here. Our funnel diagram in which we take
+the population frame very narrow, very skinny, not much information that
+we know but lots and lots of cases. That we shrink down to a smaller number,
+but we collect a lot of data for
+each of them in our sample. And then, we undo that through a weighting
+process to project to a population. A prediction, a prediction that's done on a case by case basis actually
+is what those weights are doing. Here, what we've got though is
+something where that sample is not really what we use for the inference because the sample contains
+cases that we selected that don't respond. We have, sort of a 3.1 if you will. A respondent sample. A set of lower case r respondents
+from the lower case n sample persons. It's almost as though we
+now have another fraction. It's not the severe a fraction as
+we had for drawing our sample, but a fraction of the sample
+that is retained in the sample. Our green is what we actually
+are going to work with. That's what we're going to
+see in our data set. We won't see the full
+sample of all the elements, because some of them we
+didn't obtain data for. So that respondent sample now, we need to
+do something with it to compensate for its selection. So one way to deal with this,
+this is not the only way, but one way to deal with this
+is to take those respondents and inflate them back to the sample number,
+to undo that non-response mechanism. Now that non-response mechanism now,
+is not a probability mechanism. So, undoing this will require
+that we make some assumptions. In order to do that, we're going to go
+backwards from our lowercase r to our lowercase n in a weighted respondence file
+that compensates for the non response. We're concerned that by having that non
+response we can have possibly, if it's disproportionately allocated across our
+groups, some impact on our results. So suppose, for example, among our
+10th graders, that what we observed was that the response rate across 10th
+grade students varied by location. That we had lower response rates among
+the urban than we did among the rural school students. And so
+we might see this kind of a situation now. Our sample of lowercase n of
+12,000 happened to have 8,000 of them in metro areas
+our urban locations. I'll use that labeling here. So in metropolitan locations, 8,000 of our sample children came from
+those locations after we've done our over sampling and 4,000 from the non-metro
+but they didn't all respond. Among the metro students,
+the 8,000, 5,600 responded. Among the non metro, 3,400. The mean scores for
+these two group differ. And if what happens is that I take
+the 9,000 responding students so we get about a 75% response rate. But it doesn't look like that response
+rate is the same across these two groups. We'll look at it in more
+detail in a minute. But now if our means scores
+differ across those groups, then what happens is that while
+the mean score for the sample children comes out to be about 65, a 60 for
+the metro and a 75 for the non-metro. Because of the differential
+nonresponse when I do that averaging among just the respondents,
+I don't get the same mean. Now it's not a big departure in this case. I didn't want to exaggerate,
+it's the same mean in each group. But because there's slightly different
+response rates between the two groups, I get a different mean. I'd like to compensate for that. I'm going to use the same
+tool that I did before. And it's going to evolve then computing
+a response rate in each group, a response rate for
+the metro and for the non-metro. And then, for each of those response
+rates, thinking about them for a moment and treating them as
+though they are sampling rates. So here, you see that, again,
+in our two locations, Metro and Non-metro, we have our sample
+size of the sample, lower case n. And our respondent sample, lower case r, 5,600 metro, 3,400 non-metro. But we can now see we've
+calculated the response rate. The 5,600 from the 8,000
+is a response rate of 70%, 0.7 that's the fraction of the original
+sample the respondent, for the metro portion of our sample. And for the non metro 85% responded and
+so what we've gotten now into our sample is an over-representation,
+if you will, of the non-metro. Not by any deliberate design but, because, of the way the non response
+mechanisms worked. Outside of our control of now we have
+a disproportion allocation over all response rate of 75%. But, 70% metro 85% non metro. What are we going to do about it? If we're willing to make an assumption
+here that that response rate operates like a sampling rate. And I'm oversimplifying a whole lot
+of things here that have theoretical importance. But I'm presenting it in a form that
+I think parallels what we've done up until now. If I'm willing to assume that
+the sample of respondents, let's say from the metro,
+Is drawn at random. That the mean for the metro group,
+the respondents from the metro group, is the same as for the full sample,
+in that case, then, that 70% represents a sampling rate,
+under the assumption of random selection. So how would I compensate for it? I'm going to take its inverse. And in the last column, you see the inverse of that response rate,
+which we're assuming, under a missing at-random assumption,
+To be the equivalent of a sampling rate. And similarly for the non-metro, the inverse of their sampling
+rate of 0.85 is 1.18. The inverse of the sampling rate of 0.7,
+for the metro, 1.43. And so now we have another weighting
+factor that takes our little green box and adjusts it to our light
+blue box to compensate for the nonresponse that we have. So we can compensate within the sample
+now for the non-response, but we still have the compensation potentially
+in the overall sample to account for oversampling, let's say, of students
+from lower-income neighborhoods. And so what we could do is combine the two
+to come up with an adjusted base rate, a nonresponse adjusted weight that
+is the product of the two weights. So we will get an adjustment for
+oversampling and an adjustment for nonresponse. So for example, in our case,
+now we're going to impose the free or reduced price lunch. That's that first column. I didn't have enough room
+to write it out there. FRPL, free or reduced price lunch. High proportion, low proportion and within
+each, there's a metro and a non-metro. And we are going to assume at least for our simple illustration that
+the response rates among the high and the low oversampling groups
+are the same for metro and non-metro. And so now we see in column labeled w
+sub 1 i, the third column in our table, we include the weighting factor
+that we have to compensate for the oversampling in our
+sample of size 12,000. Where we had an equal number of high and low free reduced price lunch
+students in our sample. And we have a compensatory weight of 1 for
+the high and 4 for the low. In addition, then, for our nonresponse,
+we have additional weighting factors of 1.43 for the metro and 1.18 for
+the non-metro in that next to last column. And in the last column we take
+the product of the two weights, and you see in the last column then there
+are weights of 1.43 for the metro high. That's a product of 1 and 1.43. For the non-metro high,
+the product of 1.18 and 1 is 1.18. And for the metro now,
+the low, a product of 1.43 and 4 is 5.72, and
+the product of 1.18 and 4 is 4.72. Now we have four different weight
+values here, compensating for both the oversampling and
+the differential or disproportionate non-response that
+went across a different dimension. So now we've got two dimensions,
+both of which have adjustments, one for a probability selection,
+a second for a non-probability selection. Now strictly speaking, we no longer have
+a probability sample, because we have this non-response mechanism that was
+not directly under our control. Under the assumption of missing at random,
+we have an adjustment mechanism that resembles what we would have done if
+this had been a probability mechanism. Well, that missing at random
+assumption is one that is often used in these kinds of things. And it does allow us to
+make these adjustments and have some way of adjusting for
+potential bias due to nonresponse. What we've done now is create
+a series of weighting classes, cross classifications
+of multiple variables. And we could do more
+with this kind of thing. I've been doing it in terms of the tabular
+display with just two groups and now, four groups by the cross classification. But there are other approaches to
+this kind of thing that are beyond the scope of what we're
+talking about here. In which we could do this
+by some kind of modeling, such as a logistic regression model. To calculate on the basis of a number of
+background variables, response rates and make adjustments in more refined
+categories, smaller categories. We would use inverses of predicted
+probabilities of response, coming from the logistic regression model
+as the nonresponse adjustment weight. Even after all of that, though, it's
+possible that when we're done with our adjustment for unequal probabilities for
+oversampling and our adjustments for a non-response,
+differential nonresponse. That when we look at other dimensions of
+our sample, weighted now by these factors, we see that our sample doesn't
+match up exactly with the data that might be from an outside source
+that is important to us. So we're going to also
+be thinking about how family circumstances might
+influence test scores. And family type, whether the child
+lives in a single parent or some other kind of family type
+household is not known in advance for our sample, but it is known if we ask
+about it in the sample data collection. And if we've asked that and we look at
+that and take our weighted results, sometimes we might see a discrepancy
+between what we know for the family type in the sample, the weighted distribution
+that we've got in the sample. And an outside population distribution
+that says, this is really for tenth graders what this
+distribution is in another source. Maybe from a census, maybe from a much
+larger sample that we're doing. We could look at that family type
+obtained in the data collection and see whether we can adjust our sample to make it look like the family type
+distribution in the larger population. So we're now talking about all the way
+down to our final distribution, our last group, our 3.2,
+our weighted respondents. We're looking at those and saying,
+what's the family type distribution there? And by the way, how does that compare
+to the data that we get from outside? Well for example, if we can take that
+data and make our sample look like that, we have, we think,
+a better prediction for the population. Because we're now controlling also for
+the family type distribution. This kind of adjustment is what's
+sometimes called a post-stratification, as I mentioned before. And sometimes used regardless of whether
+you have a probability sampling mechanism at all in the sample selection. We'll talk just briefly about that when
+we talk about non-probability samples. Okay, so suppose this is
+the situation we encounter. Among our 9,000 respondents, the weighted
+distribution of our cases now, of our 9,000 cases, is that 20%
+the weighted percent of our children who are in single parent households
+is 20%, and all the others 80%. But from outside data,
+that's our lower case p sub g, our sample proportion by
+group of family type, group one single parent, group two other. From outside data, there's a capital
+N sub g data that says, for 4 million tenth graders from our
+census data, from other kinds of data, we actually have a better idea
+that our outside data show that it should be 30% of the sample
+are single parent and 70% not. So now we get this discrepancy,
+we're off a little bit, 20% versus 30%, 80% versus 70%. Can we adjust our sample so
+that it looks like that outside source? Some people might think of this as a
+cosmetic adjustment, others might think of it as a sensible adjustment for making
+our sample have good, sound properties. So how can we do that? It appears that what we need to do is to
+take those children who come from single parent family types, and
+increase their contribution, and those who come from other
+Decrease their contribution. So we're going to need a mechanism
+that increases one and decreases the other in
+a proportionate fashion. And that's what the last
+column of our table shows. What we're going to do is take
+the proportion in the population and divide it by the proportion in the sample. So 0.3 divided by 0.2 for the single
+parent gives us a weight of 1.5. 0.7 divided by 0.8,
+0.7 for the population and 0.8 from our weighted sample,
+gives us a weighting factor of 0.875. We need to increase the contribution
+of our single parent children by 50%. And decrease the contribution of
+our other family type children by 12.5% down, decrease. And so that adjustment, then,
+will give us a compensation so that our sample looks like
+that population distribution. These poststratification weights
+have both adjustments up and down. The non response weights that
+we're looking at only adjust up. But these are just up and down, and
+they now are an additional factor. We already have an adjustment for
+oversampling and undersampling and an adjustment for nonresponse. Can we add to this this
+poststratification? This poststratification is just
+a little calibration in the end to get our results to look like
+what they should, a standard. And here's the full weighting, then. Yes, they can. As a matter of fact, what we're going to
+do is take the weights from the over and under sampling,
+the factors of one and four. If you're looking at that very last
+wide column in our table here. The very first set of it is
+the adjustments across eight groups. Now defined by high or low, free or
+reduced price lunches, metro, non-metro locations, and
+single parent and other family types. And the distribution of the 9,000
+gives us those eight groups. And all of the high groups
+get a weight of 1 for the oversample and
+a weight of 4 for the undersample. Those that have
+the non-response adjustments, there is an adjustment of 1.43 for the
+metro group and 1.18 for the non-metro. But that's divided across
+single parent and other. As well within a further
+adjustment of 1.5 for single parent children and
+0.875 for other. The final weights that you see now have
+a distribution that ranges from let's see, the smallest weight is 1.125. And the largest weight is now over 8, 8.5. Differential contributions
+based on three factors. Compensating for over and
+under sampling, compensating for differential nonresponse, and
+compensating for our calibration. Getting our calibration so that on an additional dimension our
+sample looks like the population. That's the final weight. This is the bare bones of these
+weighting systems for sample data. Compounded sets of adjustments for
+different features of the sample design. All right, well that's,
+I hope going to give you some understanding of where
+those weights come from. When they appear in your survey data sets. Or if you need to do this, where to begin to think about
+doing this weighting adjustment. And beginning to make an adjustment
+that gives you the kinds of things that go into most kinds
+of survey adjustments. There's one more kind of weighting
+that I do want to talk about. Because in the title for our course
+we talked about sampling people, records, or networks. And networks pose a particular problem,
+and we're going to talk about networks. Because we often sample networks in
+ways like we're sampling clusters, but sometimes we sample
+them in terms of elements. And as we do these different kinds
+of things with networks, and we'll look at some examples of networks. We end up with unequal
+probabilities of selection. And those unequal probabilities
+of selection lead to a form of weighting that's sometimes
+called multiplicity. We want to look at that in our fifth
+lecture in our last unit together. Join me as we talk about sampling
+networks and multiplicity weighting next. Thank you.

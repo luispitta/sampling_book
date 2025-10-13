@@ -1,0 +1,124 @@
+As we mentioned at the end of unit four, sometimes we can simplify our
+sampling techniques to avoid some of the complexities that we've
+dealt with up til now. And we can do that by using a technique
+called systematic sampling. And so what we're going to do and
+unify this kind of simplified sampling. Simplifying the selection process but
+then we need to look at the process in more detail to understand
+how it works in practice. There will be four lectures here. One on the process itself, second on the
+intervals that are used in the systematic sample, a third on list order, and
+a fourth on estimating the uncertainty, estimating standard errors for
+these sample designs. But here, what we're going to do is focus
+on the systematic sampling process itself. Now systematic sampling is
+a very simple method of making sample selection from a list,
+taking every so many elements. So suppose that what we
+had was a population of transactions in this case, records. These are billing records
+from credit cards. And in this particular case, there's a little bit of
+information about each of these. There's a date and a time reference
+number, that's quite a few digits. A category, when the bill comes in, it's classified with respect to the type
+of business or transaction that occurred. A subcategory, and some additional
+credit card information and then the amount, the amount that's
+shown in the last column there. And so in this case, we may be
+interested in drawing a sample of these, even though we've got all of them. We may be interested in
+drawing a sample of them, because we're going to apply
+some additional process to them, to understand something about the nature
+of the billings that we're receiving. We may be drawing a sample in
+order to call the card holder, and ask them questions about the transaction
+that is not part of this record. We may be calling a sample
+of individuals to talk about other kinds of purchases they might make
+with our credit card, other kinds of things that we need additional data that's
+not present with these transactions. And so that's a reason for
+sampling these records and then dealing with them in a sample setting
+set that involves survey data collection. So we could choose to draw the sample
+here in any number of ways. First, we could start with
+the first one and take every10th. That's a systematic sample. That's an easy counting that we could do. We just keep changing the leading digits. So for example with our particular case,
+we could take the first case and then take the 11th case. We've just added a digit to the left. And then the 21st case we change
+the leading digit from 1 to a 2. The 31st case, the 41st case and so on. We're taking every tenth. When do we stop? Well, we're going to stop
+when we have N selections. N is our sample size. Now this list has capital N elements. Let's suppose that in this particular
+case, this list had a 1000 elements in it, and that we decided that
+we only needed 50 of them. Well there's a problem then if we start,
+obviously, if we start taking every tenth
+starting with the first one. When we get down with our sample, we will only will have sample
+from the first half of the list. To get 50 selections taking every
+tenth starting with the first. We got the first and
+the 11th and the 21st and so on. And if I do that 50 times my last
+selection would be element 501. That means that elements 502 to 1,000
+have zero chance of being selected. As do, by the way,
+choosing the first element to start, elements 2, 3, 4 through 10. Elements 12, 13, 14 14 through 20. There's a problem here obviously,
+and doing systematic sampling and always starting with the first and
+then taking every tenth. We don't spread our sample out
+across the entire list and if there's something different
+about the transactions in the first half of the list
+compared to the second, we've missed. So we need to spread our sample
+out over the whole list. We're going to need to vary
+the count to account for the size. We're going to have to scale
+this to the size of the list. And we should also vary
+the selection start. There's no randomization in this if
+I always start with the first one. That poor first transaction's always
+going to be in all of my samples. I once did a sample of students,
+from a population registry in a registrar's office, for a university,
+and they had been doing this all along. They had always been sampling
+by starting with the first case. The programmer had an algorithm
+they found in a cookbook, in a set of algorithms for
+random sampling, there was actually systematic sampling,
+it always started with the first case. I'd pity that poor student who was
+first in the list because there were, in all the samples as long as
+they were first on the list. We're going to vary that, so we're going to do two things
+to modify this procedure. What we're going to do is not
+take every 10th, but every 20th. If there's 1,000 in the list and we need
+to get our sample spread across the whole list, what we're going to do is take 1,000
+divided by 50 to figure out the interval. Not just an interval that's convenient 10,
+but an interval that fits
+the size of the list. So we're going to add to our
+consideration then account, but our account interval may vary
+depending on the size of the list. In addition, we won't start with
+the first, but if we're going to take our sample from the first every 20th,
+what we need to do then, is possibly vary the list selection by starting
+with a random place among the first 20. Because that way when we start in the
+first 20, and we choose one at random, and we keep adding 20 to that now
+to get our sample selections. When we get done, we will actually have a sample size 50
+before we run off the end of the list, because of the scaling that we've done
+in respect to the population size. So back to our list then. In our list, our transaction list, we randomly
+choose to start with the fourth one. We've looked up a random number. We've generated a random number from our
+software systems, and we start with that random selection, and we take the 4th, and
+then we add the interval, the 24th, and we add the interval, the 44th, and
+we add the interval, and so on. And so we've got a very even division
+of our population distribution shown on the lower left hand side. A very even spacing of our sample
+selection such that we get our required sample size. And we start at random. There's a random element to this. So we've adapted our selection
+process to the size of the sample and the size of the list. We've calculated an interval
+to make it more formal. An interval let's call it k that is
+equal to the population size divided by the sample size. In this case 1,000 divided by 50 or 20. And we choose the random start
+anywhere from 1 up to k, at random. Now conceptually what this is doing
+is dividing the population up into the groups of k, size k. So we've effectively now divided that
+list of 1000 into 50 groups of 20 each. We'll see this in a second and
+then taken one from each of those groups. It's like stratified sampling, isn't it? Stratified sampling divides
+the population up into groups, now they're not necessarily
+all equal in size. Here all of our groups are equal in size,
+all of size k, all of size 20, and we take one element from each. Here's the conceptual representation. The columns are the possible samples. The label across the top of
+the columns that we see here, 1, 2, 3 through 20 are the possible
+random starts that we have. And then the rows
+are the sample selections. 1, 2, 3, up to 50. And notice that if we had chosen
+to start at random with 1, our first selection would've been 1,
+then 21, then 41, and so on. Once we start, that sample is fixed. It's systematic in that regard. Always, when we start with 1, we get
+the same sample from this population. But if our random starts with 4
+as we had talked about before, 4, 24, 44 and so on,
+that set of selections is always the same. Conceptually, what's actually been
+done here is the equivalent of cluster sampling. Every column which is
+a possible sample is a cluster. It's a set of elements that always
+come into the sample together, that's what a cluster is. It's a school where all of
+the students come in together. It's a block where all the housing
+units come in together. Here it's a set of elements that always
+come in together because they've been systematically selected. And they're all the same size. This is very interesting. Here's a case where we have clusters of
+equal size, and there are 20 of them. And by choosing one of them
+as a random starting point, a random start from 1 to 20,
+we've chosen one of the clusters. So this is equivalent to cluster sampling. Each possible systematic sample is
+a cluster of lower case n elements. Well, that means it's a little more
+context here than we had first thought. We thought it was just a simple conic
+procedure, but now we've scaled it to the population size relative to the sample
+size and we've added a random variation. Let's talk a little bit more about some
+other features of systematic sampling in our next lecture by turning to
+talk about those intervals. Because sometimes in the interval,
+actually most of the time, the interval will not be
+a whole number like that. It won't be 20. There may be some fractional part, 20.2. 20.57, 100 with some fraction,
+some decimal fraction. What do we do with that when
+we do our sample selection? And that will be our next lecture, as we continue our discussion
+about systematic sampling. Thank you.

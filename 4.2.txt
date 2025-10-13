@@ -1,0 +1,184 @@
+Stratified sampling,
+we've seen how it can be put together. The nature of stratified sampling
+in terms of the selection process, the allocation process. And here what we're going to do
+is continue in unit four on being more efficient,
+talking about stratified sampling and going past forming groups now
+to talk about sampling variance. This is the second lecture for Unit 4. And we're going to look at what
+happens to sampling variances for stratified random samples. Now, as you can imagine what's going to
+happen is, that as we stratify, the sampling distribution will change,
+just like we had for cluster sampling. The sampling distribution changed. And we need to look and see whether or
+not that sampling distribution is more variable or less variable than what we
+were getting under simple random sampling, our base comparison. That's what we used for comparisons for
+the denominator of design effects for cluster sampling. So, our premise here is that we've now
+taken our population, divided it and identify a frame. In this case,
+400 faculty if we continue that example, divided into groups,
+in our case three groups. I'm just showing two here. And we drew a separate sample from each. And from each of those samples then,
+what we did was compute an estimate. We computed estimates for each group and then we combined across
+the two groups in this case. But in our particular illustration,
+three groups. Now, what happens to the sampling variance
+of the mean that we've computed by this process? And in theory, what you would expect
+is something very similar to what happened for the estimation of the means. We're going to go and compute a sampling
+variance within each of the groups, within each of the strata,
+and then combine them. And so,
+here we see that sampling variance. Remember the general definition
+of sampling variance. And do the algebra to derive
+the sampling variance of the mean, in terms that we can use, and
+it will come out to be this. It will come out to involve separate
+sampling variances within each group, summed up across the strata but weighted. But in this case,
+the waiting is not by W sub h. Remember that fraction of the population
+that's in each of the strata, but by the square of the W sub h. Why the square? It's the square because we're
+dealing with variances. We're on the squared dimension. And we're going to have to take square
+roots to get standard errors, but we're dealing with variances. Everything gets squared here,
+including that waiting factor. Now, that means that when we compute our
+estimate of this kind of thing, what we're going to do is compute estimated sampling
+variances within each of the strata. We're no longer going to have
+capital Var of y bar sub h, but lowercase var of y bar sub h. One's above the other. They're both multiplied
+by W sub h squared, but in one case we get the estimated sampling
+variance in the second case because we've got data that we've had in the sample that
+we used to compute that sampling variance. We combine it to get the overall
+estimated sampling variance. And what is this sampling
+variance within the strata, what are those sampling variances? It depends on how we do the sample. In our case, I didn't say, but let's assume that when I went to select
+that sample of 23 assistant professors. If you remember from our allocation
+discussed in lecture one. When I've got that allocation
+from each of the strata, I'm going to treat that as
+a simple random sample. I'm going to do simple random sample
+of size 23 from stratum one, and so on for each of the other strata. That means that within each of the strata, we would compute sampling variances just
+like we did for simple random sampling. We need an indexing to keep track of it. And so you'll see here in our last line,
+the variance of the mean for each of our strata, the variance
+of y bar sub hs is 1- f sub h, just in case there's a different
+sampling rate in each of the strata. Divided by n sub h, the sample size,
+23 from stratum 1 and so on. Times s sub h squared. We need to know the element
+variance within each of the strata. We need to take the 23 elements
+among our sample cases and compute the variability of
+the salaries for those 23 individuals doing exactly the same kind of
+element variance we did before. Each value, y sub h i minus the mean,
+y bar sub h in the strata. Just, we're doing three sampling
+variance calculations, one for each of the strata, each of them based
+on a different element variance. We thus need the within strata
+variances in order to pull this off, in order to be able to do this. So let's assume that we've done simple
+random sampling within each of the strata. And we go back to our display,
+and we've done the calculation. We've taken the 23 sample cases for
+the assistant professors, and we've computed an s sub h squared 125. We did the same thing for
+the 15 sample associate professors, 250. And for the full professors,
+that 42 on the sample, their average square deviations by that
+formula, the estimate square is 500. Notice that it increases as
+the salary level increases, the y bars of h, so do those variances. And there is oftentimes
+a relationship between the sampling variance and the mean. Actually, it's better to do
+the sampling standard deviation, the square root of those variances and
+the means. There is a relationship that does show up
+in the real world in that particular case. So, this is not an unusual case. So, here what we need to do
+is combine everything and it's a little bit beyond
+the scope of what we are doing. But I'm going to go through this anyway. We need to know a W sub h squared,
+well we know W sub h, the W sub is 0.2875 or 0.1875. Whatever it happens to be. We also need to know one minus the
+sampling fractions of each of the strata. That's 0.8, one minus 0.2 in each of them. We need the s sub h squared and
+we need the sample sizes. So, if we put all of this together,
+I know this is kind of busy. But I think you know what
+the elements are now. The logic, what I am really concerned with
+is that you understand the logic of this kind of thing. That it flows from how
+the sample was selected. For stratum one, the variants are estimated
+sampling variance of the mean now. Which turns out in the end to be 3.453. Has three components,
+one from each of the strata. Where for
+each strata there is a W sub h squared. A one minus sub of h squared and
+a sample size, in the denominator. And there you've got the expressions for
+each of them, all added together, all combined to give us the overall
+sampling variance, 3.453. We'll take the square root of
+that to get a standard error. That standard error,
+we're going to use a confidence interval. Let's recognize that what we've just
+done are sort of step 6, a and b. A was to compute the element variances
+within each of the strata, and b was to combine them with the W sub h squared
+factor, adding them up across the strata. All right,
+there's one more step to this, right? There's a seventh step about
+the confidence interval. This is our way of expressing
+our uncertainty about estimates. Taking into account both the mean and
+that standard error, and the distributional
+properties of that mean. In this case, that mean is going
+to be normally distributed and we're going to use that in
+forming a confidence interval. So here, our last step 7,
+the confidence interval, we're going to do by the same
+process we did before. We're going to use the mean plus or
+minus a margin of error. But that margin of error is driven
+by two factors as you recall. The t-value,
+we're going to use the t-value here. Where we're going to cut up the number
+random events and subtract one, well, in this case we're going to subtract
+one in each of the strata, and then get that t value and use it times
+the standard error to form that margin of error before forming
+the confidence interval. Now, degrees of freedom. How many random events
+are there in our sample? There are 80. But, there are 23 in stratum one,
+and in that particular stratum, we also computed a mean. And that mean alters the randomization
+that's going on there in terms of how many degrees of freedom we have,
+how many random events we have. So, we actually have n sub h 23 minus
+1 degrees of freedom from stratum one. n sub 2 minus 1. Let's see, that was 15 minus 1,
+or 14 from stratum 2. And n sub 3, that was our 42. And that was 42- 1 or
+41 degrees of freedom. Overall, adding those up, we have n- H. n, 80- H, 3, or 77 degrees of freedom. So, we will look up the t value which
+we've done here which happens to be 1.991. Not 1.96, that's why we're using the t. It's a little bit larger because we have
+some uncertainty about the quality of each of the S sub h squared. What we are doing is counting up the
+stability factors for each for the S sub h squared and adding them together and
+using that to pick out the T value. So, the 95% confidence interval take
+that t value, times the standard error, and adds and subtracts it to the mean,
+and you can see the final result. Our 95% confidence interval
+goes from 71.05 to 78.45. All right, well, that's it. No, not quite, because we're
+wondering as in cluster sampling, how does this relate to
+simple random sampling? So let's wrap it up here by talking about
+design effects and effective sample size. When we're talking about
+sampling variances, what is that variance that we got,
+that 3.458, whatever it was. And how does it relate to
+what we would've had for a simple random sample of the same size,
+ie, what's the design effect, or deff. For a simple random sample then, the denominator is what
+we're lacking right now. We're going to take that same data and treat it as though it's
+a simple random sample. It's not, it's 80 cases drawn
+from a random stratified sample. We're going to treat it incorrectly. To calculate and
+estimate the variance of the mean. And from a separate calculation,
+we have to calculate s squared. We know f, we know the sampling fraction,
+but we don't know the s squared, we're going to take the 80 values and compute
+a s squared and here you see it's 647.8. And so now what we've got for a sample
+of size 80 from a population of 400. That's a sampling fraction of 0.2. Our sampling variance of the mean under
+sample line of sampling is 6.478. That's what we're going to then compare. It's going to end up being in
+the denominator of our comparison where we're taking these actual
+sampling variance 3.453. I'm sorry I misspoke that before,
+divided by 6.478. Now, this is the opposite
+of cluster sampling. We now a design effect less than one. Here, with proportionate allocation and the particular circumstances we have in
+terms of the differences of the means across the groups,
+we have a reduction in variance, by the simple expedient of using auxiliary
+information in our sample design. As a matter of fact,
+it's a pretty big one. It's a 47% reduction in sampling variance. Let's think about that in terms
+of that 47% reduction and what it implies for our effective sample
+size as we did for cluster samples. Recall there what we did was we
+took the actual sample size, and divided by the design effect. So, here we're taking the 80 and
+dividing by 0.53, and we end up seeing that we've got
+effectively 150 cases in our sample. We have actually 80, but
+effectively because of the efficiency gains we've obtained through stratified
+random sampling proportionally allocated. We actually have gotten
+a larger sample effectively. We've got an additional 70 cases. We have a 47% reduction in variance. But in terms of effective sample size,
+we've got a 70 case improvement, nearly doubling our overall sample size. Alternatively, that standard error
+is what we're really dealing with. The standard errors are smaller. We don't get as much gain for the standard
+errors we did for the variance. Our standard errors are at
+27% gain as shown here. So, this is big payoff to us. This is for
+us a clear evidence that what we should do when we do our sample
+selection is stratify. Always stratify, I'm going to say that. It's a strong way to say it, but that's why I don't do stratified
+simple random samples in practice. Stratification is straightforward and
+easy to do. I'm always going to think about it and
+think about how to apply it so that I can avail myself of
+potential gains in precision. We call our distribution that shows
+the relationship between sample sizes that increases on the horizontal axis,
+and vertically the standard error. And we saw that for simple random
+sampling, that curve was declining and not linear but a curve or
+linear relationship. And we got gains in precision
+as we increased sample size for simple random sampling. And now what we've seen is that,
+I've put stratification on there, it's a big arrow,
+it moves that whole distribution down. If we do the right allocation, and not all stratified samples as we'll see,
+give us gains in precision. But it moves that distribution down. We already know that clustering
+moved it up, clustering moved it up. So, we've got these two
+counteracting forces, if we will. If we're going to do cluster sampling,
+we better stratify the clusters, not just the elements,
+but the clusters as well. And so, we get gains in
+precision from stratification, potentially, losses in precision,
+almost uniformly from cluster sampling. And then finally,
+we will talk about waiting. Here we've got a, no waiting really, we've got the same waiting
+effect in each of the strata. And waiting will, as we'll see later on,
+especially in unit six, increase our variances, unless it's directly tied
+to the phenomena that we're studying. Okay, sampling variance for
+stratified sampling. Having understood what happens now with
+sampling variance, confidence intervals, all the rest of the design effects, let's
+go back and reconsider grouping, and add a couple of factors before extending our
+development of stratified random sampling. We'll do that in lecture
+three in this unit. Thank you.

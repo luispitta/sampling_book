@@ -1,0 +1,241 @@
+Money, money, money. That's what we were talking about before,
+although it didn't seem that way. Sometimes people will say about this
+particular topic, it's not very practical. And I think they're getting bound
+up in formulas and things and they miss the point of why
+these things are being done. So here we are in lecture
+one of unit three, in which we're talking about saving money. We're talking about complex sampling now,
+cluster sampling. But a simple form of it, where
+the clusters are all equal in size, and they also have the property
+that when we sample them, we're going to take all the elements that
+are there on a given sample cluster. But we had looked at
+this particular problem within the context of our lecture,
+so we're still on lecture one here. But now what we're going to do
+is move back to, if you recall, our sampling distribution problem and
+see the consequences of dealing with this. And so what we're going to
+do is expand our example and talk a little bit about
+a different example and add some additional notation for
+a second and change the example. So we've been doing 18 blocks, right, with eight housing units each
+in our previous illustration and drew a sample and then looked at the
+different visual representations of what the sample would look like if we had drawn
+the elements directly, simple random sampling, versus drawing the elements
+only after having selected clusters. Let's try another Illustration,
+something that involves schools. To illustrate something that happens for
+the calculations here. And I borrow something from
+the work of a colleague. It's a slightly different
+of what's been done, but it has to do with sampling
+clusters that are equal in size. And suppose that we've got
+a population of 1000 clusters. Not 18, but 1000. So it's a bigger problem. And we've decided that what we can afford
+to do is draw a sample of ten of those and then go and collect all data about
+all the elements within them. And so I put this in
+the context of the following. Suppose that we're doing work for
+a school district, a geographical management area
+where there's a set of schools. And it's a fairly large school district,
+and they're interested in studying what's
+going on in elementary school classrooms, the early year classrooms, with respect to
+the immunization history of the children. They've had some concerns about outbreaks
+of childhood diseases among the student population, and they've decided they
+want to do a sample and go in and make sure they understand what fraction
+of their children are fully immunized. Now they could do this at the beginning of
+the school year and require the parents to bring the records, but they've tried doing
+that and it gets to be quite complicated. The parents can't find the records,
+they've got a lot of data to manage, and in this case,
+they've got a thousand classrooms. They have a list of those
+thousand classrooms, but they don't have a list
+of the children within them. So again, they face the problem. They could go and
+try to build the list of the children, but that would take a bit of time. And so they've decided to sample ten
+of the classrooms and then go and examine all of the children
+within those classrooms. Now, there are 24 children
+in each classroom. So in the population, there are 24,000
+children in this grade level. But there are in the sample then 240,
+1 in 100, one 100th of the population
+will be in the sample. One-tenth, no,
+one 100th of the classrooms. And then taking all of
+the students within. Now we're going to refer to
+the capital A here, that 1,000, as those classrooms as
+primary sampling units. Because in the previous example,
+we had blocks. Those were the primary sampling units. They're the sampling units at
+the first stage of selection. So the PSUs as they're
+going to be referred to. In their classrooms, as shown in
+the lower left illustration here. Now, when we've drawn the sample,
+we go and make our measurements. And in this particular case,
+the record shows the following. And I've organized this, or this
+illustration's organized by classroom. Here are the ten sample classrooms, the fractions of each classroom
+where children are fully immunized. Just put them in order. This isn't in the selection order, this is the order by the fraction
+from lowest to highest. 9 in 24, about one-third of the kids
+are immunized, to 21 in 24, where virtually all of them are immunized. Now, from our point of view, what we want to know is
+what's the overall fraction. We don't want to know by classroom. But this is what's coming about
+because of our randomized selection. We selected classrooms,
+this is what the classrooms looked like. To do our estimates, we don't have
+to worry about the classrooms. We can just add up the numerators there. So the 9, plus 11, plus 13,
+plus 15 and so on. And that sums up to 160
+immunized children. And that's out of 240. So our rate,
+proportion immunized is 0.67, two-thirds. Now, that number that we've
+got is our sample estimate. We're going to use that to
+project to the population for dealing with immunizations
+in this particular case. This kind of cluster sampling,
+one stage if you will, or simple cluster sampling taking all. That estimate that we just
+computed is unbiased. The process is unbiased. Let me say that in
+a little different terms. The mean in this case is unbiased for
+the population mean. Because this particular process
+is unbiased from the mean. So, on average,
+if we did this again and again, do all possible samples of ten
+classrooms from the 1,000 and computed this proportionate in all cases,
+a mean, and averaged them across all possible samples,
+we would get the true population value. Now, that's also true of
+simple random sampling. Remember, for simple random
+sampling without replacement. Now we're going to build
+the whole list of the 24,000. Expensive operation for us. And compute the sample proportion. And that sample proportion we know,
+when we sample 240 at random, without replacement from the 24,000,
+will be unbiased. And we also know from that previous
+work that there is sampling variance that goes with it. And we can estimate the sampling
+variance from just the sample data. And as string formulas there,
+three expressions. The sampling variance,
+lowercase var of the proportion, is that 1-f s squared over n. I guess we should have put
+the lowercase n under the 1-f. We are familiar with that
+kind of an expression. And to the right of it,
+I wrote the version of that formula, the algebraic equivalence,
+that involves proportions. That will just be more convenient for
+us to use. That involves the p times 1 minus p
+divided by n minus 1 times 1 minus f. Now, again, these are, you recall,
+sort of two-step processes. We took the definition of
+the sampling variance, did some algebraic manipulation to get
+the 1 minus f capital S squared over n. And then said, but
+we don't know capital S squared, but we can estimate it from the data 1
+minus f lowercase s squared over n. In the last step, by the way,
+lowercase s squared for proportions can be written as p times
+1 minus p times n over n minus 1, leading to that last expression. That's the long story of
+what that represents. So we just put it in compact form so it
+didn't have to have multiple slides here. Now, what we have is not this. What we have is a simple
+random sample of 10 equal sized clusters from capital A equal 1000. And our randomization, as we noted,
+occurs at the cluster level. Now, the formula that we see there,
+the middle for the estimated sampling variance for simple
+random samples, is 240 random events. Here, we have 10. And so now, because the randomization
+occurs at that level, we're going to deal with the p's,
+the characteristics of the clusters. Well, what is that? For the child it's immunized or
+not immunized, a one or a zero. For the cluster it's the fraction of
+the children who are immunized or the proportion. So we have a P now sub alpha,
+alpha for each of the clusters. A, going with capital A, number of
+clusters in the population, lower case a, number of clusters in our sample. Alpha to index the clusters going from
+1 to 10 in our particular sample. So those 10 fractions that we've got. Unlike in simple random sampling and
+cluster sampling, we're going to treat this sample as
+a sample of lowercase a from capital A. Lowercase a is the number of sample
+clusters, in our case, 10, from capital A, 1,000. It's a simple random sample. And when we do that,
+the sampling variance. We go back through all the things
+we talked about before for the sampling variance as we've seen. Here, this is the sample
+analog in which we have, expression involves the expression
+lowercase var of our proportion, as opposed to the capital VAR
+that we were looking at before. And we have three similar elements to what
+we had before for simple rand om sampling. A finite population correction, 1-f. A divisor by the number of
+random events in the sample. In this case, the sample size is 10,
+not 240, but 10 clusters. That's where the randomization,
+that's all the random numbers we used. And then that gets
+multiplied by an s squared. But in this case, that s squared is
+built around those cluster proportions that we just introduced in the last slide,
+p sub alphas. And their variability
+relative to their average. The overall proportion happens to be
+the average of those individual cluster proportions. So we compute that variability,
+dividing by a-1. There are a differences,
+square differences, there. And it's an s sub a squared
+that we're dealing with. And we've put it into our
+sampling variance formula. It's a bit of a mess. It's got our 1-f over a, and
+our s sub a squared expression. But when we want to move on to talk
+about comps intervals, standard errors, we just take the square root
+of that sample variance. The same thing that we've done before. Now, just to illustrate the calculations, to go back to the results that we
+had before, our s sub a squared, I put it out in front now,
+the 1 divided by 10 minus 1. That's 1 divided by the 10
+random events minus 1. And then inside of
+the big square brackets, there's the fraction in the first stratum,
+versus the fraction overall. That's for the first of the clusters. The fraction in the second cluster
+compared to the fraction overall, in each case squared, and so on. And we get a number 0.02816. Not clear what that number means until
+we go two steps further with it. If we put that 1 minus s sub a squared
+then into our expression for 1 minus f, let's see, f is 0.01, right,
+1% of the population is in the sample. So that's 0.99 times that s sub a squared,
+divided by 10. We get a number that is 0.002760, which
+is our sampling variance of the mean. But that's on the squared scale. On the original scale, when we take the
+square roots to get our standard error, we see that our standard error is 0.05,
+or 0.0525, but 0.05,
+now that relates directly to our estimate of the fraction of children
+who're immunized, that 0.67. This is the standard error
+on that estimate of 0.67. It's on the same scale now. We can envision it. We can even think about a confidence
+interval that goes with that. So that we can take 1.96 times that 0.05,
+add and subtract it from the 0.67. We'd have a confidence interval that
+goes from about, well, let's see, 2 times 0.05 is 0.1. This goes from about 0.57 to about 0.77. Now we can relate it to the actual
+estimate for our cluster sample. But there's an important adjustment
+that we need to make to this. We have only ten degrees of freedom here,
+ten random events. The 240 in the sample,
+that was a much larger number. When we did our first samples of size 20,
+it was a little bit larger number. Here we're going to introduce
+the idea of a different multiplier in these confidence intervals. We were using for example the 95%
+confidence interval the z-value, the value of 1.96 that I just cited. Which is appropriate for
+a type one error rate of 5%. Well, here because the degrees of
+freedom are so limited, that turns out, that 1.96 was only appropriate
+if we had large sample sizes. Now, how large is large
+is an interesting issue. For this particular purpose, it's at about 100 where things
+start to make the most sense. The 1.96 works just fine. But when you get down to smaller numbers,
+certainly 10, we've gotta make an adjustment here. Because what happens is that the s
+sub a squared is introducing so much variability because it's built
+around only ten square differences. It may sound like a lot to you, but from the point of view of the sampling
+distribution, it's problematic. That normal distribution
+doesn't work that well. And so they introduced
+the idea of a t-distribution. Now, I don't have time to go into
+where the t-distribution comes from. Actually, if you're interested in it,
+a little bit of homework. I suggest, and you might want to write
+this down, you look up a little bit of the history about the t-distribution,
+because it involves beer. It involves the Guinness
+brewery in Dublin, Ireland. And a man there named William Gosset who
+was faced with this kind of a problem. Small sample size. He was doing testing
+of beer of all things. And it led to the development
+of the t-distribution. So that's a separate issue here. But it has to do with small sample sizes. And we have small sample sizes here. So we're going to modify this. The confidence interval built on
+a standard error really does depend on the number of random events for
+its stability. And in this case, it's not a lowercase n,
+it's lowercase a. And so our degrees of freedom is really
+much smaller than our sample size. And as a result, we're going to use
+the t-distribution, because it takes into account that added variability,
+having fewer random events in the sample. So that t-distribution now has two things. The normal distribution,
+the Z, had just one. What's your type one error rate? is it 0.05? Okay here's the number, 1.96. Is it 0.1? Here it is, 1.64. So there's a specific number that goes
+with that regardless of the sample size. But for the t, we have to do, not only
+that error rate, but also the sample size. And that sample size is referred
+to as degrees of freedom in this particular case. It's one application of that
+term if you've heard it before. But for our purposes, we think of degrees
+of freedom as random events in our sample, in this case, lowercase a. So that that t is substituted, as you can
+see in our expression here in red, in the very first line, that t is introduced
+as the multiplier instead of the normal. And so we have our proportion minus
+t with 1 minus alpha over 2 and a minus 1 degrees of freedom
+times that standard error. That's the lower limit and
+the corresponding upper limit. It's the same proportion,
+it's the same standard error, but the multiplier,
+the t-distribution, is changed. And we end up with a t-value
+that is larger than the corresponding normal value,
+the Z value. So for 100 degrees of freedom,
+for example, if a were 100, that t-value's going to be around 1.98,
+1.97, in that range. Not quite 1.96. So it inflates this a little bit. And it depends on how
+far you're willing to depart from what that underlying value is. That's why actually some people
+in their confidence intervals for 95% confidence intervals,
+will just use a multiplier of 2. They round that 1.96 up. They don't really worry that
+much about degrees of freedom. That's actually,
+when we talked about margin of error, what happens with the margin
+of error kind of calculation. Okay. So for our case, just to finish off
+the illustration and the calculation, the 95% confidence interval
+involves our 0.67. And it involves as well our t-value and
+our standard error. Oops, and I can see we have a typo here. This should be 0.05 as our
+standard error for both of these. It's right on the right-hand side,
+but wrong on the left-hand side. And when we do the calculation,
+the t-value here is not 1.96, but with 9 degrees of freedom,
+10 minus 1, it's 2.26. So, about 12%,
+13% larger than the normal value. So these things
+are going to be bumped out. And we can see now our confidence interval
+goes, same calculation, from 0.55 to 0.79. And that's a little wider confidence
+interval that also takes into account this added variability due to the fact that
+we have limited degrees of freedom, limited number of random
+events in our sample. Okay, this is the same thing we did for
+simple random sampling, right? We did a calculation of an estimate. Then we calculated a sampling variance for that estimate using our
+1-f s squared over n. And then a standard error and
+a confidence interval. Same thing here for cluster sampling, but what we've done is change how we
+calculated that standard error. Okay, that's the basics for
+the cluster sampling. The type we're doing, the simple
+complex sampling, equal size clusters. How does it compare to what happened for
+simple random sampling? And so in our next lecture, what we're going to do Is a comparison,
+a contrast of what would happen if we had done a simple random sample to what
+we're doing with a cluster sample. And so join me again then for
+lecture two as we continue our consideration of complex or
+cluster sampling, and saving money. Thank you.

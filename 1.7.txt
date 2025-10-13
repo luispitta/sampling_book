@@ -1,0 +1,125 @@
+Hello, and
+welcome to the last of our lectures in unit one of our course on sampling
+people, records, and networks. We want to make this
+a little more concrete. To just talk about how the kinds of
+ideas we've been talking about can be applied to those three areas,
+people, records, and networks. And we've examined a variety of
+background about how sampling fits into research investigations. How it fits into surveys and
+how it operates. Let's just talk a little about application
+now to, well, almost anything. What we want to explore in this lecture, the last in Unit I,
+is some ways that we can do. Or some frames, I guess,
+some populations and frames. I'm going to maybe confuse a little bit
+by using the term units or elements. Because when we talk about people, it's
+pretty clear what the unit is, people. When we talk about records, it could be a
+transaction, it could be a billing record, it could be a variety of things. And when we talk about networks,
+it could be a number of things, too. And we might sample different
+things at different times, and the generic term that's
+used in sampling is unit. I'm sorry we're mixing that
+up with the units here, but the idea of a sampling unit. We want to distinguish that just
+a little bit as we move ahead here. We're going to do this in three sets,
+just people, records, and networks. Again, example of each. And one of them, we've already seen. So let's just talk about these things
+to make sure we understand how these samples could be
+applied in each case. So, we started out talking
+about sampling people. And here's that list again that we did
+where it involved the faculty members of the University at Michigan and
+their salaries. And the list that we have, the frame
+that we had, had 370 elements on it. We're only seeing the first 25 here. The data are organized in terms of just
+the subset of the many things that we might know or want to know about them. We have a sequence number for
+each from one to 370, just the numbering we have
+done to the list of the frame. And an ID, an eight digit ID that
+was assigned by their employer. Their division,
+that is college, or school, or major area of study, sex,
+and rank, and salary. And what we did was we applied a table
+of random numbers to those, right? We got random digits, and remember we
+had the 579, didn't fit the list and the 341 that and
+the 019 that did, and so on. And that lead to a sample,
+a random sample from our population list. Along with a set of values on the incomes
+that we measured for each one. I know it was on the list, but we'll
+just sort of pretend it wasn't there and we collected it and we got a mean. And then we talked about how that mean
+came from one of many possible samples that could have been drawn
+of size 20 from a 370. The sampling distribution and then how we could use from that sampling
+distribution notions of variability. To calculate a measure of the variability
+across all possible samples just from this one sample. And then make an uncertainty statement. Okay, that's kind of what
+we've been doing in this unit. Just getting used to these ideas and
+working our way through them and trying to understand them. But we can apply this same logic
+to other kinds of populations. And here are records. These are hypothetical. This isn't actually, it's taken from my
+records, but I've mixed things up here. Credit card transactions
+where there's a date given. There is a sequence number in
+the first column, a date given, a time of the transaction. A reference number, that's like the ID except there
+that's got a lot of digits in it. The category, we would know some background information
+about this in the subcategory. So there might have been a purchase
+that involved business services, advertising services,
+that appeared on the credit card. It wasn't a business. It was a personal credit card, so
+there's no particular indicator there, some additional information about
+the transaction, and the amount. That's our background record. Now, why would we want to sample these? Why wouldn't we just
+work with all of them? Because we may want to go in and
+do more detailed work on the transaction. To collect data that would be very
+difficult to link to these particular records and only do it on a sample. Or we might use some expert opinion to
+assign categories and codes to this. Depending on the information then
+that takes more time and expense. We can only do it on a sample. But again, random sampling, we would use
+the same kinds of random numbers to make selections of these transactions. We would think about the data
+collection and obtaining values and computing a mean or a proportion or
+maybe a regression coefficient. But, just different kinds of sampling but now the object is not necessarily
+a person but a transaction and event. So we can apply our methods to things
+other than people, such as records. These methods can also be applied
+to things that are a little more hypothetical. Networks, this is a kind of network
+sampling that is illustrated here that has been used sometimes
+in the social sciences. Suppose that what we've done
+is draw a sample of people. And then when we go to talk to them,
+we've drawn them at random. And we go to talk to them and we say,
+we want to ask you two kinds of questions. The first kind of question is,
+who are your siblings? Now we're thinking of those
+siblings as a network. A network of individuals related by
+blood or legal adoption, for example. So, how many siblings do you have? And you can see the first
+sample person here, if you can see these records clearly,
+there are ten. And that first sample person
+has no living siblings. They might have passed on, it may be
+that they were an only child, but they have none. Okay, and then the second
+person has two living siblings. Now, the first person is
+a network of size one. The second person now, in our conception,
+is a network of size three. The next person has three living siblings,
+that's a network of size four. All right, that’s one set of data
+we’re collecting about the network and its characteristics. It’s important to understand this
+because it’s going to have an effect on estimation, something we’ll
+talk about in our last unit. The third column of data there,
+I know these are off centered. But it says, ever been told by a doctor,
+an MD, medical doctor, if you have diabetes? Have you ever been told that? And of the ten people to
+have been told this, and then the next question over says,
+okay, about your siblings. Have any of your siblings ever been
+told by a medical doctor that they have diabetes? And this is the number of
+those siblings that have. Now, there's a big assumption here,
+right, about the measurement process. Can someone report accurately about
+their siblings on something like this? Let's just assume, we'll set the
+measurement issue aside from this course. That's one that's being
+dealt with in other courses. But nonetheless, we're collecting
+data about not only the individual. But elements in the network
+from that individual. We could go to the other elements in
+the network and collect the data as well. And expand our operations so that our sampling starts
+with one node in a network. And then expands it to the other
+elements in the network. This particular kind of result here is refered to in the sampling literature
+as a multiplicity sampling. There are multiple chances of
+an element being selected. That person who has three living siblings,
+they have four ways of being chosen. They could have been chosen, they were, or any one of their three siblings
+could have been chosen. And we need to take that into account
+before we can do proper estimation back to the population. The basis for that is still the probabilities
+that we've been dealing with. We're going to have to think about the
+probabilities in more challenging ways. Because this kind of
+sampling is more complex. Well, that's where we're going. The kinds of applications
+that we're going to do. What we're going to do next is turn to
+what I'm labelling m ere randomization. Now the word mere isn't used
+in this context very often. The actual term for what we're going to talk about technically
+is called simple random sampling. But is a kind of sampling that only
+uses randomization in its selection. And I say only,
+why would you use anything else? Well, turns out that we will use other
+information in unit three dealing with, as we mentioned before in the overview. Things that have to do with cost and
+we're going to try and reduce our cost by using
+other pieces of information. We may be able to make
+our results more precise, narrow our diameters on our spread by
+considering auxiliary information. But here, we're only going to consider randomization
+as the only feature of the selection. Not anything having to do with cost or
+with auxiliary data. What can we do with that and
+what are the consequences of it? And so mere randomization,
+only randomization is the issue here. The type that we're going to deal
+with is simple random sampling. It's not the only kind of mere
+randomized study that can done, but the one that we're going to talk about. And that's what we'll turn to unit two
+as we move ahead with our lectures. Thank you.

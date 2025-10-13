@@ -1,0 +1,239 @@
+As we sample people, or records,
+or networks, we often encounter situations in which the frames aren't
+quite what we want them to be. They're cheap, they're convenient,
+they're accessible but they're not quite what we want them to be. We're lacking something in them. Or there's some feature of them
+that poses a problem for us. And we find ourselves encountering
+this issue called weights. Weights come up in the survey
+framework quite often. And what we're going to do in this
+part of unit six in our lecture on weights,
+a first of three lectures on weights. We're going to talk about weights for a particular problem that we face
+that we've already looked at. But I want to go back
+through it in more detail and talk about the basic
+principles of weighting. That way, when you encounter these
+kinds of things in survey data, you'll be a little more
+comfortable with them, I hope. So that you will understand some
+of the origins of the weights and why they're created. And why they may be useful to
+you as you're analyzing data. You may also find this useful as a way to
+think about how you might do weighting for your own survey,
+although this is a bit sketchy. It's a bit brief as a treatment. And you really ought to consult
+someone who's done this before, before attempting some of
+the things I'm going to talk about. Even though the illustrations
+here are fairly simple. So we're going to talk about weights for
+over or undersampling, something we looked at actually with
+respect to stratified sampling. And we're going to talk about
+the framework for weighting, what the basic idea of weighting is about. And then weighted estimation,
+how one computes weighted estimates. And then specifically what
+happens in weighting for under and oversampling or oversampling. So the basic weighting framework
+is something like a funnel and undoing a funnel. We start with a frame, a population
+list or a pseudo population list. As we know sometimes the frame is not
+an exact one to one representation of the population with capital N elements. And we know very little about them. So this blue bar here is meant to
+represent a long skinny data file, a spreadsheet. That has lots and lots of records but very little information
+that we know about each. And then what we do is apply our funnel,
+our sampling fraction. We're going to take a subset of
+that population through some probability mechanism as we've
+been talking about it so far. To get a sample that is much shorter, but the data is much more detailed,
+much fatter. And so that change in the shape
+of the box is very significant. Fewer lines, but a lot of information
+about each of the elements, and that's our sample. A sample of size lowercase n,
+with the sampling fraction n/N. Some probability of being selected or being included in the sample
+that we'll call pi. But there we're going to compute
+estimates, as we've seen before. That was the fourth step in our operation. We're going to compute
+something like a mean. And what we want to be able to do
+is project that to a population. And you'll notice that we're actually
+going backwards now, to the population. We want to make statements about the
+capital N elements in the population now. We want to create if you will an
+artificial box out there, a projected box. It's not dark blue, it's a light blue. It is the same number of rows
+as our original population but the same number of columns as our sample. And there we're going to in order
+to do that undo our funnel. We're going to push thing back out and allow them to flare out
+to that full population. But it's going to be sparsely populated. Because we only have a limited number of
+things in the sample that we're going to use for this projection. And so we're going to go backwards
+with an inverse of our sampling rate. Capital N over lowercase n is kind
+of an inflation factor to go from sample to population. And there then we can compute things
+in that artificial population that might involve the original
+mean of the population. We know it's going to be an estimate. And we know that estimate is an error. And we have a way to calculate what that
+error is by looking at standard errors. And using that then in making statements
+about the uncertainty of our estimates. So that's the weighting process then. From frame to sample to
+artificial predicted population upon which we create estimates. And we retain information from the sample
+that will allow us to calculate standard errors. Estimates that we can use in making
+uncertainty statements about our sample estimates for the population. Now, in an epsem sampling system,
+that's one that we've looked at before, equal probability of selection method. The sampling probability, pi sub i for each case is the same, it's pi,
+it's the same for every case. And it turns out that in many of these
+circumstances it's the same sampling. It's the same as the sampling fraction,
+lower case n over capital N. And suppose that's what we've got. We have a system then that has
+equal chances for everyone and we've calculated on weighted estimates. We've calculated estimates on
+which we sum up the value for some characteristic y across the lower
+case n elements in the sample. And we divide that sum by the total
+number of cases in the sample. But everything is getting
+a representation that is the same. And the numerator,
+every case gets its y and the denominator,
+every case gets counted one time. So for example,
+if we had a population list of 2,000, and we drew a sample of 20 with equal chance. So that the chance selection of any given
+element is 20 from 2,000, 1 in 100. Then we're going to undo that not at a
+global sample, or an overall sample level. What we're going to do
+is undo it case by case. We're going to take the inverse of that
+selection probability as a weight, everybody in that sample of
+20 will have a weight of 100. That is that weight means that
+every case has a representation of itself and 99 others in the population. Now we know that's wrong, we know that they are not 99 other people
+exactly like each of those 20 cases. But that error is what we're going to
+estimate in our variance estimation and standard error calculation. But the weighting then is an inflation. But here the weights are all the same and
+so an unweighted estimate is fine. Because we don't need to worry about that. But what we find are that there
+are circumstances where we have non-epsem samples. And we're going to look at a particular
+case in a moment where those probabilities are not the same across the cases. And now when we go to do our computation. We're going to need to take into account
+the inverse of that sampling rate. The inverse of that pi sub i for
+each case. As a weighting factor for
+each case in the numerator and each case in the denominator of our mean. So that we have a weighted mean
+now that is more complicated. But we've got software to
+help us do this calculation. Where the wi is the inverse of
+that probability of selection and the yi is the same thing we had before. It's just that we're multiplying the two
+together to get a weighted contribution. And in the denominator of our mean,
+we sum up not counts of one but counts of their equivalent to the weights. All right, this unweighted mean that we
+just looked at is a special case of this. When where all the ws are the same
+they're all equal to 100. They're going to cancel from across
+the numerator and denominator. So constant weights cancel. Our unweighted mean's just
+a special case of this one. Again, our basic approach then
+is to weight by 1 over that selected probability. That is we're going to count each
+sample person 1 over Pi sub i times. That means we've got to keep track for every case of the probability
+of selection. Now, you should know this only to know
+that in the background that's what the sampling statistician,
+the survey folks are doing. They're keeping track
+of this kind of thing. At least in this particular
+probability sampling framework. So let's go through an illustration to
+look at this weighted estimation and how it works when we do over sampling. And I'm going to take a simple example of
+assuming that we're going to sample 10th grade students in the US. The US education system has 12 levels, first through the 12th. And the 10th graders are two years
+away from completing the system. We might be selecting them for purposes
+of studying them in terms of test scores. We want to understand
+how well they're doing. We're going to compare then to
+students in other countries. By administering a very similar
+test across the countries. And do some cross national comparisons. Now, this particular layout here is kind
+of a way of beginning to think about this. There are about 4 million,
+it's actually somewhat less than that. But just as a round number, 4 million
+10th grade students in the United States. And suppose that we've got a sample
+design that says that we're going to select 12,000 of them. Now, 12,000 from 4 million,
+that's a complicated kind of rate. 12,000 divided by 4 million, I've
+converted that into a sampling rate that you'll notice in that
+sampling rate column. Basically I took 12,000
+divided by 4,000 and divided the numerator by 12,000 and
+the denominator by 12,000. So the numerator is now 1,
+the denominator is 333.3333. That is the selection probability. Which means that the weight is
+the inverse of that, 333.33. Every student in our sample
+represents themselves and 332 and a third other students in the population. But if we're doing an equal
+chance selection here, the weight may as well be 1. It's the same for everybody. So we're going to need to think
+about the base weight here and alternative representations. Because we're going to think about
+these in two different ways. That weight would cancel. Now again,
+here we've got our overall population. And we could do a simple random sample. We don't need to worry about anything
+else other than randomization. No, except that we know
+that we want to stratify. We want to group them in such a way. That we can control the distribution of
+the sample across dimensions of variables. That we know about in advance in our
+sample selection stratification. Suppose that what we could do is
+take our 10th grade students and divide them into two groups. Those that have potentially lower incomes
+and those that have potentially higher. Except the way we're going to do
+this is use identification for each of the students. About whether or
+not their school has programs for free or reduced priced lunches. Whether there's a high fraction of
+the students in their school who receive free or reduced price lunches. Those schools that have higher fractions
+of their children receiving free or reduced price lunches,
+subsidized lunches if you will. Tend to have students who come
+from lower socioeconomic status. And those that have low proportions, those
+tend to have students coming from higher. So we're going to have to keep our
+highs and lows mixed together. A high proportion means lower income. A low proportion means higher income. And that's what we're doing
+in this particular case. And we can stratify our
+population as shown here. Now we've added two rows. We've filled in the table. The high row,
+about 20% of our students come from schools with higher fractions
+of free or reduced price lunches. And the low, the 3.2 million, the 80%, they are coming from schools that have
+higher incomes among the students. But there's a sample size now
+that we draw from each of these. Our 12,000 are now divided up across
+these two groups, stratified sampling. In this particular case what we're doing. Is doing stratified
+proportionally allocated sampling. We're using the saved sampling
+rate in each of these. And if we apply that overall sampling
+rate to each of the two groups, the 800,000 and the 3.2 million. We get the sample size that's shown here,
+2,400 and 9,600. Or if we prefer 2,400
+is 20% of the 12,000. That's a proportionate representation
+in terms of our miniaturization of our population. But nonetheless, the weight within
+each of the groups is the same, it's the inverse of
+that sampling fraction. And we can go with that weight or
+a reduced value for it. It's all going to cancel, it's all going to wash out in
+the estimation in the end anyway. All right, so that sample size allocation
+is a proportionate allocation, 2,400 from high, 9,600 from low. 2,400 from lower income schools
+that have a higher proportion of children with lower incomes,
+9,600 from those with higher. Okay, and our weights now
+are the same within our groups. And we can either work with a weight that
+is based on the original probability of selection. Or a reduced version of it,
+since they're all the same. This is that proportionate allocation
+that we've looked at before. It has equal probabilities of
+the elements in each of the groups, but some investigators may
+prefer something different. They may find this constraining. They may say, I'm really interested
+in providing estimates for these two different types of
+students that are equally precise. Or I want to compare the two groups. I want to be able to compare the test
+scores between these groups and draw some conclusions. So they may prefer an allocation
+that looks like this. Instead of taking a proportionate
+distribution in the sample, they take an equal number distribution. We've seen this before,
+6,000 from each group. But now our sampling
+fractions are different. The sampling fraction in the high stratum, the high fraction of reduced price or
+free lunches. Has a rate of 1/133, not 1/333, but 1/133. We're sampling at a higher rate, by specifying that sample size,
+than the overall rate. And similarly for the low,
+the 6,000 there is at a lower rate. It's got a larger denominator in
+the sampling fraction, 1 in 533.33. The weights as the inverse of those
+work out to be the same kind of thing that we've seen before now,
+133 and 533. And those weights can be reduced as well. They can be reduced to a ratio of 4 to 1. Now, there's no overall weight. There's no overall weight for
+Weight A or Weight B. But nonetheless we have these different
+weights for the two different groups. This is a case of oversampling. We have oversampled the high group. And under-sampled thereby the low group. That means that we end up with a smaller
+weight when we want to combine for the high group. And a larger weight for the low group
+to compensate for the over- and under-sampling respectively. Now remember again, we did this because
+our goal was to do a comparison or have equally precise estimates for
+the two groups. But eventually we will want to combine
+them to give us an overall estimate, and now the weights are necessary,
+and they will vary. Okay, so the equal allocation, we can say, at the risk of oversimplifying
+it, for comparing two groups. The proportionate allocation for representing the population,
+combining the groups. Now let's look at the implication of this. The consequences if we look at something
+like mean test scores among these 10th graders. And what we're going to do is look
+at the two different samples. The proportionate and
+the equal allocation. So for starting with the proportionate
+allocation here now I've stripped some things out,
+I've taken out all the population data but the mean test score for the high and
+the low children are different. The high has a lower mean test score,
+than the low. The average across both groups now
+in the population is about 88. We have a score of 72 for
+the high group and 92 for the low group. And again remember those correspond
+to low income and high income. And now we have our proportion allocation
+of 2400 from the high and 9600 from the low and because that sample is in
+the same distribution as the population. If we take those means, we end up with
+the same mean for this particular sample. Whether we use the weight of 333.33 or
+weight of one or no weight at all but that's implied the
+weight of one, we get the same mean back. So it's very good for combining
+these results without any particular manipulations required to get it. So those weights are the same
+as what we've seen before but they are not really necessary
+in our calculations. But now let's suppose that we look
+at the disproportioned allocation. Same mean test scores within the two
+groups, but now we're doing 6,000 high. Over sampling the high, and
+under sampling the low. And when we do those averaging
+now across the sample values where they've got a mean
+test score of 72 for the high. And 92 for the low,
+we see that our mean is 82 and not 88. Our mean has been reduced because
+we have a disproportionately larger number of reduced or
+free lunches and we've drawn the mean down to
+their lower mean test score. The weights can be used to compensate for
+this. And so the weights that we see here
+are shown in the next columns. And the weights of 133 and
+533, or 1 and 4, can be used to calculate
+our weighted result. And we get back to
+the actual population mean. The weights restore so
+to speak the balance. So in the unweighted case for our disproportionate allocation if
+we've got 6,000 kids with means of 72, and 6,000 kids with means of 92,
+the overall average is 82. But if we apply our weights now of 4 for
+those children who have scores of 92 and 1 for
+those who have scores of 72. On average,
+we end up restoring our mean to 88. And the same thing's true whether
+we use that weight of 4 and 1 or we use the weight of 533 and 133. We get that same weighted mean
+that's our population mean. Okay, so this oversampling and
+undersampling can be compensated, used very effectively for
+certain purposes. And compensated to allow us to
+do not only the oversampling and undersampling for
+comparisons but also combining. But we have to be careful
+with the weights, we have to keep track
+of the probabilities. And then take their inverses
+as weighting factors, and use those inverses as weighting
+factors in our estimation as well. Well, it turns out that we use these
+weights in other ways in our sample designs to deal with some
+deficiencies that arise all the time. Non-response and non-coverage. So in our next lecture what we're going to
+do is address how weighting is used there and use on top of the weighting, we've just seen in combination
+to produce a final weight. Let's look at that next in
+lecture four of unit six. Thank you.

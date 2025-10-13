@@ -1,0 +1,269 @@
+Welcome back. I've taken a little break here in
+the middle of our Lecture 3 of Unit 2 in our overall course on sampling
+people's records and networks. To continue our discussion then
+about SRS sampling distributions. Lecture 3 here under
+simple random sampling. And you recall that we were just
+talking about had to do with a property of simple random
+sampling with respect to means. Whether or not on average those means
+are the true population value and we defined something
+called an expectation. Which was an averaging across all
+possible samples that we could imagine. Or well, that exist in theory at least. And now what we want to do is talk about,
+now that we know that on average we're going to be centered right at the truth
+population mean that we want to estimate. What spread in values do we have? So I want to talk about
+standard errors and. And here we'll go back and recall something that we did when
+we looked at simple random samples. When we looked at our own
+particular simple random sample and talked about a standard error. A standard error where we calculated
+a sampling variance from our one sample. And we used a formula there. And I'm just showing the formula here. It doesn't really matter. We don't have to memorize this or
+learn it in particular. I just want to go back to it. There is a way to take
+the information in the sample and compute what the variability is
+across all possible samples. For these centered set on the population
+value sampling distributions under Simple Random Sampling. Now how do we know that? Where does that come from? That's just a formula. Did somebody just invent this and
+then they tested it out and got the right answer? Did they simulate this? No, they did the same thing we were
+just doing with respect to unbiasedness. They raised the question, they said well, what's the variability
+from one sample to another? First of all let's call that something. We're going to call that
+the variance of the estimator. The sampling variance of
+the estimator would be a better term. Now rather than call it E for expected
+value, we're going to call that var. This is a notation that is not
+widespread in statistics but I thought in a course like this,
+this would be a little bit better. Var capital V-a-r. Capital V to say this is the true
+spread of all those means. We're going to calculate that variance and
+how would we calculate it? Well by definition,
+here's what we're going to do. We're going to take this mean that we've
+gotten from each one of our samples. There it is again,
+there's our y var sub s. And what were going to do is
+compare it to the expected values. So the expected value is
+the population mean but this is in theory now we don't
+know what that value is. That's what we're trying to
+estimate that's our parameter. What were going to compare each of our
+sample means from all those billions and billions of samples that we've got,
+possible samples. We're going to take the deviation and
+we're going to square it and we're going to add it up, again, across
+all possible samples and then average it. Divide by the total number
+of all possible samples. It looks a lot like that expression
+we just had except now here we're not just averaging
+the y vars in this. We're averaging its deviations. From the middle of the distribution,
+the expected value of the distribution. That's the definition of this thing. Now, that's inoperable. That helps us only to understand the
+principle, it doesn't tell us how we're actually ever going to get a value for
+that, how we're going to estimate that. Unless we do all possible samples or large number of samples when
+we sample from the samples. Instead of doing one sample,
+we do ten samples, or 20 samples and we calculate an empirical estimate. That would be one way to do this, but it turns out there's a shortcut
+that's algebraically equivalent. And the algebraic equivalent is
+that formula that we just gave you. That formula that we were just looking at
+in which we said the sampling variance, I highlighted that,
+that's on the left hand side that Var(y) that thing that
+we just defined above. Is algebraically equivalent to
+if I take that expression for the mean,
+it's algebraically equivalent to one minus lower case n over capital N,
+S squared over n. That thing on the right-hand side that
+we just sort of gave you from before, that's the algebraic equivalence of
+that messy formula in the middle. Now how do we know that? Somebody did the algebra. We do that in proofs. We do that in the proofs, or
+demonstrations if you will, in the theory version
+of a course like this. And show how that thing
+arises in practice. Now that kind of thing we
+didn't discuss very much, but now I want you to understand. It comes from a definition. It comes from that definition
+of sampling variance. It comes from our imagining
+all possible samples. And then calculating these deviations of
+the results of our sampling processes, our imagined ones. And we get an expression that doesn't
+require us to know all possible samples, it requires us to know three things. It requires us to know the variability
+of the elements of the population. That's not an easy thing to get at. We don't have the population guide. We can't get at it, but
+we could mimic it from the sample. But that's one of the components. The second component is that
+odd multiplier out in front, one minus lowercase n over capital N. This is often called the finite
+population correction. The finite population correction. Some people abbreviate that and
+you may see it. It's just useful to know. They'll abbreviate this as the f for
+finite, p for population, c for correction. Now, they'll also write it as 1- f. F is the fraction of the population
+that's in the sample. So, one minus that fraction,
+that's what that Fpc is. It pops out in that formula. It comes out of the algebra. It turns out it's origin has
+to do with the fact that when sampling from a finite population,
+you get some unexpected effects. If you sample from an infinite population,
+without replacement. Remember, we're doing
+without replacement sampling. We're not allowing the same element
+to be duplicated in our sample. The same element is
+selected more than once. We set it aside. We keep going til we have lowercase and
+distinct elements. Okay, so that's a multiplier. That 1- f, that 1- n over capital N
+is a multiplier of the S squared. And as the sample size is large
+relative to the population size, then that fraction is large and
+one minus that fraction is smaller. And so it sort of reduces
+the impact of the S squared. There's one more piece to it, though and that is the whole thing is
+divided by n the sample size. And this is the key. This is the key to understanding
+what's going on in practice. So that as the sample size
+could be different values, the sampling variants can be different. If we have a sample size 20 and
+a sample of size 40 to consider. We know that the sample of size 40
+will have smaller sampling risk. The smaller variability that is the range
+of the spread of values that we are going to be dealing
+with will be smaller. Because we're dividing by lower case n. That 1- f is a relatively
+minor correction, we'll deal with that in
+an upcoming lecture. But that one over n is the key. It's going to take that S squared which
+is the same no matter what sample I draw. And divide by n, and the samples
+could have different sample sizes. And as the sample sizes increase or decrease around various values,
+that variance is going to increase or decrease, well decrease or increase,
+in the opposite direction. What I mean by that is,
+if you can see this little drawing here, of the horizontal
+dimension to sample size, going from small sample to large sample,
+as you move from left to right. And the vertical dimension
+is the sampling variants. And so as we move increasing in sample size, we see that we
+are decreasing in sample variance. Well, that's the role of that 1 over n. It's tempered somewhat by that
+finite population correction, but s squared is s squared no matter
+what sample size we draw [COUGH]. And so the variance decreases. Now actually what I've got here is
+the standard error, the measure of precision that we've gotta use when
+we want to think about our estimates. But it's the same kind of relationship for
+the variance in that way. Why do we have to deal with that standard
+error, because we're on the wrong scale. If our y variable happened to be income, it's in dollars, it's in euros,
+it's in some currency. The mean is the mean of that currency,
+so a mean income of $50,000 or 45,000 euros or whatever it happens to be. But the sampling variance
+would be in dollars squared. It's all on the square dimension. I personally would rather be paid
+in dollars squared than in dollars, but it's not a reasonable measure,
+so we convert back in a way. We take the square root of the variance in
+order to get to get to a standard error, and that's what we're showing there. It's just the square
+root of that expression. And this is the quantity that was shown
+in that plot on the previous slide, decreasing standard errors
+as the sample size goes up. And gradually decreasing, more and more
+gradually decreasing as you get to larger and larger sample sizes, because they're
+having less and less of an overall impact. Okay, now this is a lot of notation,
+a lot of formulas, and we warned you it was coming. But it's not so important the formulas as
+it is to understand what they represent. They're very compressed ways of expressing
+some important ideas for us to understand. And what we've observed here is that for
+our particular phenomenon, where we're dealing with a certain
+variable that has variability in the population, we'll call that S squared
+or S in the standard error domain. As the square root of the sample size
+increases, that standard error goes down. Because the S doesn't change,
+it's just the sample size that changes and it's tempered to a certain extent by
+that finite population correction, the square root of it. That's the thing to remember
+about what's going on here. And that will help us in
+our design decisions. But there's one key part of this
+that remains to be resolved, and that is this is fine in theory,
+but what do I do in practice. I don't have S,
+where am I going to get it? Am I going to get it from a census? If I've gotta do a census,
+then why bother with the sample. Is there any way to get that S from the
+sample, because when I have the sample, I will know the sample size and
+for simple random sampling, I know the size of the list. Now, we'll deal with some situations where
+I don't know the size of the list later. But here, I know the size of the list,
+capital L. And so I have all the elements
+to compute except S. And so what happens then in practice is that we estimate the variability
+from one sample to another. There's an element variance that we
+need to have, or it's square root, what's called a standard deviation. And what we're going to do is
+compute an estimate of that element variance from the sample and
+substitute it. Now, when we do that, this substitution, this is meant to be a lowercase s squared
+in contrast to the capital S squared, it's estimating the population
+element variance. And it's calculated from the data the same
+way the 1 in the population is, but restricted to sample data. We only need the sample
+data to calculate it. That means that if it's a good estimate,
+which it turns out to be. Actually, this lower case s squared,
+I won't do the notation, but you remember that expectation. On average, the little s squares
+that we're computing, and there could be one for
+every possible sample we select. If I average those,
+they turn out to be capital S squared. Lower case s squared, the sample
+element variance, is unbiased for the population element variance. Okay, now I've got a little
+notation off to the side. In the survey realm,
+proportions tend to be widely used in terms of some
+of the data collection. Where they're collecting
+data in questionnaires and they ask for responses across a scale,
+certain categories. And so
+a lot of people will convert this and start writing these expressions
+in terms of the proportions. When it's a proportion, that is, the variable is 1 if you have
+the characteristic, 0 otherwise. 1 if you hold an attitude, 0 if you don't. That kind of thing then allows
+you to take the proportion and calculate the s squared directly from
+the proportion and the sample size. That's just an annotation to
+remind me to say that to you. That in the literature, in the actual
+application when dealing with a lot of proportions in a survey, people will tend
+to write this in that particular form. But, what happens then is that we
+get estimated sampling variance. We worry about now not so
+much the capital Var, but the lower case var,
+the [LAUGH] ar is lower case though. But that first letter is shrunk
+from capital to lower case. And that's because it's now derived
+purely from sample information. It's a sample quantity. And that sample quantity looks
+exactly like the one we saw before. There's our finite population correction,
+(1- n/N), that 1-f. There's our division by N, but now what
+we're doing instead of using capital S squared, we're substituting lowercase s
+squared in order to get a calculation. And we'll do the same thing in the sample. We will multiply all of this stuff out,
+if we have a proportion and get a different expression that allow
+us to work with just the proportions. This, if we go back to what
+we talked about in unit one, is key, being able to make
+that kind of an estimate. Now let's go back to the progression,
+we have the definition for the sampling variance. We took that definition and
+did some algebraic manipulation and got this funny expression,
+(1- n/N) S squared/n. And now we've estimated that the S squared
+to get an estimate of the sampling variance. Now from one sample, we know that
+because it's simple random sampling, that sample mean is on average correct,
+unbiased. And we have a way to estimate
+the spread across all possible samples, the variability of all of those estimates. So we've got a very powerful set of tools
+and, there's one more step of course. We'll go to the standard error. Actually, there's two more steps, because
+we're going to calculate a standard error here, and we're just going to
+replace capital S with lower case s. Take the square root of that,
+that element variance. And this is what many people refer
+to when they talk about precision, the precision of the sample. They're really thinking about not so much
+the variance, but that standard error. How large is it and
+how precise is my estimate? Smaller standard errors are better. But they go a little bit further than
+that and we've seen this already. It turns out that that y var, that sample
+mean that we've got has another property. And that is because it's based on
+a sum of the sample observations for large enough samples,
+that y bar is normally distributed. That the shape of that sampling
+distribution, those values, is that bell shaped curve
+that we looked at before. That normal distribution allowed Namen,
+under the law of large numbers, to define a confidence interval. He formed an interval with
+that precision measure. He took that precision measure,
+I know it looks like reading this from left to right,
+that this is all about the mean. This is all about the proportion. This is all about the statistics. That it looks like we're settling about
+the y bar but really what's key here understanding is that we're taking
+the estimated precision in our sample. And we're applying it to the mean. We're saying,
+how uncertain are we about that mean? We've got a certain ball to play here,
+this has to do with the normality. The Z is a standard statistical way
+of expressing numeric statements, numeric values from
+the normal distribution. And this is defined or
+derived in terms of our confidence intervals to represent
+a particular set of values. But it's multiplying times
+that standard error. And if the standard error is really big,
+we get wide intervals. The standard error is really smaller,
+we get narrow intervals. That gives us the sense of uncertainty
+about the quality of our estimate. Now, for large samples,
+now y bar is normal. We use the central limit theorem. There is actually several different labels
+for this, the law of large numbers, to form an interval around y bar. And you'll notice here,
+I've replaced the y bar or the z statistic that we were
+looking at before with 1.96. There are particular values for
+Z depending on the composite level. And in this case,
+we have 95% composite level. That is 19 time out of 20, we think that
+our true population mean will fall in this interval, 19 times out of 20. 19 samples out of 20 that we would
+do from that sampling distribution. Well, at least on average
+that's what we're going to get. And so 1.962, round that up to two. I know that a lot of people like to stick
+with that and say I don't know that, I should round it because it's a precise
+value for the normal distribution. But for quick calculation, back of the
+envelope calculations, too insufficient. And now what we've got
+a statement of uncertainty. Our statement of uncertainty says
+what our uncertainty level is. 5% uncertainty. It tells us what an upper and
+lower limit are around a central value. And this captures for
+us the essence of our sampling problem. This is the way of making statement about our estimate that captures
+the quality of what we're doing. So we did this before, right? You recall for our simple round
+sample of size 20 we saw this. There, we did something
+slightly different. But we did the confidence interval,
+we did calculations for this. And in doing those calculations for
+the confidence interval, we did our y bar. And our standard error of y bar. We had a z value that was used. And it turns out that
+the z value has a problem when our sample sizes are not large. And sometimes our sample sizes
+are not going to be very large. And so we need to take that into account
+that the sample size is not very large. And so a t statistic is used. Now, we don't have time to go
+into what's the t distribution, it's very closely related to the normal. As a matter of fact, when we have really
+large samples, the t is the normal. Or the normal is the t,
+however you want to say it. The t is just there when
+the sample sizes get smaller. And usually, you start seeing the t
+different from the normal when the sample sizes start getting smaller than 100. Then you start seeing more
+substantial differences. So this is a quantity that's typically
+used in these confidence intervals. When you're being careful to take
+into account small sample sizes. But nonetheless, the bottom line down
+here is, whether we use the z or the t, a confidence interval
+that represents our uncertainty. Now there's a lot of
+uncertainty in this estimate. This was our sample in which we were
+estimating incomes of faculty members. The population of 370 faculty members and
+we go from 66 to 98. That's a pretty broad range. We're not real certain
+what that value is and 19 times out of 20 we think these kinds
+of ranges are going to capture it. But [COUGH] that range is pretty wide. If we wanted to do a better job,
+have less uncertainty. We can attack that problem by
+attacking the sample size. We can specify the sample
+size that will narrow that, to even a pre-specified amount. And that's what we're going to
+do in the next lecture. We're now going to turn given this
+understanding of sampling distributions, understanding of expectations
+of sampling variants. Of estimating sampling variants, of estimating standard errors,
+of calculating confidence intervals. We're going to take that and apply it to
+the problem of calculating a sample size to get us a pre-specified
+level of uncertainty. That's the interesting design problem. Yes, the calculation,
+the estimation is all important to do. But our purpose here is to
+think about how to design these data collection studies and
+this is a key part of it. So join us in the next lecture. In lecture four, where we discuss sample
+size for simple random samples, thank you.

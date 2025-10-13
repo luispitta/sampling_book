@@ -1,0 +1,123 @@
+In our last part of lecture five we
+were dealing with a problem concerning unequal sized clusters and the mess
+it was making of our sample design. We were either dealing with
+more complicated estimators, or because of variation in sample size,
+or a nice clean sample design, but the need to wait. The need to create weights to compensate
+to avoid bias in our samples, in our estimation. And as I said, we're going to come
+back and talk about weighting later. But here what we're going to do is
+continue in our discussion of dealing with the real world and sampling unequal size
+clusters in lecture five by continuing on our discussion by looking at
+an alternative to these other schemes for dealing with unequal size
+clusters in our sampling. In dealing with them through a sample
+selection mechanism in two stages, that we're going to call probability
+proportionate to size, or PPS. So what we require is a method that has some of the properties of the two
+things that we were just dealing with. Number one, equal chance,
+one in 60, for all the employees. That was an attractive feature for
+us, and so, that Epsem, equal probability of selection method was
+attractive, and we want to retain that. At the same time, we would like to
+retain the features of the alternative method where we had the same number of
+elements in each of the subsamples. So let's consider two clusters
+from two hospitals from our population of 12 in which we're
+going to take 15 employees in each. And we've just set up kind of an algebra
+problem here, a selection equation. Our overall f is going to
+come in two parts. It's gotta be one in 60
+as our overall rate. As going to be done in two parts. A probability of selection
+of the cluster P of alpha, alpha for the cluster,
+and then within sampling, where we're taking 50 employees
+from those that are actually there. It depends on which cluster are selected
+as to what that denominator is, so I've just put in capital B sub alpha. It could be 50 from 60. It could be 50 from 180. Could be 50 from 1,860. But that's what we've just said by
+saying that it has to be equal chance. That's the 1 in 60, and in two stages
+on the second stage, I want the same number of employees, the same number
+of elements from each of the clusters. That's the beginning. Now what should that piece of alpha be? So we'll do a little manipulation. We can do this to figure
+out what it would be. But it turns out that that first
+stage sampling fraction, if we look at that last expression there, the
+probability of selection of the hospital, the alpha hospital, is going to be
+proportionate to the size of the hospital. B subalpha over 3,000, that's what
+will get that equation to work. But wait a minute? How am I going to sample hospitals
+with varying probabilities? I know how to sample employees with
+varying probabilities across the hospital. That's easy, I just take the same number
+and then take it from how are many are they're, but
+how am I going to do something like this? Well the fractions work out this way. This kind of thing says that what we're
+going to do is take two hospitals with probabilities proportionate to size,
+and then take the same number of employees in each, that's what all of
+these equations refer to. Across two stages we're going to get
+balance in the overall sampling fraction for all the employees, they all have the same chance of being
+selected by doing it in two steps, where the first step, we over sample
+big hospitals and under sample small. But, in the second step, we over sampled
+employees in small hospitals and under sample employees in large hospitals,
+and the produce of the two always
+comes out to be our one in 60. Boy, I need an easy way to do this
+because that sounds complicated to me. It's hard to keep track of,
+this is an bookkeeping problem. We know have to keep track of
+probabilities of selection for the hospitals and for
+the employees within hospitals. But it can be managed as
+long as we're careful and go through this slowly with
+our available information. So let's go back to our list of hospitals,
+here they are now, here's all twelve of them,
+and do a PPS sample. And I've added a new column here,
+the cumulative size of the hospital. So, notice for hospital one, the actual
+size is 420, the cumulative size is 420. For hospital two, the actual size is 180, the cumulative size is 600,
+which is 420 plus 180. For the third hospital, it's size,
+it's actual size is 120. It's cumulative is 720. 600 plus 120.
+We keep adding in the sizes successively, till we get down to the 12th hospital
+where its actual is 240, and its cumulative size is 6,000, which is
+the total number in our population. So here's the process, what we're going to
+do is generate a random number now, not from one to 12 but from one to 6,000. Let's suppose that we select two
+random numbers from one to 6,000. The first random number is 702. Four-digit random number from 1 to 6,000,
+07, 02, 1744 is the second one. We're going to go through and
+find the first hospital on the cumulative sum whose cumulative sum is greater than
+or equal to the first random number, and then we're going to do the same thing for
+the second number. Find the hospital whose
+cumulative sum first exceeds, as we're working our way down the list,
+to that number. That chooses hospital three and seven. So you can see now I've lined
+up 702 with hospital three. Because 702 falls in the range, if you will,
+from 601 one more than hospital two's, but it's included in hospital three's up to
+720, and the 1744 falls in the range, let's see, from hospital five to six,
+from 1561 to 1920. In the first case,
+there are 120 numbers from 600 to 720. 601, 602, 603 and so on through 720. 120 numbers we chose one of them. But that means that I could have
+chose any one of the numbers from 601 to 720 in that hospital. The chance of that hospital with
+one random selection being selected is 120 from the 6,000. Of, that's what we wanted, is proportionate to it's size
+using the cumulative numbers. Similarly for hospital six,
+there are 360 numbers that go from 1561, the one that's above hospital five,
+from 1561 to 1720. 360 from 6000,
+that's its chances of being selected, and we happen to get one of them, 1744. So now, we've made two draws, each with
+probabilities proportioned to size, which is what we wanted
+in the first stage. Now we can go to the second stage and
+take 50 at random from 120, and 50 at random from the 360 in hospitals
+three and six, respectively. That has a danger, though. We could end up selecting
+the same hospital more than once. We could have gotten the same
+random number twice or random numbers from the same hospital. So to avoid that problem, we're going
+to do a form of systematic sampling. Something that we'll come back to, so
+just learn the mechanics right now. Let's start with that
+first random number 702. Now let's pretend now that this was
+selected not from one to 6,000, but from one to 3,000,
+the first half of the list. We're going to get a selection from
+the first half of the list for our first one, and then we're going to
+find the selected hospital as before. But then we're going to add 3,000. Go from the first half of
+the list to the second, to 3702, which gets us a different hospital,
+in that case, hospital 10. This is what's called systematic
+probability proportionate to size. We're dividing the list into two groups, because we have two
+samples that we're doing. The first half of the list from
+which we draw one at random, and the second half of the list from
+which we count the size of the group, the list size divided by
+two to get the second one. And that gives us our two selections
+then of hospitals three and 10, and we will not select the same
+hospital more than once. We only get one shot at each. One from the first half,
+one from the second half. So in that particular case then,
+we now have our sample method in terms of not only being able to sample hospitals
+that are unequal in size, with equal chance of the elements within them, and
+get the same size subsamples from each. But do this in a way that avoids
+getting the selection of a hospital more than once, systematic PPS selection. All right.
+That's a little complicated but I wanted you to understand this because
+this is what happens in the real world. It's a more complicated version
+of what we've been doing. We're going to do one more
+topic here on subsampling. I want to come back to
+that subsample size B. I know this is a little
+out of sequence but it's kind of hard to put it in sequence
+because these are practical problems and they don't necessarily fit together
+in some neat logical order. But we're going to talk about how
+to figure out how many elements to take for cluster. Where do we decide to
+have 50 per hospital, besides saying two hospitals for
+a sample of a 100, why two? Why not three or five or something else? Okay, that'll be our next
+topic on subsampling. Please join us then for our last lecture
+in unit three at cluster sampling. Thank you.

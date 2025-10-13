@@ -1,0 +1,138 @@
+We're resuming our lecture three
+on sampling people, records and networks in unit one on just
+sampling as a research too. And we're going to be in
+this particular case, picking up where we left off in
+our first part of the lecture. You recall that we were talking there
+about censuses versus samples and how samples can be valuable and
+then whether or not we use randomization probabilities,
+or not. What techniques go with those
+different kinds of probability and probability samples, and then we want to
+continue on with a couple of additional topics, and that's where we are now. We're now going to turn
+to looking at frames. Frames is one of those transcending generic terms that refers to the set of
+materials we use for selecting the sample. Now usually, we think about that in
+terms of a set of materials that are assembled all in one place,
+a simple, single list. And so our techniques that
+we've been talking about, many of them can be applied
+directly to those kinds of lists. Simple random sampling and stratified
+sampling and systematic sampling, but there are also situations in which
+we have not a simple list frame, but more complex frames. Frames that we have to assemble,
+because we don't have that list and we need to assemble our sample by
+doing it in stages step by step, so that we can reduce the costs of a hugely
+expensive operation building a list. We want to be able to use existing
+materials and not invent new materials for what we're doing. So area frames are an example where
+we may draw a sample of persons in a country by first not sampling,
+attempting to create a list of all the persons
+which we don't currently have. But by first assembling on this
+the geographic areas where they live, all the geography in our country. So, maybe it's all
+the districts in the country. Maybe it's all the enumeration
+areas in the country. Enumeration area is being
+a senses type unit and we attempt to draw sample not attempt,
+we draw sample of those areas first, because we're going to
+link people to them. But then when we go there to those areas, we discover that still
+a lot of people there. Be a lot of time and
+money to create a list of the people and then we're only going to
+use a subset of them. So, we might subdivide it further. We might take the district and
+divide it into blocks or enumeration areas, or some smaller
+subunit and then draw a sample of those. And so, we start with a list first of
+districts and then within the selected districts list of sub-districts within
+them and we sample those sub-districts. And now we're done to a list of sample
+sub-districts and we go to those, and then we recognize we can go, and
+obtain a list of households. We still don't want to list all
+the people, because too many, we're only going to take a small share. We don't want a list more than we have to. So, we list the housing in it and
+draw a sample of those. Now, we go to the sample housing
+units in our fourth stage and now we list the people. That area, area, areaor housing unit
+person, that kind of an area frame. Lot of different lists being assembled
+there, some of them being assembled for the first time, our own listing operation. These kinds of things can create
+problems in our ability to match up our frame to our population. Even in the simple list case, we may
+have cases where there are elements in the population that
+are not in the lists and things that are on the lists that
+are not in the population, and so on. Those kinds of problems can be dealt with
+as we think about the particular frame that we have. And so there are remedies that people have
+for addressing these kinds of problems and making sure that we get the best possible
+match between population, and frame between population, and the list or set of
+materials we have to select our sample. To those frames we apply, the techniques
+of we've already mentioning. So, we mention simple random sampling and
+systematic sampling. But here in this techniques, there's a particular recommended set
+of ways of caring out of the selection. There's several ways to do the same thing. There's several ways to do
+simple random sampling, we'll look at some of that as we go along. But these are particular techniques, particular forms that
+are followed in the selection. Sort of like when I was in high school and
+on the track team and throwing the discuss, there was a form. I was terrible at it. I was not a good discus thrower. But nonetheless, there was a technique, a particular approach steps that were
+involved and that's what we'll look at as we look at the sampling techniques
+that we're going to be examining. There are techniques that are used that
+are applied to lists, to list streams and then there are techniques
+applied to cluster situations, to area samples and those kinds of things,
+to multistage samples. And so, the techniques are somewhat
+different in each case. Regardless of the techniques and
+the frames that they're applied to, there are going to be
+deficiencies in our samples. For example, I've already mentioned
+some of these like nonresponse. We've drawn a sample very
+carefully from a list. We've assembled that sample and we're out
+recruiting individuals in that sample to participate in the study and
+some of them don't provide data, because they don't want to provide
+the data or we can't locate them or there is a language issue or
+all sorts of things that can happen. Sometimes, it's they don't provide
+us with information at all. In other cases,
+they provide us with some information. But for some items,
+they don't provide the information. They don't want to tell us their income. They don't know the answer
+to a particular question. So there's missing in the data,
+nonresponse. That's the sort of breaking the link here. We got such a nice
+carefully selected sample. And yet, now we're losing some
+of the individuals that we've so carefully assembled. There's also some problems
+with respect to coverage. One of the framed problems that I really
+didn't highlight is the fact that there is this discrepancy sometimes between
+the frame and the population. The frame doesn't cover all
+the elements in the population. Now that may be because of
+a deficiency in the frame, it may also be because of
+a deliberate choice we've made. We decided not to cover population in
+a remote portion of a country, because it's very expensive to get there and
+the size of the population's fairly small. It's not that we're not interested
+in them, but excluding them. Saves us bundles of money and
+it makes very little difference in the final conclusions
+that we're doing overall. Both nonresponse and noncoverage,there's
+compensation to try in bring that break in our link back together a little bit and there's something called weighting
+that's use to this kinds of things. Now weighting is use to compensate for
+unequal probabilities selection, but sometimes it's also use to just for
+non response and noncoverage technique called
+poststratification in which we attempt to make the sample look like some outside
+control information for our population. But nonetheless, we're attempting to
+address these deficiencies post hoc. But then we also have to
+consider one more factor here and that is complex designs, but there a lot
+of things that we could put together now as you can see whether randomization,
+clustering, stratification. There are various kind of
+estimation procedures. There are a weights that could be
+considered and involve in this process. All of this are departures from
+the simple, simple randomization, simple random sampling is a base
+as the starting point, but there are all these departures
+that we introduce to save money, to make our designs more efficient,
+to correct various kinds of deficiencies. And when we introduce these features
+that are not just randomization into the process, the estimates that we have
+to compute become more and more complex. A simple mean or a simple proportion
+becomes much more difficult to compute, because of the complexity that goes on. That complexity is reflected
+as well in the kind of measure that we're going to talk about that are
+used to assess the quality of our results. There'll be something that we call
+standard airs or conference intervals so we'll talk about that. And in those kinds of estimates for
+our results, being able to compute those for more and more complex
+designs that involve clusters and stratification, and weight,and other
+factors, it becomes a complex task. We need software beyond the standard
+software that can handle these complex design features correctly. And so, it's necessary for us to talk
+a little bit about variance estimation. We'll do that in the last
+unit very briefly. We'll talk about some of the different
+ways that quality of our data can be assessed. Taking into account this complexity and
+some of the software that's available to do this kind of thing,
+that makes it opaque. You don't even have to worry about this
+kind of thing, because the software provided you give it the right kind of
+information handles all of these things. And what we'll see is that
+as we change the technique, we change how we compute our estimates. That as we move from a simple
+random sample to a cluster sample, we're going to change how
+we compute our estimates. And as we do that,
+we need to keep the design married to, connected to the estimation procedures and
+the software will help us do that. It turns out that this complexity follows
+the randomization and there are many ways that we can randomly select samples
+that we're talking about it. And so, we're going to need to keep track
+on how we selected the sample in order to make our estimates as sound as possible. In our next lecture, what we're going to do is turn to
+the second of our five questions. Where I asked the question about why might
+we randomize and how should we do it? And so we're going to look at random
+numbers, what they're like and how they are used in selection. We won't worry about technique
+as much as about the implication of using random selection and
+getting our sample, and we'll look at the consequences of
+randomization in lecture four. Hope to see you there. Thank you.

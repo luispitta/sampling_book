@@ -1,0 +1,196 @@
+Welcome back to the second
+part of our lecture, second lecture on cluster sampling, on saving money in survey sampling with
+sampling people records and networks. Where we have in order to get at
+the people or the records or the networks, we have them grouped into these kinds
+of groups that we're calling clusters. They are called clusters because that's
+what we use in our sample selection. So there's no, it's a generic meta term
+that we're using to apply to these. It's how we're using these particular
+groupings in our sample selection. And you recall that we have been
+discussing complex sampling, the cluster sampling is in
+addition to the random sampling, to make our designs go from simple random
+selection to complex random selection. We started out with
+equal sized clusters and taking all the elements and
+that's what we're still dealing with here. And in this particular lecture we're
+moving to discuss the design effects and intraclass correlation,
+more about intraclass correlation and roh. So we just in the last lecture,
+the last part of this lecture, talked about how the design effect
+is driven by three factors. The simple rate of sample
+variance is a base of one, the number of elements we select for a
+cluster, we were calling that lower case b in our particular illustration 24 and
+the rate of homogeneity roh. Let's talk a little bit more about roh,
+where is it coming from? How does this homogeneity arise? Well, for
+the school children in the classroom why would there be differences between the
+classrooms that would be bigger on average than they are among the children
+themselves in terms of their characteristics with respect
+to immunization status? And this roh as a property of the cluster
+is reflecting something important that is more of a substantive
+rather than statistical property. It's not, statistic is introducing this,
+its how the kids get to school. Most of the schools
+are drawing their children from the neighborhood around them. Then what's happening when we see
+differences between classrooms in schools, but also classrooms across schools, is that we're seeing differences
+across neighborhoods. Well, what would make for differences across neighborhoods
+in immunization status? We can answer that question
+from our own understanding. We understand that these neighborhoods
+would differ in terms of The income level of the families,
+the education level of the parents. And these factors could influence
+immunization status because low income households would have potentially
+less access to healthcare. Might also have higher cost for
+healthcare and certainly as a fraction
+of their expenditures. And then think about this
+differently because of the cost, access as well as cost. They also may come from
+educational backgrounds where this kind of thing has not being
+emphasized in their history. But wait a minute, why are there incontinent education
+differences across the neighborhoods? That's a broad social phenomena,
+a structural element in our societies. Neighborhoods are not the same. Often times the differences between
+neighborhoods have to do with the economics. The housing stock is different
+in different neighborhoods. In that housing stock will cost
+different amounts of money, there's often times homogeneity in housing
+stock within a given neighborhood. And that draws people
+with similar incomes and education backgrounds to purchase
+those homes,those rental homes. Parents will also chose neighborhoods
+where they can afford to live, then perhaps have the reputation of having
+schools with higher quality education. All of these factors are going on and there what's creating these
+differences among the classrooms. And that kind of thing it's
+not a statistical phenomena, that's a subset phenomena that's
+having an impact on our statistics. All right, so roh,
+this idea that people group together in groupings where they're more alike, and
+therefore different between each other, leads to homogeneity
+within these groupings. Homogeneity that is
+almost always positive. People are more like one another,
+a positive correlation, than they are different from one
+another within the same clusters. Now this is the typical,
+I'm not saying this always exists, but this is the typical situation. And so, roh is positive. Now it's coming about then because
+of factors such as the environment, they may be exposed to certain things
+in the environment that are different. It may be because of self-selection. They've chosen to live in this
+neighborhood because of the income, that they have and
+the housing that they can afford. They may have chosen to live there because
+of the schools, the nature of the schools. And they've chosen to be in that
+neighborhood with other people who are also have similar concerns or are making similar choices
+with respect to education. It also is due to the interaction
+among the subjects. It may be that in that community
+they talk of one another and on that neighborhood they have
+similar concerns about immunization. Its's dangerous,
+there are complications or its benefits. That interaction tends to
+change their attitudes and make them more alike with
+respect to their attitudes. All these things are leading
+to differences between and homogeneity within. So roh is as I said more
+substantive than statistical. Now that simple random sample of size 240
+in the cluster sample can be thought of then, because of this and
+that's 240 independent selections. And yes, we had ten independent
+selections of clusters, but there's an equivalency
+here that we might draw. It's a little hard to imagine,
+but just think about it this way. I'm closing my eyes to try and imagine it
+because it's a little bit complicated. If I had a simple random sample size of
+240, and I was in the cluster sample, losing in precision, what would be the cluster sample
+equivalent to that simple random sample? That is, how many elements could I have
+in that clustered sample that would, after I factor out that homogeneity and
+that increase in variance be the equivalent of
+the 240 in the simple random sample? And here's another use
+of that design effect. There's a term called
+effective sample size. So the 240 simple random sample
+size is when divided by 3.029, that design effect we calculated,
+79, about one third as large. That is, our cluster sample would be
+the equivalent of a simple random sample of size 79, not 240. And that now begins to
+give us some impact, some notion of the impact of
+the cluster sampling on our outcomes. So that effective sample size is another
+measure built around the design effect that we can use to asses the effect of
+the cluster sampling on our results. Let's look at two illustrations, just
+to look at this road a little bit more. Suppose then instead of the distribution
+that we saw in the last lecture, for those ten classrooms, we had this
+distribution, where we can see quite clearly here, that these cluster
+samples are really unevenly divided. We're seeing that we have
+three of these where we have no immunizations occurring at all. And we have six of them where
+everybody is immunized. And then because of
+the numerator ask to add to 160, we've got one that's sort of in between. Now that's a huge difference between. As a matter of fact, that's the largest
+difference between we could get. In this case it's almost sort
+of perfect heterogeneity and perfect homogeneity within. So start of the calculation here. Calculate the s of a squared 0.2222. If you remember our s of a squared,
+well maybe you don't but you can come back and look at it. When we had the other distribution
+was around 0.027 something like that. Well, here it's much larger. Well, that's what we would expect and
+the variance used to be 0.0027, now it's 0.022, 0.02178. So our variances have gone up a lot
+because of this virtually perfect heterogeneity between and
+homogeneity within. The design effect, if I compare this
+now to a simple sample of size 240, the same one that we had before,
+this design effect is 24. It's virtually the number
+of elements in the cluster. As a matter of fact, that's the largest
+the design effect could be is 24. And roh of the effective
+sample size now is 10. In other words because of
+the perfect homogeneity every time I take another
+element out of the cluster, because I have this perfect homogeneity
+I am not learning anything new. The first one tells me everything
+I need to know about the cluster. It's what the exception
+of one cluster here. When I take the first element,
+if it's a zero, they're not immunized, I know the other 23 are not
+immunized in this situation. So really, the ten random events are the effective
+sample size in this particular case. This is the extreme now. And roh is one, row is virtually one,
+perfect homogeneity. That's the contrast,
+that's the nature of this phenomenon. But now let's compare it to a different
+case that we probably wouldn't expect to see in practice either and
+that is where all the rates are the same. Always, two-thirds, 16 of 24, every
+cluster is a microcosm of the population. In a case like this we got some
+ridiculous kinds of results. We get no variants, no sampling variants,
+or no element variants, or cluster variants that's with a squared. Designed effect to zero an effective
+sample size is not define but here roh is actually slightly negative. You need a weird situation like
+this to get a negative roh. A roh, as I said, tends to be positive. It's very seldom negative because it would
+take some unusual distributions like this. This is beyond what would happen even
+if you allocated the children at random across those classrooms. You wouldn't expect to see the same
+number in every classroom. This is kind of a weird case. They can come up and practice. They're unusual. More often, you would see a negative
+roh because of estimation issues. They're beyond what we can do
+in this particular course. But nonetheless,
+we can get that negative value there. Okay, now let's just go
+through this one more time. And this time, let's try and do some estimation from
+a little different perspective. Suppose at what I've,
+I've been doing is reading articles and journals about a particular phenomenon
+I'm interested in studying, or maybe it's the area I'm working in. And I've come across an article, in which
+they're describing a characteristic that I'm very interested in, that they
+estimate in the population, is 40%. 0.4 is the fraction, of the population
+that has this characteristic, and that's based on a sample survey, in
+which they had 2,400 people in the sample. It turned out to be a one stage
+cluster sample with 60 clusters, each of 40 elements each, and the clusters
+were selected with simple random samples. And so, I've looked at the journal
+articles, very interesting to me, and I think, I'd like to replicate this. I'd like to understand a little bit
+more about this but first of all, it's a cluster sample. What's the impact of this cluster
+sampling on the outcomes? And it turns out that in the paper
+they gave us a standard error for that proportion, the square root of
+the sampling variance, so I squared it. And there you see it, that sampling
+variance is 0.00021795, okay? The actual value is around 0.015 for
+the standard error so I squared it and got that number. How much of that standard error, how much of that variance
+is due to cluster sampling? What's the design effect and roh? Well, now I'm going to need to construct
+the simple random sampling equivalent. I don't have the data, but
+I could do it because it's a proportion. If you recall, by doing the following. Compute the simple random sampling
+variance, step one in this calculation. P times one minus p over n minus one. I´m going to ignore the one minus m,
+actually I´m rounding it to one. The sampling fraction here,
+it turned out that the paper was based on a sample of persons 18 years of age and
+older in a province, in a state. There were a lot of them. There were millions of them and
+I just have a sample of 2400. So that sampling fraction's fairly small. One minus that sampling
+fraction's close to one. p times 1- p over n- 1 is sufficient. All right, if I could calculate that,
+then I could calculate the design effect because I already know
+the actual variance. And so in this particular case I've got my
+actual variance, 0.00021795 in step two. And I'm going to divide
+it by that p times 1- p. And then I would have my design effect,
+and I can calculate the roh
+by backing that up. That's the steps I could
+use in the process. So let's go through and
+do those calculations. Here's a simple random sampling variance. The proportion is 0.4, times 1 minus
+proportion is 0.6, divided by 2,400. Well, 0.4 times 0.6 is 0.24. I get a sampling variance,
+simple random sample now of 0.0001. Much smaller than what I had than before. How much smaller? Well, here's the design effect. The design effect, when I put that into
+that simple random sampling variance into the denominator is 2.1795, 2.18. And now I can calculate
+my roh value as well, that homogeneity that's
+driving this as 0.0302, 0.03. And I'll let you follow
+through on the calculations. Make sure that we've done them correctly. And now, I now understand
+something that's going on here. The cluster sampling is doubling
+the variance compared to the simple random sample of the same size. It's being driven by homogeneity value
+that's fairly small but positive. But because that is a fairly large cluster
+size, it's being magnified by 40 or 40 minus 1 to give us that design
+effect of 2.18, all right? I've gotten a better understanding of what
+the nature of the impact of the design is. Well, there are two directions
+we should go at this point. One of them is to talk about,
+which we'll do in the next lecture, what happens when we do subsampling. Instead of taking all, what happens when we take a subsample
+in each of the sample clusters. And then secondly, how could we use this
+kind of background in this context to try and design the next sample. I'm now interested in this study,
+I think I want to replicate it. I have a particular population in mind,
+a different one. I want to be able to estimate what's
+going to happen in that population before I even do it so
+that I can go to my sponsor and tell them look,
+here's the sample I'm going to do. Here's the size, here's cost. And this is what I expect to get. And getting that sample size and this is what I expect to get is
+an important part of the design process. And one that we're going to look at how
+we're going to deal with in lecture four. But not lecture three now. We'll look at two state sampling next. Thank you.

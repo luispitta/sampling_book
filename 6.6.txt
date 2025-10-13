@@ -1,0 +1,283 @@
+When talking about sampling people,
+records, and networks so far, we've concentrated on samples that
+involve probabilities of selection, probability sampling. And here in our final unit, Unit 6
+on some extensions and applications. In our final lecture,
+which will be on non-probability sampling, we're going to talk about what
+happens with the sample designs. And what kinds of sample designs
+you can have where probabilities of selection are not maintained. Probabilities of selection are not
+recorded, chance selections are not used. Now, sometimes these non-probability
+sampling methods are ones in which they look like probability samples. Sometimes they look like network samples. There are variations on a theme. But there are also lots and lots of these
+samples, these non-probability samples, that are not even attempting to
+resemble an existing sample design, but are purely recruiting techniques. They're hardly sampling,
+in which there's a formal selection and then data collection. These are much more along the lines of, let's recruit a group of subjects
+that we're going to interview. It's almost as though the sample selection
+and recruitment are combining one step. But there's no randomization in
+the selection in what we're going to be talking about. Or the randomization that we've been
+dealing with is somehow disrupted by how the samples are done. Now, I'm going to use some materials here
+that are things that I'm borrowing from my colleague, Sunghee Lee, at the Survey
+Research Center, University of Michigan. And I'm using these with permission, but
+I sort of mixed in her material with mine. So I just wanted to acknowledge that this
+does include her contributions as well. But I won't be able to explicitly
+identify them, except for one or two slides that are directly hers, when we talk about something
+called respondent-driven sampling. Now, there is a debate about
+these kinds of things, and this debate is one that's
+gone on a long time. My little [LAUGH] photographs on the lower
+left, famous debates in the United States. Political debates about slavery and
+other kinds of issues between Abraham Lincoln and his opponent in
+a congressional race in the 1850s. Stephen Douglas and
+Abraham Lincoln, two sides, they're arguing the case back and forth. And that's what has been going on in
+the field of sampling for some time. So an early discussion about
+probability sampling by Leslie Kish, this comes from a textbook
+that he published in 1965. In probability sampling, every element in the population has
+a known nonzero chance of being selected. There's a selection mechanism
+that's built around random numbers, as we've talked about them. And that probability sampling requires
+that the actual selection be made by a mechanical procedure that
+assigns the desired probabilities. Randomization is used. William Cochran, in a later edition of
+his textbook in 1977, on talking about nonprobability samples, he says, look,
+these are not the same kind of thing. They're not amenable to the development
+of sampling theory that we've looked at. Where we end up with the sampling
+distribution and a standard error, that is a measure of the spread of
+the values across all possible samples. If there's no random selection involved, we're not able to apply that
+kind of model-free framework. Even if we've got a method that
+appears to do well in one sample, it's not a guarantee that it will
+do well in other circumstances. And probability sampling provides that for
+us. But what's been pointed out many times, but I'm using a quote here more
+recently from Andrew Gelman. Just a few years ago, he says, look, the probability sampling is
+fine in principle, in theory. But really, no sample is ever really
+completely a probability sample, and he says, or
+even close to a probability sample. I think that's a little bit strong. I would disagree with him there,
+but the point is well taken. Even when we do careful
+probability samples, nonresponse is going to interfere. And when we deal with nonresponse,
+we've already seen with our weighting that we make assumptions about
+how the nonresponse operated. And then on the basis of that assumption,
+make adjustments. And so we're going to use a model,
+in that case. It's a blend of probability selections and a model to adjust for
+a non-probability mechanism that's there. So all along,
+we've really been thinking about, I've been thinking about models
+that are probability-based, but have non-probability features. But there are also these sample designs
+that are completely non-probability based. They don't even start with
+a probability sample. But there's a progression
+of these kinds of things that we want to talk about briefly. So let's start with the idea of
+a probability sample that has nonresponse. There are a variety of ways that these
+kinds of things deal with the nonresponse. But the nonresponse introduce
+non-probability selection. If there's not a lot of nonresponse,
+it's not a severe departure. It's still basically a probability sample. One way that people often deal with
+this is to make an adjustment. They say, well, I know that I'm going to
+lose 20% of the sample due to nonresponse. So what I'm going to
+do is start out ahead. I'm going to start with a larger
+sample size, increase the sample size. When I get to the point where I've spent
+all my resources on data collection and I stop. I'm going to try and compensate for that
+loss and nonresponse through a weight, a weighting mechanism,
+like we've seen before. And those weights, by the way, as we saw,
+I just hinted at it when we talked about logistic regression models for
+nonresponse weighting. Those models are improving
+on our probability sample, given that it has nonresponse. Another approach that
+actually may be more common, I'm not sure that anyone's cataloged this,
+but it is substitution for nonresponse. That is,
+when we have a nonresponding case, we're going to obtain another
+case to substitute for it. So the nonrespondent refused, we draw
+another case and use its values instead. Now, the substitution can be
+done in a wide variety of ways. So, for example,
+it can be done quite purposively. The nonrespondent had
+certain characteristics, and we use our judgement to select someone
+else from the frame to substitute for it. This kind of thing is sometimes done,
+especially with primary sampling units. You see this kind of thing
+with school sampling. We lost a school, we lost a cluster,
+because they refused to participate. And now we're looking at other schools and
+trying to use our judgement as experts in the psychology of
+the phenomena we're studying. Of the sociology of it or
+the public health aspects of it, to find something that is as close
+to possible, like that unit. Well, we'll back off from that. That's very,
+that's much more subjective, but we're going to use our
+expert opinion about this. Now, I'm not saying that
+we shouldn't do this. I'm just saying it's different
+than what we're talking about with probability sampling. Another way to do that would be to match. There are four dimensions
+that we're going to match on. We're going to get another
+school that has similar size, comes from a similar location,
+urban or rural. That has a similar level of free or
+reduced-price lunches, and is it in the same state,
+in the same province. And we're going to match on that basis,
+and choose one, maybe it will be a blend of our expert
+opinion about how close we are. But we're going to get as close as we
+can on those dimensions, matching. We can also choose to select
+the substitute completely random. We lost this case, well, we're
+going to select another one at random. Or maybe we're going to
+do it stratified random. We lost this case within
+this particular stratum, we're going to select its replacement,
+its substitute, from the same stratum. Okay, all of those though
+are departures from the probability sampling scheme and
+substitution is common in sample designs. It is not fully understood in
+terms of it's properties, but it's an adjustment for it. Okay, so
+these are non-probability samples. Granted this is in the Gelman
+spirit of recognizing this. But these are minor departures compared to
+some of the things we're about to look at. There are also probability-like
+samples in other dimensions. There's quota samples, and
+quota samples that most people think about for this kind of thing,
+involve multi-stage selection. You remember our multi-stage, our
+stratified multi-stage sample in which we sampled primary sampling units, counties,
+and then we sampled blocks and then we sampled housing units and then possibly we
+would go on to sample people within them? Well, the multistage quota sampling
+might very well draw a sample of counties and
+then draw a sample of blocks or in political systems something
+like voting wards or precincts. And then within those, a quota is specified in terms of the kinds
+of people that you want in the sample. And an interviewer is sent out
+to that location to collect data that has to be half female. You're going to get ten interviews. Five of them should be with females,
+five with males. Two of them should be with people
+who are of African American decent. And one of them should be
+with someone in age 18 to 24. Quotas are set but
+interviewers have discretion. Now we see a larger departure. Yes, we've got probability sampling
+at the primary sampling unit and at the second stage sampling unit,
+but at the third stage, its open to interviewer decision, but
+they just have to meet a quota, okay. So another departure from
+these kind of things. Now, there are also web based
+sampling kinds of things. These are mostly convenient samples, but they're web based in terms of doing
+some kind of email blast or chat room or instant messaging, banner ads, social
+media, some way of recruiting people. Now that's quite a departure from the
+things we've been talking up until now. We're going to expand on these kinds of
+things, because these become quite a bit more important as the web and social
+networks, and other kinds of access to people through the web have become
+more common in the last decades. But as we do that, they're also techniques that bring into the sample selection
+networks, chain referral systems. A technique called snowball sampling, starting with the small and
+increasing rolling along, and increasing the size, as we pick up
+more and more through referrals. So we start with the convenient sample of
+rare group members and then we use insider knowledge to locate more of them inside
+the network, through chain referral. Sounds a little bit like the things
+we were dealing with before from multiplicity, but
+this is much less formal than that. It's primarily used in qualitative
+studies to increase sample size of rare group members. The idea that we were considering before, just in our previous lecture, involved
+a formal specification of the network. We were much more careful
+about what that network was. And we exploited a connectiveness
+among the people, the chain referral. But we kept track of a counting rule,
+so that we had a multiplicity, we could capitalize on duplicate
+countings by the creation of weights and we are able to collect data about
+multiple people in that kind of network. So snowball sampling, network
+sampling have a number of overlapping principles but
+they're structured very differently. One is a less formal system, let's get
+something quickly about a rare group. Another one, let's focus on a rare group
+but by doing something that involves much more careful definition of
+network specification and identification and
+then counting in weights to connect them. There's also a series of
+techniques that are referred to as respondent-driven sampling. It's kind of a blend between these. It exploits social networks of rare
+populations for sampling purposes. They make an assumption in this, that
+converts sort of a snowball sample into a random sampling process
+through a Markov process. They assume that the recruitment has
+certain properties that resemble a stochastic process that allows
+them to then determine weights for each individual and produce unbiased
+estimates through that weighting. Very similar to multiplicity but the specification of the networks
+is much less structured. There are stronger assumptions
+involved in these kinds of things. The network recruitment as well is
+not done by the investigator, it's done by the subject, by the respondents,
+they drive the sampling process. So for example,
+we may have some seeds, wave one, a group of individuals who we have
+identified through convenience methods. From each of those seeds we then
+ask them to recruit others. Now we'll just deal with
+one of the seeds here. We give them a series of
+recruitment coupons and they distribute those among their
+connections in the community. And they recruit additional subjects one,
+two, three and four providing them with coupons and encouraging them to then
+contact the investigator to provide data. And those in turn are used to then, recruit new subjects in waves 2,
+3, 4 through wave w. Additional subjects are recruited
+to fill out the sample size. Now in these kinds of systems then we
+repeat this across each of the seeds. But within each of these then we're
+keeping track of the size of the sample as we move along. We're using the sample to
+recruit new sample members, much like a snowball sample, but
+not exactly in the same way. And then we make an assumption as we do
+this, about how these recruitment coupons are being used and how effectively we're
+able to recruit elements of the networks. We look at the networks that
+are actually recruited. And so that what we end up with is, for
+our seed from our recruitment coupons and our collection of individuals,
+a final sample from each of the seeds. And we're going to calculate
+a probability of selection for each of those under our model
+that assumes a complex process. Okay, so seed one has a recruitment chain,
+seed two has a recruitment chain, and we make assumptions in order to
+connect people in that recruitment chain. Assuming that we're capturing all of
+the possible networks that are out there. And they all have a certain
+chance of being selected as we add to the recruitment process. Well let's deal with just
+a couple more of these. There are things in which we do
+selections that involve judgement about how good the sample design is. And these kinds of things arise
+increasingly with respect to web panels. So probability web panels are ones in
+which we start with a probability sample, but we recruit people into a panel that
+is then used for subsequent interviewing. The probability samples
+are subject to non response. There's some kind of initial
+roster that's assembled and then a panel that's collected. But these probability web panels, there
+are probability telephone panels as well That start with a probability sample,
+recruit individuals and then use them repeatedly across studies. There are non-probaiblity
+web panels as well, where they don't start with
+an initial probability sample, but some kind of mass mailing, that email
+blast that we were talking about. And so we have now, a panel assembled that
+is going to be queried about our results, but these panels are quite large,
+they can be in the millions. And when we use them across our samples,
+as we do our sample selection each time, whether we're going to do it from
+a base probability sample, or from a mass emailing. Closely related to the non-probability
+web panels are also something called river samples, river samples,
+which capture subjects continuously. Rather than collecting them and putting
+them into a panel that's going to respond, we collect the data about
+them on a continuous basis. We capture visitors to a website. We have banner or pop-up ads that
+people click on and respond to. The sampling frame, its a little
+hard to define here, isn't it? It's visitors of these websites but
+who are they? Why do they click on them? They're volunteers, are they duplicates? Do they give multiple names for
+these kinds of things? So a variety of problems
+with these kinds of things. But it's a recruitment device
+that is very convenient to do, much less expensive, and
+with web can be done very quickly as well. And so these have become quiet popular. But you can see how far we're departing
+now from probability sampling methods in these techniques. And these are become more and
+more like opt-in volunteer panels. Let's just set up a system
+where people can opt in and volunteer to participate in our studies. We've seen these kinds of things,
+no doubt, in our television stations, where they provide you with
+a webaddress where you can go and give your opinion about a subject,
+it's all volunteer. What do we do with these kinds of things
+when we try to do some kind of estimation? Well, it's model based at this point,
+we have to have some kind of a model. Now maybe a model like we looked at for
+non-responds, missing and random, and some kind of adjustment based
+on a waiting cell or some kind of adjustment based on a logistic
+regression, but some kind of model base. Now there are two basic model assumptions
+that appear in these model based approaches, one is a sample design model. My sample selection mechanism, whatever it is,
+I think resembles simple random sampling. Now notice, I think, I'm asserting, I'm going to assume
+it's like simple random sampling. Or in the case of quarter
+samples that we described, it's like a cluster sample, or it's like
+a stratified random, the basic designs. We're going to make that assertion as
+an assumption and then our estimation procedures follow on the basis of our
+model assumption for the process. So we can calculate our
+mean in an unbiased way, we can calculate variances and
+confidence intervals on that basis. But it all is built around that
+assumption and it's a question of how good is that assumption and
+what happens when that assumption fails. So in non-probability sampling, we now
+have to deal with assumption failure. If we keep the amount of
+non-probability elements, such as a probability sample
+with a non-response and a non-response adjustment smaller,
+our assumptions are weaker. As opposed to something which we have
+an opt-in volunteer panel, and so that's one approach to it. We continue to use the probability samples
+as a model, but we make an assumption that our non-probability sampling
+mechanism is like one of those. The other is to use a statistical
+model for the population. This is more familiar to those of you
+who've done courses in statistics, in which we start with a probability
+model like a normal distribution or a multivariate normal, and we assume
+that that is the underlying population. And now our sample is like
+a sample from that population, drawn with independent and
+identically distributed random variables. In that particular case,
+there's actually two assumptions there. There's an assumption about the
+distributions of our characteristics in the population, bell shaped, symmetric,
+as well as the sampling mechanism, independent and identically distributed. Random sampling gives us that same kind
+of outcome, even simple random sampling. All right, so the estimation here depends
+much more strongly on models than what we've been talking up to now about. Well, that's as far as
+we can go with this. We've covered quite a broad
+range of samples now. We've covered samples from those
+that are merely randomized, to those that are clustered,
+to those that are stratified, to those that are simplified
+through systematic selection. We've looked at combinations of sampling, we've looked at sample selection
+methods through statistical software. We've looked at in our last lectures here,
+weights and adjustments, and even non-probability samples,
+quite a wide range of things and we've only scratched the surface. But we've gotten enough of a background
+for you that we think that you ought to have a better understanding
+about how survey samples work, and this important foundation
+that often provides an area for debate that continues to
+today about our foundations. Are our foundations based
+on probabilities or are they based on recruitment strategies? And if they're based on
+recruitment strategies, what kinds of models can we use that make
+them look like these other things that we understand more thoroughly
+in a theoretical sense. I hope this has been beneficial to you,
+and that you found this useful, and that you will find it
+useful in the future as you try to do sampling of people,
+records, networks. That you'll be able to
+refer back to this for those kinds of applications in your
+future work, thank you very much.

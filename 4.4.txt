@@ -1,0 +1,108 @@
+Welcome, once again, to our continuing
+series of lectures about stratified sampling, as we're talking about
+sampling people, records, and networks. Our fourth lecture, in this series, we're
+going to talk about sample allocation. Actually, we're going to talk about
+sample allocation in this lecture and the next one. We're going to do one particular
+allocation, actually the one we've already looked at, proportion allocation,
+to understand some of its properties. And then we will alter
+it in the next lecture. With respect to proportion allocation, we're just going to talk about
+allocations in general, then, and the proportion of allocation,
+before we wrap this particular lecture up. Now the stratified sampling approach has,
+as we've seen, some advantages. I mentioned one about credibility. It just makes more sense. It's more believable to people to
+say that when I drew my sample, I made sure that I had
+the right distribution. Across the frame, the population, that it
+got replicated in the sample, as well. That's more acceptable, more credible. But we've also seen how we
+can get gains in precision, depending on the allocation, though, and that's part of what we're doing in
+these two lectures on allocations. There's also advantages here. We've talked about guaranteed
+representation of important domains. And there are some things about
+flexibility that we'll see here in allocations and administrative
+convenience that we can take advantage of. But these, in order to understand these
+potential benefits of stratified sampling, depend on understanding something
+about the allocation, as well. We've been looking at a problem in
+which we have a basic sample size, in our illustration with 400 faculty,
+we were drawing a sample of 80, and we chose a particular allocation,
+but many allocations are possible. Many different sampling fractions of
+sebetra are possible across those stratum. So for example, for our six stratum,
+as shown in the last line on this display, the allocations could have
+been take one from stratum 1, one from stratum 2, one from stratum 3,
+one from stratum 4, one from stratum 5, and 75,
+the balance, from stratum 6. Or we could have taken two from stratum 1,
+and one from each of the stratum 2, 3, 4, and 5, and
+then the remaining 74 from stratum 6. And so on. There's lots and
+lots of possible allocations there. It turns out that some of these
+allocations can be beneficial, and some can be harmful to
+our overall estimates. Some can be beneficial when we
+want to do domain estimation. Some can be beneficial when we
+want to combine a cross estimate of these estimates. And the allocation that we did was
+related to the drawing in the lower left. This is sort of a population-sized distribution of the states
+in the United States. California is a large share
+of the US population, 10% among the 50 states, and
+Florida and New York are fairly large, as is Texas, in terms of their
+relative population sizes. And others are very tiny,
+they become very small on that map. As that population size varies,
+which it will, and it's outside of our control,
+it's something that's going to be there with respect to the auxiliary
+data that we have available. We can take advantage of that in
+order to get gains and precisions. One way to do that, that we've already seen, was to use
+the allocation that we already did. The one that was
+the proportionate distribution. This particular distribution,
+we had a reason for using. And that was because we actually
+got a gain in precision. Taking the same percent or fraction of the
+elements in each of the six stratum, and we have a nice property to it too. That distribution, 8, 5, 4, 15,
+10, 38, across the six stratum, also is achieved by taking the same
+sampling fraction in each of the stratum. Well that seems straightforward. It has nice properties with
+respect to the sample design. You're making the sample
+designers very happy. But does that have any other payoff for
+us? Well actually we saw that this kind of
+thing has a benefit that goes beyond it. It gives us a balance then between
+the sample and the stratum. That is when we draw the sample in such
+a way that we have the same sampling fraction, lower case f sub h, lower case m sub h over M sub h,
+is the same as lower case f, the overall rate, lower case n over N,
+that's the technical detail of this. When that kind of thing happens,
+there's something else that happens, that goes with this. It generates a distribution in
+the sample that is across the stratum, the same as the distribution in
+the population for the frame. For example, for our stratum 1, where in
+the population there were 40 of the 400, or a W sub h of 0.1. 10% of the population resides, or
+is in that particular stratum. When we sampled at the same
+rate in stratum 1, as we did overall, 80 from 400 is overall. 0.2, 20%,
+when we applied that rate of 0.2, we got 10% of our sample,
+eight from that particular stratum. Now the sample distribution looks
+like the population distribution. So by being epsom, equal chance, we happen to also be proportionate, and
+this is where that term comes from. Now I know this is confusing, I want to
+come back to the use of proportionate in cluster sampling in just a second. But here what we're talking about is
+the proportions we see in the population are replicated in terms of the proportions
+we see in the sample across the stratum, proportionately allocated. Now, we used this term before with cluster sampling when we
+had unequal sized clusters. In there, we were sampling the clusters, with probabilities that were
+proportionate to their size. Same idea, but applied in a different way. So, this term proportionate comes
+up in several different ways in the sampling context. And it's a broad label of things. For our purposes,
+when you hear proportionally allocated stratified sampling,
+it's the kind we've just been doing. The same sampling rates
+in each of the stratum, the sample distribution looks
+like the population distribution. So when we make the sample look
+like the population, the W sub h, N sub h over N is the same as
+the sample fraction, n sub h over n. And that is the same thing,
+than just to repeat, as having the sampling fraction be
+the same in all pf the stratum, the overall sampling faction is
+replicated across each of the stratum. When we have either one of these,
+but if I have one, I have the other,
+that's where I get gains in precision. This kind of design will give us
+design effects less than one for our outcome variables. Now, I'm going to make a very
+strong statement here, which is actually not true in all cases. But I want you to remember it. So for teaching purposes,
+if we do proportionate and allocations, and we do multipurpose
+design, remember now proportion and allocation could use one or more
+auxiliary variables to form groups, and then allocate the sample proportionally
+across them by drawing an absent sample. If we do that,
+when doing multipurpose sampling, we're going to get design effects
+less than one for all the variables. Now it's too strong of a statement. It's actually not true, but
+it's a good way to think about it. We're going to get some gains of precision
+for almost all the variables in our study, and that's a very powerful tool. We won't find other allocations that
+do that for us in the same way. We'll see allocations that can
+beat stratified random sampling, proportionately allocated,
+for one variable, but not necessarily for all of the variables,
+or nearly all of them. Well, let's turn to talking about
+some of those other allocations, now that we understand a base allocation. Remember, I did this for
+stratified random sampling. Stratified random sampling was there
+in the beginning because it was a basis against which we could compare the others. Proportionate allocation is very
+useful in its own right, but it's also a basis for
+comparing other allocations, too. Let's turn to that in lecture five for
+unit four next. Thank you.

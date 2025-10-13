@@ -1,0 +1,208 @@
+Hello again, welcome back to our
+continuation of our discussion about research design and sampling. And the role of randomization and
+sampling in research design. We've just discussed in our first unit
+here, in first lecture, some of the basics about the research and two kinds of
+research designs that are often used. Experiments and quasi-experiments or
+pseudo experiments. One involving randomization and
+the other involving no randomization but observation. And what we're going to do here is
+talk about this same set of issues. But now we're going to move on to talk
+about a third kind of research design, one in which we talk about survey samples. Now experiments are considered to be
+non observational in the sense that, yes, you're observing things. But the exposure to a background
+characteristic such as a treatment is determined on the basis of an objective
+system such as randomization. Quasi-experiments are one in which
+the assignment is based on purely history, or observation of where people are. Cigarette smokers or
+people who don't smoke cigarettes. In survey samples, this is observational
+as well, with regard to how people get assigned to different groups, different
+comparisons that we may want to make. And so it's again observational, but randomization of peers here
+in a different context. And we want to talk about that to begin
+understand something about research design, how this fits in. So sample surveys originated in Western,
+Northern, and Northwestern Europe
+in the 19th century. And they really were originally designed
+to deal with describing populations. As a matter of fact, some statisticians like to make the
+distinction between two types of surveys. So that they maybe surveys should
+be thought of as experiments and non experiments, experiments and
+quasi-experiments. Some period surveys in their
+minds are purely descriptive. They're designed to describe a population. What's going on in this population? Once it get a snapshot of the population
+at a particular point in time. And [COUGH] other surveys though are
+designed as they would determine analysis. Comparing, testing hypotheses. So they'll sometimes divide them
+into a numerative analytic. But the distinction between them actually
+is almost irrelevant in practice. Because I know a few surveys
+that are purely in numerative, descriptive, and no analysis is done. And I know of analytic
+surveys in which almost no analytics survey whether in some
+description that has to be done first. So [COUGH] it's kind of a general
+distinction that doesn't exist. But both functions occur in
+the same survey typically. The key aspect of survey samples though is
+not the distinction between description and analysis,
+it really is that they are observational. That we're not taking something and
+putting it in an artificial setting. We're doing it as it naturally
+occurs in everyday life for people. Now, the observational study may be
+observational for a national sample. And I'm going to take as an example
+here a survey done in Turkey. The country between
+the Black Sea on the North and the Mediterranean Sea to a certain
+extent on its South and West. And Turkey's an interesting case,
+because it does a nationally representative survey to collect data
+that represents the demography and the population characteristics
+of the Turkish population. And examine such things as births and
+deaths and fertility and family change and health characteristics. This is the demographic in
+health survey of Turkey. Now, from the point of view of
+an experimenter, quasi-experiment. [COUGH] The best we can say scientifically
+about the use of survey data such as this analysis, is it we're going to
+be explaining what's going on in the health and
+fertility of the Turkish population. And we can't establish causal mechanisms. We can describe, we can also co-relate
+these things, correlate them. But we cannot conclude from a survey
+like this that there is a cause, like polio vaccine that
+leads to an outcome. We have strong evidence as in the Doll and Hill study, that there is a relationship
+between cigarette smoking and lung cancer. That there's a relationship between
+let's say, nutritional status and certain kinds of health outcomes. And that strong association may be so
+strong as to say, well we really don't need to do
+an experiment or test this any further. We're very confident that this is indeed
+an association that we need to pay attention to, and
+maybe develop some new policy around it. All right, so there's no randomization
+people into [COUGH] poor nutrition, and good nutrition. That occurs through
+complex at a processes. We observe what's there and
+then we observe the outcomes, what outcomes are like for
+the two different groups. But there is randomization
+in these surveys. There was randomization in the demographic
+in health survey in Turkey. And this particular study that we're
+referring to the demographic in health survey in Turkey
+has over the years, every five years, been done as a measure
+of trends in these characteristics. But it only makes sense to compare
+trends if the data are collected in such a way as to be representative
+of the population each time. Otherwise, if the samples were
+arbitrary or haphazardly assembled, and not entirely clear whether they
+were represented each time. When we go to compare what happened
+in 1995 and 2000 and 2005 and 2010 to 2015, we wouldn't know why
+there were differences if we saw them. Was it because of the sample or was it
+because of changes in the population? So what we'd like is a sample that gives
+us a snapshot of that population at each of those time points. So that we can compare
+across those time points and see what kinds of trends are going on. So these surveys are done
+in five year intervals. And if we've got good snapshots
+at each time interval. Then we can say, well the differences
+that we observed really have to be due to changes in the population,
+not changes in how the sample is selected. Okay, so Turkey has a population
+of about 77 million people in the latest demographic and
+health survey which was conducted in 2014. And that study had 12,000 households. And it had nearly 10,000
+women ages 15 to 49 who were examined from those
+12,000 households. It was a fairly large scale operation and
+they are doing fertility estimation, for example. So how did they select the sample? They used the kind of techniques that
+we are going to be discussing and talking about the remainder
+of this course. A key component of the selection
+was that it was random. There were no subjective selections made. It was not selections made either
+by happenstance, by convenience. It was a carefully selected sample in
+which the women in each household, each household were selected
+through a random process. And the selection carefully controlled for
+geographic distributions and age distributions in the selection. One can trace through the procedures that
+were used to select a sample such as this one. The probabilities of selection of each
+of the individuals in the sample. And ultimately one could do that for
+those who are not in this sample. We can identify,
+much like in the randomized case, who was to receive the vaccine and
+who was not. We know who was to receive the sample
+administration and the data collection. And exactly what their
+characteristics were, and thereby, who the non
+sample cases were as well. The observations are then made on
+the households and the people. There is no randomization to treatment
+groups to women having been exposed to let's say, a particular form of
+contraceptive and those who were not. No, that was an observation. What did they actually do? How many women had actually
+used a particular method? And who were those women and
+who were the women who did not? The data were realistic then. They were collected at a particular point
+in time, in settings were people live, in their households. And because of the procedures
+used in the sample selection, the sample was representative
+of the population in Turkey. Not only overall,
+all the households, but also for a subgroup of the residence of those
+households, women 15 to 49 years of age. There was not an experimental
+manipulation. The randomization was in
+the selection mechanism. And as I've said, this was where the randomization mechanism is applied to
+divide that population into two groups. A group that's in the sample and
+a group that's not. Now the group that's in
+the sample is very small, relative to the group
+that's not in the sample. That's very different than experiments,
+where most experiments will tend to allocate the same number of
+individuals to each treatment group. In sample surveys, it's a very small
+fraction that are getting the treatment, if you will of being in the sample. But they use randomization nonetheless,
+just in a different way and for a different purpose. The purpose here is to establish a group
+that represents the full population. At least represents them in terms of on average has the same characteristics
+as the full population. And so this gives us a way of
+avoiding any kind of subjective bias that might have gone in to the section. Where we've arbitrary chosen locations or pacticular individuals,
+who have particular characteristics and then are sampled doesn't
+resemble the population. We're being objective about it
+to this probability selections. And thereby eliminating some of the
+difficulty that we face with subjective choice and
+then bias due to subjective choice. Going back now, thinking back through
+our experiment, our polio vaccine trial, our quasi-experiment,
+our study of smoking and lung cancer. And now thinking about
+a sample survey describing and understanding the nature of fertility,
+demographic characteristics, health, and how those are interrelated. We see that there's some
+principles that are emerging, some things that have happened. And I'm going to describe something
+that as I mentioned, a sociologist named Leslie Kish define three principles
+that he extracted from this process. And he labeled them as the 3 R's because
+of the first letter of each of these. Now in education, in English there
+are 3 R's as basic principles or learning or education or
+at least there used to be. For a student to have
+a well rounded education, they needed to be prepared in three areas. The first was reading which begins with
+an R to study requires that basic tool. But the second principle was that of
+being able to express themselves. To write, except the word write
+doesn't begin with an R, but it sounds like it does. Begins with a w, but write the second R. And the third was that they needed
+to be able to do computation and manipulation of numbers. To be able to succeed in commerce or in
+many other areas, simple basic arithmetic. Now they're again, it's the 3rd R
+doesn't begin with an R, the third word arithmetic begins with an A, but
+nonetheless the R is the second silent. So those 3 R's would be what every
+student should have reading, writing in arithmetic is basics for
+learning and understanding in school. These 3 R’s that have been
+replicated in other areas. For example, in studies of environment
+there are the 3 R’s of reduce, recycle and reuse as ways of dealing with
+our environment an ecology. Here in research then we have the 3 R’s,
+pardon me, again the first being that the study design needs to
+be embedded in a realistic setting. Realism is what we're concerned with. Now experiments, this is a problem,
+they can be very unrealistic. Gathering together those children
+from schools that volunteered, they can be in a very peculiar group. But one didn't worry about that in
+a particular case because the size of the sample was so large. But you can imagine artificial
+laboratory or clinical setting, where is not very very realistic,
+when they are administering new drug. And they are calling people every day,
+did you take your medication today? I know I don't have anybody calling me
+everyday to ask me if I have taken my medications, that were tested
+in such studies decades ago. So it wasn't realistic yet it still
+has valuable information and insight. A quasi-experiement and
+sample surveys are embedded in reality, because they observe what is happening
+to the sample subjects directly. There's no interfering laboratory or
+clinic to distort or cloud judgment about what
+actually happened in the study. Our second principle we'll be talking
+about is to use randomization. Experiments use randomization
+to assure equality across groups to make sure then that
+the comparisons yield conclusions only about important differences between
+the groups, the ones that matter. The difference being
+experimental condition, no experimental condition experience. Quasi-experiments lack that randomization
+and so as a result they're more attentive. It's not that we can't use
+quasi-experiments insights, but we need more evidence. We need to do more testing and formal media conclusions are not
+as really available to us. Sample surveys are kind of in
+a split here with randomization. They're like quasi-experiments for
+examining subgroup differences. They use the observed values, but they do
+use randomization in order to assure no differences between population and sample. And so we get other kinds of things here. And by the way, here's another
+example of the 3 R's adapted. It's a very popular and
+powerful idea in American culture for example, Franklin Delano Roosevelt. He created something called
+the New Deal in the 1930s to address the Great Depression, the Great
+Economic Depression in the US, and he had 3 R's of the new deal,
+relief, recovery, and reform. So this idea is just what Professor Kish
+used in his ideas, realism, randomization, and
+our third, representation. Randomization actually doesn't
+guarantee representation. We'll see this, and so
+one needs to go further. Experiments seldom make any attempt,
+sometimes but very rarely, make any attempt to have representative
+groups that they examine. They're going to take
+individuals who are convenient, available, perhaps haphazardly
+assembled for their studies. Quasi-experiments probably some of
+the same, although quasi-experiments more often would use a more
+carefully selected sample. But surveys base their foundation,
+their claim to a place at the table among research designs
+on the basis of randomization to obtain a sample that is going
+to resemble the population. Even though more is needed than
+just randomization to achieve that. So there we have it,
+the 3 R's of research design. With these 3 R's in mind now, we should say more about just
+what we mean by sample surveys. And in our next lesson,
+lesson 2 that's highlighted here, we're going to talk about surveys and
+sampling and how they interrelate. And why the two word sample survey are put
+together, like the way we've been doing in this course and in this program that
+we're assembling the set of courses. And so
+we want to look at what it means for the kinds of surveys as we're going to
+talk about in the rest of the course. So join me in lecture 2 in this unit
+on sampling as a research tool, where we're going to look at how
+samples are used in surveys. Thank you.

@@ -1,0 +1,214 @@
+Our purpose in this lecture is to
+return to some ideas that we've looked at already, but
+from a different perspective. Where you've already considered the issues
+of having a population of a given size and drawing a sample from it and having
+the possibility of many possible samples. If you want to consider some of
+the implications of this kind of thing but what were going to do is do this in
+the context of simple random samples but look at a short history of these ideas. Just to have some framing for
+our preceeding forward. In the future,
+we will recall some of this as we look at more on some random sampling and
+other kinds of sampling designs. Our history then, is going to involve a discussion about the
+difference between practice and theory. A little bit about what's called
+the representative method, a term that we've already used. More about randomization and then a comparison between what used to be
+known as the representative method and the randomized method and
+then some principles that were extracted. And these can provide a framework for us as we move ahead in deciding
+how we should draw our samples. The kinds of things that we're talking
+about here, with respect to probability samples, arose really the way they're
+constructed today out of practice. There wasn't a theoretical
+development first and then these kinds of things
+were extracted from them. What we are looking at are techniques that
+were responses to practical problems. The result of attempting
+to solve practical problems with respect to understanding
+what's going in the population. Theory in this particular case,
+statistical theory, that's what I'm thinking about here,
+came in later and formalized some of the implicit
+assumptions that those practitioners who are solving these problems were making and
+then confirmed, sometimes corrected. In other cases,
+extended what was going on in practice. So the progression here typically, not uniformly is to move
+from practice to theory. And that explains some of the perspectives
+that you've seen already and some that we're going to see as we move
+ahead with these kinds of designs. Now that sampling practice, the origins
+were really in the framework of data gathering,
+surveys that we've been talking about. The early data gathering that we
+traced this history back to, and we don't go back a great deal
+of time as you'll see, and it was a time when Science
+was on the ascendance. Science, the idea of generating new
+knowledge through systematic study and using the kinds of research designs
+that we've been talking about, experimentation as well as observation,
+was widely admired for its contributions to our
+understanding of the physical world, whether it was in physics or
+chemistry or astronomy. At the same time, there was great interest
+in health and social problems, and those who are interested
+in those kinds of things, any of the early social scientists
+were philanthropists who had money, especially in Northwest Europe,
+from the Industrial Revolution. And they wanted to understand what
+the Industrial Revolution and the movement of large
+populations into urban centers. What kind of effects it was having. But they wanted to do the study in
+a scientific way much the way physics or chemistry was doing their research. So they call themselves,
+they call the science, or some of them did anyway, social physics. So it was data gathering, in an attempt to have a scientific
+approach to studying social problems. In the same way that you were seeing
+scientists studying physical phenomena, physics. There were at the time two basic
+approaches in their minds to how they should go about doing their studies. One that we've already
+talked about was a census. A census in which there's a population,
+that's what they're interested in now. They're not interested in some undefined,
+vague, infinite population,
+according to some distribution. They have a population in mind, the residents of a slum in London or
+a village in France. That was what they thought was there,
+a population, and they would do a census of it, to study it. That is, they'd enumerate all of the units
+and make measurements on all of them. That gave them the assurance then that
+they were able to make inferences from their study back to that population. There were others though who recognized
+that they couldn't do a census for many of the populations they were
+interested in, an entire country, especially among those who were engaged
+in the rise of the public bureaucracy. The public government systems
+that came about really in the 19th century in Europe,
+where there were large scale government institutions
+that thrived on data. And they knew that they had to
+provide data to those systems for those systems to develop effective policy. And so, they couldn't do a census for
+every problem that they had to deal with, on one day in health and in the next
+month, on crime and crime victimization. So they began to do studies that
+were called monographic studies, the study of one. Study a typical unit. And in contrast to the census
+where you study everyone, here we would study a unit, a village,
+a town, a neighborhood, and then generalize to the entire population. This kind of thing still goes on today. In the United States,
+there's a study called Middletown, USA. It been done periodically over the decades
+since the end of the 19th century, beginning of the 20th Century. And it studies one town in the US that,
+at the time it was initiated, was very close to being near
+the demographic center of the US. That is, if you took all
+the population of the US and weighted it across the population, it sort
+of balanced it out, where's the middle? And the middle was somewhere at
+that time in Northeast Indiana. It's one of the midwest states. And so the town Middletown, USA is a study of a town right
+near that center, Muncie, Indiana. And the idea was,
+let's study that intensively and what we learn from that town we're
+going to generalize to the entire country. So, that's the idea. Do them all or take one and generalize it. Now, [COUGH] this was not
+a satisfactory solution for people in government
+statistics at the time. And in Norway, the chief
+statistician was a man named Shire, who couldn't afford to do a census,
+he was doing a census periodically. But he couldn't afford to do that for
+every problem that came up. He couldn't afford to collect
+enough data in each census to be able to represent the entire
+country on all the different variables, all the different dimensions
+that were of interest. So he began constructing what he thought
+of as miniatures of the country. He would draw a sample now, not of one
+typical unit, but of seven units that when put together in composite
+gave him miniature of Norway. So, the towns, the villages, the central cities,
+collecting data across all of those, but identifying units that he had available
+thru the Census Operations in Norway. Assemble a large number of units and use prior information in
+the selection of those units. Now there's no chance selection here,
+there's no probability selection, just the idea of let's
+represent the population. And he would do this in
+a quite elaborate version and then collect data within
+that sample of locations and then make inferences
+to the entire country. He took this idea to other
+statisticians at a group called the International Statistical Institute
+and there he encountered some resistance. There was a statistician
+named Von Mayr and others who said well this
+doesn't make any sense. You really need to do a census. You're making calculations. Where there are no observations. And observation is necessary in order for
+us to be able to make inference. Others, school, Cheysson and
+others, they advocated monography. Detailed examination of a typical case, you're not getting enough detail about
+these and we can generalize from that. Well, this kind of controversy, now there's three different
+ways of going about it. This kind of controversy led them
+to put together a commission. And that commission took a number of
+years to come back with a report. But the idea was representation. That's the seal that you see there. The idea of representation that was
+being exhibited in government units. So, in the United States
+the House of Representatives is, in a way, an attempt to assemble for
+political purposes. A miniature of the country based
+on population distribution across the states in order to
+represent the country. And thereby affect political
+processes the people thought fair. They're going to try to do the same
+thing in the research rather. Now, that study led to
+really no conclusion at all. The study came back and after eight
+years of, this is people doing it in their profession association part-time,
+they came back with the conclusion, said look, you should do whatever
+you think is appropriate. All of these methods, the representative
+method advocated by Shire, the census advocated by Meyr and
+others, the monographic method, these are all suitable methods for
+doing research about populations. But we're going to just give labels
+to these and some basic principles. But the basic idea, one of the principles
+that they came out with was whatever you do, make sure that it somehow was
+represented in with the population. That's not a well defined term. Maybe in common usage today, but
+it's not well defined statistically. And out of this idea of
+representative sampling, grew some of the non-probability sampling
+methods that we talked about recently. Purposive sampling,
+a judgement sampling, expert choice. Even balanced sampling, making sure that your sample looks like
+the population on certain dimensions. And then, we are going to collect
+data on other dimensions, other variables that we've never observed
+before and we should get a good sample. So that representative method
+became the foundation for a lot of sampling that didn't
+involve chance selection. But there was no chance
+selection involved in it. But shortly after that report came out,
+statistician named Bowley, in 1906 said, we had a couple of these
+with randomized selection. He was at the time working
+with Statistician named R.A. Fisher, who was doing randomization and
+experiments. And, remember, an experimentation
+on randomization is used to create groups that are as alike as possible so
+that we can compare them by manipulating characteristics such
+as a treatment administered to each. And then seeing what the difference
+was and the outcomes. He said, well we ought to apply this
+in much the same way we talked about it before to determine who's in
+the sample and who's not in the sample. Well, through the 1910s, teens,
+1920s this was kind of accepted. There's representative sampling,
+there's censuses, there's other kinds of data collection,
+such as monography that's there. Randomization didn't really catch on. It seemed to be kind of an added thing
+that didn't have any particular purpose. And that was until 1934 when
+a Statistician named Neyman proposed examining,
+comparing the representative method, if you will, to a chance selection method. The kinds of techniques that
+we're talking about now. And he wrote a paper about this. And in this paper he studied
+the properties of repeated sampling. Now, nobody does repeated sampling. It's too expensive, you can only afford
+to do one, you can't afford to do many. But he said, imagine all possible samples. And you recall that
+we've talked about this. Imagining all the possible
+samples that could be selected. That idea wasn't been around but he proposed applying it
+to this specific problem. And then looking across all those possible
+samples and seeing what happens to the distribution of our values,
+our characteristic across those possible samples and so he talked about
+the sampling distribution of an estimator. By the way in that particular paper,
+that he discussed all of this, he introduced the idea of
+a confidence interval. So, confidence intervals
+are very commonly taught and used today but
+they originated in 1934 in paper. By the way a second aside on this, was also the inventor along with
+another Statistician named Pearson. Who proposed the idea
+of hypothesis testing. He did that in 1932, so in 1934,
+he went on with confidence intervals to extend the ideas into the kind of
+inference we use in surveys today. What he was most concerned with was,
+what are the conditions under which different procedures,
+representative procedures or chance selection procedures,
+would produce valid estimates. And he defined two kinds then. Probability sampling, that's where
+we got the term we're using here. And he talked about unbiased and that's something we'll come
+to in the next lesson. Irrespective of the population structure. He was noting that you could do this with
+probability sampling without needing to make any assumptions about
+the distribution of the characteristics in the population at all,
+versus a purposive or balanced judgment sample, a balanced
+sampling, even a quota sampling. Balanced sampling's a bit
+like quota sampling, not quite the same thing but
+they have some similar foundations. Where one has to make tough,
+I think would be the term we'd use today, assumptions about population structure. And sometimes those
+assumptions would be so strong, we'd think, these may actually not
+be very likely to be achieved in practice. So, he's contrasting these two methods,
+and out of this there was more debate. But basically, what came out of
+all of this was the following. Look, you ought to be doing probability
+sampling because it's objective. Now, remember, this is 1934 thinking. Things are different today, but still,
+probability sampling is an important feature of how these sample
+surveys are conducted. You ought to be doing representativeness
+but let's make it more formal. Let's do some grouping, the kind of
+thing that we're going to talk about will be stratification to improve
+the quality of what you're doing. Let's make very sure
+that when we're all done we also examine the quality of our
+estimates and that would involve estimating variances on those standard
+areas that we're talking about. Confidence intervals,
+let's make sure that we give our user, the consumer of our data, both our projection as to what's going on in
+the population, the mean, the proportion. But also are uncertainty about it in form
+of confidence interval or standard error. And then make sure that
+we give a complete and comprehensive description
+of the sampling procedure. Don't just say that the sample was drawn. How was it drawn? And make sure that they lead your
+hands that so they can assess for themselves what's going on. These kind of principles, back mob
+principles that emerged out of this debate from the late 19th Century, to the,
+the first half of the 20th Century. And that's been a foundation and a basis
+for the kind of thing that we're talking about here, but that's been going on for
+70 some years now. And that is the framing for
+what we're doing now. Now, given that, you've gotta understand
+a lot of other things were being done at the same time,
+are being done today at the same time. We're giving you a fairly specific set
+of principles and guidelines here. There are other ways to do it, but if you
+understand what we're talking about here, you'll be able to evaluate
+other ways of doing sampling. And that's why we've just gone
+through this little bit of history here in this lecture. In our next lecture, what we're going to
+do is look at something of an example and study the sampling claims that go there. In our next lecture, before moving
+on to talking about sample size. Thank you.

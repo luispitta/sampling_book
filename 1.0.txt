@@ -1,0 +1,197 @@
+Hello, welcome to our
+course on sampling people, records, and networks,
+part of a specialization on data collection methods being done
+through the University of Michigan. My name is Jim Lepkowski and I'm a Professor and Research Professor
+Emeritus at the University of Michigan. And we'll be conducting this course
+teaching through these lectures as well as assembling materials for
+you the students to work through to help you understand the material
+that we're talking about in lecture. We're interested here in sampling methods
+as applied in a particular set of areas. Sampling methods, in this particular
+case we're going to be dealing with respect to the social sciences. It's an activity that we all do in many
+different ways, and so I don't want to restrict our labeling of sampling to just
+what we're going to talk about here. But we're going to do a restricted
+range of sampling activities here. But we want to acknowledge that sampling
+can have a lot of different applications. And we do sampling in our
+everyday lives for example. Without even knowing
+we're doing it sometimes. We're all used to sampling foods,
+I think I'll have a little of this, or a little of that. Or entertainment events, let's just see
+what it's like to do this, or to do that. Or sometimes experiences, let me try
+it one time to see what it's like. Our bodies are sampling machines,
+even when we do something like vision, we're constantly sampling only
+a part of the environment around us. And it's done very quickly, we are not
+really conscious of it for the most part. And so
+what we see is what our mind controls, in terms of sampling
+the environment around us, but that sampling is ubiquitous
+in the science as well. For example, physicians use samples
+of patients all the time to draw conclusions about risk factors for
+disease for everyone. They will draw conclusions on the basis of the patients that they see
+in the clinical practice. And then use that and their training
+to draw conclusions about what happens to an individual patient who's
+coming in next or just to generalize. Physicists use samples of an environment to draw conclusions about
+the entire universe. They only are able to directly
+observe certain things that are in an immediate environment. And then they extrapolate
+to an entire universe. That's a sampling process as well. Chemists do this,
+where they use samples of chemicals to see how processes operate in
+the laboratory and elsewhere. In the social sciences,
+psychologists use samples. Sometimes psychologists will use samples
+of undergraduate students to make inferences about how everyone, regardless
+of age, will behave in different settings. And so this kind of thing goes on because
+that's the material we have to work with. We can't observe all,
+we observe a portion and that makes it an operation
+based on a sampling. Often when we think about these
+things though, in science or even in our everyday life, we're making an
+assumption that the environment around us that we're using to examine
+a particular phenomena is uniform. That is, we're willing to assume for
+example, that risk factors for disease affect everyone in the same way. Even though we've only observed
+those risk factors and the disease in a particular setting, in a particular
+location, in a particular point and time. We're willing to make inferences about
+what would happen in another time, in another setting. And oftentimes that kind of
+conclusion is perfectly sound. But we are here going to be more careful
+about looking at what the sample tells us then, if our assumptions are correct
+about the uniform mixing. What happens for
+the particular happens for all. So for a physicist it's probably
+a safe assumption to make, that the environment is well-mixed,
+and one sample from one location will have the same properties
+as a sample from other location. And similarly for the chemist, and so on. But in the social and health sciences,
+and in many other areas it can be misleading to assume uniformity
+or random mixing as it's sometimes called. And that one sample is
+as good as another for drawing conclusions about the population
+from which the sample was drawn. In this course what we're going to do is
+look at what we know about how sampling can be done to deal with the non-uniform,
+the non-mixed world we live in. We're not going to rely on assumptions
+about how the atmosphere, or chemical compounds, or people, or
+disease etiology is distributed. We're going to be looking at sampling
+methods that instead force the mixing, not in the population, or assumptions
+about the population, or the environment, or the flask, or elsewhere. But in the sample. We're going to look on how we can
+use random processes in selection to avoid the need for assumptions weak or
+strong about the population. And to avoid the kind of bias that can
+sometime arise when our assumptions are wrong. Hence on this slide
+the appearance of the dice. We're going to play dice with the sample. Not as Albert Einstein once
+speculated with the universe, but with the sample and
+how we assemble that sample. We're going to address
+the problem in several steps. Here we have the units that we're going
+to be discussing these issues in, six of them. In the first, in Unit 1, what we're going
+to do is talk about research design. And how sampling and its use in surveys
+work together as research tools. We're not going to look at all
+kinds of research designs. We're going to look at the survey and
+the survey sample and data collection that goes with
+that kind of an operation as a subset of the many tools
+that we could use in research. But in this particular case, we're going to be talking about the ideas
+of sampling in a survey setting. And typically I'm thinking
+about survey samples of people, hence the name of the course. Although when we sample records,
+we're thinking about people, those are typically records about people,
+although they don't have to be. As well as networks which
+are groups of people. So it's mainly about sampling human beings
+here that we're going to be talking about. There we're going to move in Unit 2
+to talking about sampling techniques. And by techniques we're referring to
+the process that are used by researchers to select samples. Now there are actually three basic
+tools that we're going to consider in this course. They're not the only ones,
+but three basic ones. And the first in Unit
+2 is random selection. Usually sampling that uses
+just random selection is referred to as simple random sampling. Now I've used the title here,
+Mere Randomization. Only randomization,
+that's what I mean by that. We've used the term here that is somewhat unusual to make
+the point that the usual term, simple random sampling actually conotes
+something else than just randomization. But it's got the same meaning,
+that was the intent of the terminology. But that's what we're
+going to do in Unit 2, is just what happens if we only use
+randomization in the selection process. Units 3 and
+4 introduce the other two factors, and these lead to a set of techniques that are
+related to each of those factors that we use in sample selection. One technique or set of approaches
+have to do with grouping the elements in the population and selecting groups
+instead of selecting individual units. This is done to reduce costs. This is what's called cluster sampling. The second technique that we deal
+with is one that also does grouping, but here the grouping of the sample of
+the population into various groups, or stratas they'll be called, so-called
+stratification is used to control the efficiency of what we're doing,
+the effectiveness of what we're doing. Stratification can actually be used as
+we'll see to give us better quality and almost the same cost as
+mere random sampling. And so it becomes the technique that is
+automatically used because randomization serves as a foundation, but
+stratification, grouping and these kinds of efficiency gains
+are very inexpensive to obtain. And one of its going to do
+those almost automatically. Regardless of whether we group and
+then select or we select groups as in cluster sampling, we're only going to talk about how to do
+this when we use randomization in them. Now Unit 5, we're going to go back to a technique
+that sometime people introduce first. It's a very easy way to draw samples,
+something that we do automatically. It's what's called systematic selection,
+or just counting. Counting and taking every so many. There are some pitfalls to be aware of. And we will go through those because we
+want to provide you with some tools that make you a little more sophisticated
+in your application of the technique. And we'll emphasize when these kinds of
+pitfalls that we run into are important. How to remedy them and when one might not
+want to use that particular technique. Then we're going to wrap up
+the course in Unit 6, by dealing with a couple of extensions that make sampling
+easier to do for records and for networks. And we're going to deal with those
+briefly, such issues as how to deal with the complexity, as opposed to the
+simple nature of simple random sampling. The complexity of the design,
+when using clusters and strata, and its impact on the conclusions that we
+draw, and about the quality of our data. As we do this, I'm going to
+organize this with some additional sidebars in our displays that I just
+wanted to illustrate that here. We're going to have multiple
+lectures in each unit. And as we jump to a unit, we'll have two
+things to keep track of, the units and lectures. I'm going to use a box like this
+in the upper left of our slides to alert us to when we're
+talking about units, as here. Or about lectures as shown here. So here I've expanded Unit 1 into seven
+lectures that we're going to be doing. And before the lecture I'll remind us,
+me as well as you, what it is we're talking about
+in the context of this unit. So here we see that there are seven
+lectures planned for Unit 1. They are displayed in both the main
+box on the center of the screen as well as to the left. And that's just to help
+me keep track of them. And I'm actually going to
+highlight those issues. So for example here highlighting lecture
+one to say that that's what we're going to be talking about today. And as we do that highlighting then and
+move into lecture one, we'll introduce the topics that we're
+going to discuss in lecture one, and then we've got a reminder that yes,
+we're in lecture one, but these are the particular topics
+that we're talking about. And then finally, we're going to move
+into each of the topics one by one, but on the upper left we'll have
+a smaller box that displays what topics within the lecture we've got. And I hope that will help you understand, as sometimes these things
+we will go a little long. Just where we are in the progression and
+the flow. But that's enough about format,
+I just want to say a few more remarks before we get started about
+our consideration of research design. We're going to open Unit 1 on
+sampling as a research tool and lecture one about research design and
+sampling. We're going to get a little more into
+the context, the setting, for example, of what we're talking about. My hope is, that as we go through these
+lectures, you'll come to appreciate how the techniques we talk about, in the
+context of surveys, of people, records and networks, can be applied to other areas. Especially as we understand
+how they are applied to these particular kinds
+of research subjects. Two last things before we start, you may find that as we go through these
+lectures I express some enthusiasm. It's a little hard for
+me to do as a statistician and mathematician but I can be enthusiastic
+about this stuff because I like it. I've done this a long time, I really
+find this a very powerful research tool. And I've seen some of my colleagues
+do amazing things with these kinds of approaches to research design. And that I find that these
+are a very powerful set of methods, they're not perfectly structured,
+there are some fundamental flaws to these kinds of things
+philosophically, to these approaches. But on the surface, in the theory,
+what we have are a set of methods that don't require us to make assumptions
+up front about what we're doing. And [COUGH]
+provide us with a very good starting point, for beginning to think about
+how we should do our samples. So when I think about doing a sample
+design, a sample for a particular research problem, I come back to the fundamentals
+I'm going to be talking about. So I'm going to talk
+about fundamentals and principles as though they could exist
+in practice as we talk about them. In actual practice, we have to depart from
+these kinds of approaches all the time. But if you're going to make departures, you better know what
+you're departing from. And so that's the point here. We're providing a baseline, a foundation. From which once we understand that
+foundation we can make some departures and make practical decisions that mean
+the difference between whether we can conduct a piece of research or we can't. So I think about these as
+foundational kinds of issues and this is particularly true with
+respect to randomization. I'm going to make some statements here,
+that for teaching purposes are exaggerated. For example, I'm going to say that
+randomization gives us the ability to draw conclusions without making assumptions. Technically that's true,
+but in practice it's not, because we end up having to depart
+from true, randomized selection. When we deal with
+deficiencies in our samples, units failing to respond,
+we can't get data for them, and in those cases we actually begin to make
+assumptions that help us post-collection, post-selection, address
+some of those deficiencies. This is what's sometimes
+called a frequentist approach, I won't go into discussion of that. Others prefer more of a model-based
+approach to these kinds of things. But I'm going to stick with that approach,
+because it's fairly standard in the field. It's not to say that the alternative
+is wrong, or inferior. It's just to say,
+that's what we're emphasising here. Let's understand this approach,
+before we attempt to do something along the lines of dealing with
+more principled approaches. Okay, I'm ready if you are. Let's turn to our first lecture, and
+look at what happens in research design, and how survey samples fit into
+the context of research design. Thank you.

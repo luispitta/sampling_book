@@ -1,0 +1,241 @@
+Hello, and welcome back to our course on
+sampling people, records and networks. My name again is Jim Lepkowski,
+the instructor for this course, and we're going to be talking about our first
+lecture here, under our first unit. Where we're going to be talking
+about sampling as a research tool. And so in this particular set of materials
+what we going to be doing is opening our earlier lectures about sampling as
+a research tool where this is a lecture on research in general, research design,
+and how sampling fits in. And sampling will fit in in the context of
+surveys which we're going to classify as a type of research design. Now there are basically two
+parts to this lecture, and we'll pause between the two
+parts as we go along. The first part will be about research
+design and we're really going to talk about experiments, and close experiments,
+and have a couple of illustration too. Set in in our minds the nature of
+experiments with human populations, and then we're going to in the second
+part talk about the principles of these designs in the context
+of survey samples. We'll move in to talk about survey
+samples then in the second part and about the underlying principles, what I'm
+calling the three r's of research design. But that brings us to then talking
+about research designs and surveys. How do these two things fit together? And as I said we've got these two parts
+that we're going to be examining, and I'm going to be operating under the assertion that
+surveys are part of scientific research. Surveys are used in other context too,
+as our other search designs. But here for scientific research
+when you're thinking about surveys that are formally done to address
+a particular research problems and hypothesis that go with
+those particular problems. We're going to talk about them in terms
+of idealized designs as we do this. Now, within research design, when people talk about research they
+typically think about experiments. Experiments in which there's some
+kind of a scientific novelty, there is something that we're looking at,
+that's new. And we're comparing and contrasting it with something that we
+already have in place or never had. We're going to look at something new and
+contrast it, and so we tend to think of a laboratory
+with these kinds of things. The scientist working quietly away
+on some observational studies, carefully documenting findings and reporting them to other scientists before
+they are shared with the larger public. Now you'll notice an image
+on the lower right, a composite one from
+Nicholas Tesla's laboratory. And of course, this one's a composite,
+this is several pictures, images laid one over the other
+of something that is going on. This didn't happen all at one time,
+but it's very striking. Now this looks like experimental
+science in action, right. Well, yes and no. This is fine for
+studying natural phenomena, but what about phenomena involving people. And so in doing that here we need
+to be a little more refined. And these are not principles that test and
+interviews but just once we need to think about more explicitly when talking
+about what we do with human beings. Experiments are idealized manipulations. Idealized manipulations of
+major kinds of phenomena. A thing that we're attempting to examine,
+or phenomena we're attempting to examine and
+contrasting with something else. So there's a comparison that's going on,
+and there is a major variable
+that we're interested in and then something that we are using
+as a background to compare it to. And we'll talk about that in
+the context of one experiment in the middle, in a minute. There are in the background though,
+disturbing variables that could interfere with our ability to compare treatment
+A to the standard treatment, treatment B. Disturbing variables that could
+interfere with our ability to compare the application of a new set of
+pharmaceuticals to a condition and compare them to not having
+those pharmaceuticals at all. And these are disturbing
+variables that can cause us to conclude that there's
+an effect when none is there or cover up an effect even when one is there. And in order to deal with
+those disturbing variables, something called randomization is
+used in the designs, so that subjects are either given treatment A or
+treatment B, given alternative A or the control, and which they get is
+determined by a chance mechanism. Not by an individual investigators choice,
+but by some mechanism that is external to them therefore being objective rather
+than internal to them, and subjective. Now, let's consider a classic example, and in their effect the first large scale
+randomized trial of human subjects. It was conducted in 1954, in a field trial of the Salk
+Poliomyelitis Vaccine, the polio vaccine. A polio is a virus,
+it's an infectious condition. It's transmitted by what's
+called the fecal-oral route. It's transmitted through
+unsanitary conditions. Our particular story here has to do
+with the more recent history about it when it became more prominent in
+the public's thinking after World War II. People were very concerned about this. And the first vaccines that were thought
+to be effective were developed by a man named Dr. Jonas Salk. But no one was sure that
+the vaccine would be effective and safe in a general population. They knew that it worked in the clinical
+studies that have been done. That they we're very
+small than they needed, they thought a large skill fill
+try to find out what had happened. The study have to be large because
+the disease instances is very rare. The appearance of new cases is quiet low. A study was proposed in which one group
+of children would be immunized and another group would not,
+that's the comparison. That's the essence of
+the scientific approach, comparing these different outcomes. The rates of polio in the two groups
+would be compared and the idea would be, let's immunize one group and not another,
+and then compare what happens to them. And they decided that they would do this
+among first through fourth grade children. Design that was proposed was that
+first and third grade children would receive the immunization and the other
+second and fourth grade would not. Now, everybody would know
+what would be going on, but this design was because of
+that why they criticized. Because everyone who would know who was
+immunized including the parents and their doctors and they would be more aware especially if it's a child had not
+receive the immunization was going on. And there maybe increased attention and the rates that might be observed among
+those children, might actually be different than the background rate
+that they understood in studying and contrasting to what was
+happening under the vaccine. So that would tend to narrow the gap and thereby not demonstrate the full
+effectiveness of the vaccine. Even though the first, and second, and
+third grade students came out of the same schools, one cannot be sure that
+the backgrounds of the immunized and the not immunized children will be,
+on average, the same. There could be differences with
+respect to immunization background, with respect to exposure to the virus. And so there could be other factors here
+that were going to interfering with that comparison. As a result of this concerns, a second
+study was proposed to run simultaneously. So let's do it with the first,
+the second, and the third grade children. We're going to immunize the first and
+third grade children, and not the second grade children. We're going to compare them, but then at
+the same time, let's do the following, let's get another sample of first,
+second, and third grade children. And these were done through
+volunteering schools and communities, it was never imposed, and then all of
+those children will be given an injection. However, a randomly chosen half of
+the children would get the vaccine and the others would get a placebo,
+a salt water kind of solution, not having any known effectiveness and certainly not
+any property that would hurt the child. But no one would know about who
+got the vaccine and who did not, except the study investigators. All the children were to be followed. So those getting the vaccine, and those not getting the vaccine,
+that was on the basis of a randomization. Not a choice of first and third graders
+versus second graders, but among all those children, randomly deciding, objectively
+deciding who would get the vaccine. Statistically, this has
+valuable properties. It evens out the background variables. We don't have to worry about,
+on average, the background variables. Now, as you see, the study was enormous. It involved over 1.8 million children,
+and for the observed control design just to
+see what was going in the background. There's a million children involved, now
+they weren't directly affected by this. They didn't get the vaccine but
+they weren't directly affected. But the other two parts of the study, the non-randomized study comparing first
+and third graders to second graders. And the randomized comparing those first,
+second, and third graders randomly assigned to the vaccine to those first,
+second, and third grader randomly assign to the placebo, to the non-vaccine
+where two arms of the same study. This provides of wonderful piece of
+evidence about the value of randomization. Because now we can compare two different
+research designs, one randomized and one not randomized to see what difference
+in conclusions we might have had. Maybe there's no difference, and in that case we don't have
+to worry about randomization. Randomization is controversial. How can you randomly, objectively,
+with no sense of perspective assign one child a vaccine and
+another not the vaccine, and then risk that other child,
+possibly being afflicted with polio. While these are important moral and
+ethical questions, and they still exist for experiments,
+especially among human populations. Okay, so we've got what some would
+characterize as not such a good research design and a very modern research
+design being contrasted here. The one that involved the randomization involved what was called a double
+blind randomized experiment. Nearly half a million children were
+involved in this arm of the study. Parents and physicians knew that the
+children had been given an injection but they didn't know whether it was
+the vaccine or the placebo. They were alarmed for signs of disease but
+this was equally true for vaccinated and not vaccinated groups. And at the baseline control instance
+rate of that background would be actually proved to be higher than what was observed in the population because
+people were in alert no matter what. But nonetheless, both groups
+have the same attention paid to them because no one was sure who's
+getting the vaccine and who wasn't. And so this allowed an evaluation
+of the effectiveness, the difference in incidence
+rates between the two. But this is a massive study first to
+randomly assign subjects, in this case, children, to treatment and control. Now, after following
+the study children for a year, the results were conclusive,
+and in the randomized model. It was found the vaccine was safe and
+effective, and the instance of polio among immunized children was less than
+half of that among unimmunized. Now that's not to say that children
+who receive the immunization then were completely protected. Some of them did get polio, but their
+rate, their instance rate was much lower. And by all statistical measures, significantly lower than
+those who received a placebo. The public health action was almost
+immediate, the very next year children all across the US were being immunized as fast
+as they could manufacture the vaccine. No one waited for another study,
+they just went out. Manufactured the vaccine and
+began to immunize children. There were shortages and sadly some children who could not get
+vaccinated right away did get polio. But it's the study, and it's the facts
+on public health were dramatic. Now we should understand, the non-randomized study show differences
+as well, but they were very much narrower. The differences were much smaller and
+they were less willing to draw the conclusion that the vaccine
+was effective with that study. So randomization led to a faster, more rapid approach to an emergent
+public health condition. So the randomization in
+the experiment showed precisely what the nature of the effect was. It's hard enough to randomize with
+human subjects in many circumstances. I picked a particularly
+poignant one involving disease, a disease that could lead to paralysis,
+a disease that could lead to death. So, it's very dramatic and
+stalk in its contrast. But there are other conditions
+in which we wouldn't even dream of randomizing because
+of the practical difficulties. So let's talk about another one and
+then about observational studies. This will lead us to talk about
+surveys that are used to deal with, how do we determine what these differences
+between those expose and not expose? Those who got the vaccine and
+didn't get the vaccine? Or in our case,
+those who smoked cigarettes and those who did not smoked cigarettes,
+and what the differences where? Let's consider another classic study, this
+one conducted by two British physicians named Doll and Hill, and
+their pictures are shown here. In which they were studying the
+relationship between cigarette smoking and various causes of mortality. And they did a non-randomized study
+of physicians in the United Kingdom. There were around 60,000 of them, and
+the registry was readily available, and the two physicians who did the study,
+took that registry, and they wrote to all of them, and asked them to fill
+out a questionnaire about tobacco use. So they did more than cigarette smoking,
+snuff, chewing, tobacco, pipes,
+cigars, and so on. They did exclude a small number
+of physicians, female physicians. It was, after all, a different era. But there weren't very many
+of them to begin with. So this was just strictly male
+physicians in the United Kingdom who then returned the questionnaire to them. 40,000 of them returned the questionnaire,
+two-thirds responded. And then what they did was they followed
+them through the registration system, the death registration system
+in the United Kingdom. They examined every death record over
+the course of several years to find any of the 40,000 respondents who had died and
+then they noted the cause of death. Well then there's no randomization now,
+because what they're observing is from the questionnaire that they sent out,
+did you smoke or didn't you smoke? They didn't assign them to be smokers or
+non-smokers. They just observed who smoked and
+who did not. And so the study physicians chose on their
+own volition of whether to smoke or not. Hill done so for
+a long period of time in many cases. It would have been impossible to
+assign them randomly to smoker or non-smoker treatment or control groups. But still, Doll and Hill, were able in
+a few short years to establish that there were much higher rates of lung cancer and
+cardiovascular disease among smokers. The results were the size of these
+differences were very large. They found huge differences in prevalence,
+that was very striking. But no one took there study as definitive,
+it was challenged on the basis of the same issue that we
+were talking about for polio. How do you know that the smokers and the
+non-smokers are somehow not different for other reasons with respect to lung cancer? Isn't there possibly another factor, a genetic factor that predisposes
+smokers to want to smoke. And also to lung cancer, and that it's the
+genetic factor that's in the background. This was one of the arguments
+that was put forward, [COUGH] and so
+there was controversy about this, and the large scale public health
+action was lacking for a long time. As a matter of fact, it wasn't,
+this study was conducted in the 1950s. It wasn't until the mid 1960s that
+in the US the surgeon general, the chief medical officer
+of the United States, declared a link between cigarette
+smoking and lung cancer. Based on this study and a number of
+other non-randomized trials, that's because the randomization was lacking they
+couldn't draw a definitive conclusion. Randomization is a very powerful tool
+then in the mind of the scientist. This kind of thing that Doll and Hill was considered to be a pseudo
+experiment, it wasn't a true experiment. It was based on where people were
+currently observed in terms of their exposure and then what the consequence,
+was in terms of their cause of death. Randomization matters. It matters in science. Here, in this case, it can be a very
+powerful tool for establishing effectiveness of a treatment versus a
+control, or one treatment versus another. So we've seen now something about
+the nature of research design, two examples of research design, and
+a key part that randomization plays. And in one case randomization playing
+such a key part that it leads to immediate action. In another case, it's absent and
+it takes much longer to establish that a causal mechanism exists,
+at least that's the history. Now it's not always the history in all
+cases, but I'm using this to help fixing your minds the importance of
+this odd statistical thing of objectivity randomly assigning
+people to treatment and control. This is going to be important when we do
+samples because what we're going to do is use the same tool, randomization to assign
+people to the sample or not sample. And it's going to allow us to be able
+to act immediately on that basis to say what we found in the sample
+applies to the population. That's the purpose of what we're
+doing with this kind of thing. But for our purposes,
+let's pause at this point in our discussion about research design and
+we will resume and go on in our next section to talk about
+how randomization is used in survey sampling in a different way and
+a different aspect of the process. As we continue our first lecture on
+research design and sampling, thank you.

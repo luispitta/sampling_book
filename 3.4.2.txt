@@ -1,0 +1,103 @@
+Welcome back as we continue our lecture
+four on designing two stage samples. And going on to consider
+two additional topics. One, design effects and
+their effect on sample size. And two, projecting standard errors and confidence intervals together for
+new designs. Now design effects, when projected, also can be used to help us to determine
+sample size in cluster sampling. So there's not just their value,
+their utility, in calculating standard errors,
+Projected standard errors, but also, it can have an important impact on
+our design by dealing with sample size. So, cluster sampling, as we know, increases variances by a factor
+that is that design effect. Our variances are going up by the factor
+1+(b-1)roh and we now know how to project that, at least building on past
+information And choosing a value of b. And so, that design effect is
+a comparison to simple random sampling. Here's what we can do. We can offset this increase by
+increasing the sample size. That is, we're going to have larger
+variances because of this design effect compared to simple random sampling. And we can offset that by
+taking the cluster sample and inflating its sample size. That is what we're going to do is start
+with a simple random sample sample size and inflate it by a design effect. Now again, keep in mind that we
+are saving substantial money by doing cluster sampling. Either because our list,
+assembly cost are much smaller. We're only assembling lists of elements,
+for example, within selected clusters. Or, and/or,
+our travel costs are substantially reduced because we're only going
+to a sample of the clusters. And not to all of them,
+possibly in a simple random sample that spreads our sample
+out across all of our clusters. Or even a much larger number than
+we might do in cluster sampling. So, suppose that we start where we did
+before for simple random sampling. And say that we have decided in
+our design process that we're going after this proportion. We think it's around 0.4, and
+we want to have a 95% confidence interval, us and the client. The client and
+our team have negotiated around this and decided that a 95% confidence interval
+from 0.37 to 0.43 would be satisfactory. Now, that confidence interval,
+as we talked about before, translates into a margin of error,
+a plus or minus 0.03. So, we have taken the estimate,
+the 0.4 and added 0.03 and subtracted 0.03, that margin of error. And we know that margin of
+error is comprised of both a multiplier that we've derived
+from a theoretical distribution, a normal or a t-distribution and
+a standard error. If what we're doing is 95% confidence
+intervals and we've been using that normal distribution for that multiplier
+effect in our uncertainty statement, then we can take 1.96 or 2 and use that to work backwards from the margin of error to
+the standard error that's being implied. That is, in this particular case,
+0.03 divided by 1.96. Well, 0.03 divided by 2, just to keep it round numbers that
+we can readily do in our heads. It says that we need
+a standard error 0.015 for this particular 95% confidence interval. That means that if we're going to
+calculate a simple random sample now, we now know what that sampling variance
+should be, it's going to be 0.015 squared. All we need to do then is to couple that
+with our element variance, S squared. So, if you recall, for a simple random
+sample size calculation, assuming that our population size is very large, we're not
+going to worry about adjusting it here. We didn't do that before because
+we thought that we had a very large population. So, we simply would take an element
+variance, S squared, and divide it by a projected or
+desired sampling variance, v sub d, but in our cases that v sub d is going
+to be that standard error squared. So, you'll see here in the numerator for our S squared we're going to use p times
+1 minus p, roughly and approximately. It's satisfactory for
+these kinds of calculations. 0.4 times 0.6, and that's going
+to be divided by 0.015 squared. It gives us a sample size then,
+simple random sample, necessary sample size of 1066.67. Now, let's not worry about
+rounding at this point up or down, lets just keep that number
+with the decimals and add to this a consideration that
+deals with the cluster sampling. We know that if we were to draw
+a cluster sample of this size, 1066, our design effects would
+be such that our confidence interval limits would not be
+from 0.37 to 0.43, but wider. Because we would have
+an inflation in the variance. So, how are we going to bring those
+confidence intervals back into alignment? We're going to increase
+the sample size by a factor of the design effect,
+that width widening factor. Now, it's the design effect, not necessarily the square
+root of the design effect. So, mechanically then, if the cluster
+sample was projected to have a design effect of 2.18, 2.1795,
+just to keep that number there, the sample size for the cluster sample
+would be our simple random sampling, sample size 1066.67,
+times that design effect. And now, I've rounded the sample size,
+2,325 is our sample size. All right, so we've got a way now to
+use the design effect to help us in understanding what we need to do in
+our cluster sample to counteract the effects of cluster sampling and
+obtain a sample size. We can take this use of design effects and
+this projection process one step further. Now, we've got the sample size,
+we can look and see what a 95% confidence interval would look like for our design
+under an alternative set of assumptions. Now, in this particular case,
+what I'm going to do is, if I were to use what we just did and
+work backwards, we're going to end up with the same confidence intervals,
+the ones that go from 0.37 to 0.43. But here, let's consider design B. Remember design alternative B? Where we had 60 clusters and 20 elements
+in each, a sample size of 1,200, a projected design effect of 1.575, 1.58. And what we would do to get a confidence
+interval from this kind of thing, would be to use that design effect as an adjustment
+on our simple random sampling variance. We all ready knew that was 0.0002. And we all ready calculated
+a varience then under this projection system of 0.000315. The 95% confidence interval then
+builds on this by taking 0.4 and adding and subtracting around 0.4,
+our margin of error to well, 1.96 times the square root of that,
+0.000315. That, remember now, is the simple random
+sampling variance inflated to account for cluster sampling. And we see our confidence interval
+width goes from 0.365 to 0.435, very similar to what we had before. But remember,
+this is a different design effect. It's going to be a different outcome
+here than what we had before. All right, there we have it. So we've seen how to project
+standard errors and variances. We've seen how to project confidence
+intervals from our design. We've seen how to use projected design
+effects to calculate a sample size, a simple random sample size adjusted for
+clustering. Those are the basic features
+of the design process. There are others that are involved, but that's as far as we're going to be
+able to go in this particular course. And what we're going to do
+now is turn to a topic, also in the realm of cluster sampling,
+we want to relax this constraint that the cluster
+sizes all have to be the same size. We're going to deal with unequal
+size clusters in our next lecture before we wrap up things by talking
+about subsample size as well. So, join us in the next lecture, lecture five in unit three where
+we will deal with the real world. Where we have unequal size clusters. Thank you.

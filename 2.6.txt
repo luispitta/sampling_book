@@ -1,0 +1,194 @@
+Recall that in our recent lectures about
+simple random sampling we've been dealing with the issue of sample size. And we started out talking
+about sample size and sort of reverse solving
+the problem backwards. Going backwards from what we want
+to what we need to get there. And then, we talked a little bit about
+a question about whether we could simplify that process when what
+we're starting with as an outcome is a a margin of error as a summary measure. Well in this lecture, this is our sixth
+lecture in the series on simple random sampling, where we're going to
+be talking about sample size and its relationship to population size. We're going to be addressing the question
+of whether there is such a relationship because we kept going back in
+those previous two lectures and adjusting sample size for population size. Well what role does that
+play in the calculation? What would I find if I started
+thinking about whether or not population size and
+sample size are related? And there are two results here that we're
+going to see that we'll sort of summarize at the end, that are important for
+you to keep in mind. These are kind of take home messages
+about simple random sampling. We're going to do this
+in a series of parts. We're going to talk about sample size,
+revisit it. And particularly the version
+that deals with margin of error. The margin of error basis for
+calculating sample size. And we'll return to looking at
+the leadership approval rating. But now what we're going to do
+is look at leadership approval across a bunch of countries. The same phenomenon across a bunch of
+countries where the population sizes are quite different. So we're going to talk about China. People's Republic of China, about the US,
+about the Republic of Ireland. I'll tell you why on that one in a moment. About the Seychelles, and about Tuvalu. A tiny island in the Pacific,
+the Seychelles being in the Indian Ocean. And then, we want to talk about the wrong idea about
+the way to think about sample size and population size, and how what we've just
+being going through, corrects those ideas. So, here's our revisit. Recall that our sample size, for a simple
+random sample to be calculated, for a given margin of error,
+had this formula here. And I know the formula's,
+this is not much fun to look at. I just want to do a quick review here. Our sample size was determined by,
+in the numerator, an S squared. And in the denominator,
+an S squared over capital N. Now, that's that piece in the denominator
+is the finite population adjustment. But the part that's really driving this,
+driving the sample size, is to take that margin of error. Remember that's the half-width of
+a confidence interval, divided by 2, this is for a 95% confidence interval. So this is quite specific. And squaring that and
+adding that to that denominator quantity. So in our previous example
+where we had a margin of error of 0.02 0.58 to 0.62. The margin of error, the half with
+the plus or minus, was 0.02 for a 95% confidence interval. And so then we estimated our sample
+size by taking our S squared, which was 0.24 for that proportion of 0.6. 0.24 divided by 250,000,000
+in the denominator for the finite population correction. And then that 0.02 divided by 2 squared,
+and we got a sample size of 2,399.97,
+or 2,400, right? We're going to round that up. We would ordinarily, but
+we always round those sample sizes up. So, there we have our calculation,
+that's our calculation formula. And that denominator has a term that
+is a result of the finite population correction. But that term, made almost no difference,
+it didn't make any difference in the example,
+it didn't change our sample size at all. That's a little odd. I would think as I mentioned
+before that maybe that sample size should get bigger and bigger as
+the population size gets bigger, but here we've got a great big one and
+it's not changed it at all. What's going on here? So does that denominator thing
+ever make a difference at all? And that's the question
+we want to deal with. And then we'll look at what difference it
+makes as we change population sizes and then come back to think a little
+bit more about how that affects our thinking about design. Okay, so, let's look at presidential or
+let's say leadership approval. We're going to ask the same kind
+of question we asked before about President Barak Obama, about whether or not you approve of the job that the
+current leader of the country is doing. And, whether you strongly or
+somewhat approve. Or strongly or somewhat disapprove. And we're going to have some
+sequence of values here. The lower left then. The past day we have been
+asking this question. We want to figure out
+what same size to use for the next time we do this in order to
+achieve a particular level of precision. But here,
+the problems are a little bit different. We're not sure what the approval rating
+will be in each of these countries. The one sided for President Barack Obama,
+this is in the latter part of his term as President after
+almost eight years in office. And it was surprisingly high. Most presidents at that point in office
+have approval ratings that are someone lower and
+he has of pretty had a pretty high one. But we may be asking in the middle of
+someone's term in the United States. We may be asking later in the term for
+someone else and getting a lower approval
+rating in a different country. Or maybe this country is very
+enthusiastic about their leadership and give a very high proportion. What should we do in a case like that
+where we're uncertain about what value might actually be there for
+the P and thereby the S squared? Here what we're going to do is
+what's referred to as being somewhat conservative. It turns out that the largest value
+of S squared that you can get for all the possible values of the proportion. Now the proportion could go from
+virtually 0 to virtually 1. But if you take all of those values
+from let's say .01 to .99 and you were to calculate the S squared from
+.01, .02, .03 all the way up to .99, the largest value of S squared would
+occur when the proportion is at .5. And so, let's be a little conservative. We know that's going to be in
+the numerator of our calculation. Let's use as large a value as possible
+there, because we're not sure whether it's going to be really small or
+really large approval rating. We're going to use the worst case,
+which would be approval rating of 50%. Now that's worst case not for the leader,
+but for our sample size calculation. So let's use 0.5 here. So we're going to alter our
+calculations a little bit. And so what we're going to do is end
+up possibly, or actually in most cases, specifying a sample size that
+is larger than is needed, because we're unsure what
+that proportion will be. And so
+in this particular case our S squared will be on the basis of
+a proportion of the 0.5 and 0.25. All right, that's our basic framework. And we're going to get the same
+kind of confidence interval. We want a width of 0.02. We want a margin of error of
+0.02 in all these calculations. And so let's turn to a population like
+that in the People's Republic of China. A population of 1.4 billion people,
+but among voters, maybe it's about 800 million. Okay, just a round number. It's not exact, but a round number. And for a 95% confidence interval
+with a margin of error 0.02, we would need a variance now our variance
+calculation will be a value of .0001. So what sample size would go with that? Well we're going to do a calculation then in which we take that formula
+that we were just looking at. That S squared over the margin of error
+divided by 2 squared + S squared over N and substitute in our values. And in our particular case,
+in our substitution of values. We have in this particular
+case our 0.25 now. Not 0.24 but 0.25. The worst case scenario. We have our capital N in our denominator. And then we have our margin of
+error adjusted for the z value. And when we do the calculation,
+we get 2,499 = 2,500. And now,
+if we didn't do the population adjustment to find the population
+correction in this case. We'd have exactly 2,500. So whether we're talking about
+an infinitely large population or the People's Republic of China,
+which is virtually the same thing as far as this is concerned it's 2500
+is the sample size that we need. All right, well then what about in a country that's
+smaller a quarter of the size of that? The United Sates with about 315, 320
+million people, but about 215 million who would be about 18 years of age and
+older, voting age. What about their approval rating? 95% confidence interval for
+the margin of error 0.02. What sample size do we need in this case? And so, we plug things back in again. We put in everything except, all we do, in
+this particular case is alter what we did for China by putting in 250
+million in denominator. That's our finite population correction. And we see that lo and behold, our
+sample size still comes out to be 2,500. So even though the population size
+is one-quarter the size of China, we need the same sample size. Now this, I know, doesn't seem fair. If you're Chinese,
+this certainly doesn't seem fair. You've got more people. But that's not the issue here. It is to achieve the same level of
+precision we need the same sample size, regardless of the population size. Well, I'm exaggerating. Surely it must make a difference If we
+change this to go to something smaller. So let's go to something much smaller. Let's go to the population of Ireland. I chose Ireland because I have
+a good friend who helped me develop material that I've modified
+here in these notes. We've talked together,
+and he's from Ireland. Speaks with a lovely Irish accent. My wife loves his accent. My mother, her family was from Ireland. So Ireland, there's good motivation for
+doing this. But here,
+Ireland's a much smaller country, about 4 million people about 3.2
+million voting age in Ireland. And when we do this calculation for
+Ireland, now this is dramatically
+smaller compared to China. We see that our sample size calculation is affected a little bit
+by that population size. Now when we put in 3,200,000
+in our finite population, our sample size comes out to 2,498.04. 2,499, we saved one case. It's still 2,500 as far
+as we're concerned, even down to something
+the size of Ireland. Compared to these other
+population giants in our world. I mean, I didn't do India, but
+it's same kind of thing there. Well, when does it make a difference? Well, let's go for something much smaller. Let's look at a place like
+the Seychelles in the Indian Ocean. Where there's probably about 80,000, is the voting population
+size in the Seychelles. Just a round number,
+I know it's not exact, but here we have this island country,
+much smaller in size. And now we're going to go and
+do the same calculation. But now using 80,000 in that denominator. Now my population size makes a difference
+my sample size drops from 2,500 to 2,425. I've saved 75 cases. Now that's the effect of
+a finite population correction. It actually decreases the sample size
+as the population size goes down. But really, 75 cases is not going to make
+a lot of difference in terms of cost. And so I'm really still at about 2,500. Well, let's go to some of
+the smaller countries in the world. Let's go to another island country,
+Tuvalu, in the Pacific in Micronesia. And here with a population of about
+12,000 voting, number 18 and olders. Let say 8,000 14 to 15,000, 8,000 voters. When we do the calculation,
+now I see a dramatic drop. Now I've gone from 2,500 to 1,900. Now it makes a difference. But notice, we're really getting down
+there in terms of population size. Most of the population sizes we dealt
+with the ones that four out of five, it didn't really make a difference
+that is here's a summary. Sample size depends on population size but
+not in an expected way. First of all, it doesn't increase. The sample size doesn't increase
+as the population size does. And above a certain limit of populus
+basically it's the same, it's unaffected. If anything, if we get the small
+population sizes, that sample size drops. We actually save money from
+the smaller populations. But the China's, the United States', the
+India's, the Russia's, the Brazil's, these large countries even down to Ireland,
+it's basically the same sample size. Now why do we even bring this up? Because there are textbooks out
+there that claim that sample size should be determined as
+a fraction of the population, say 10%. That's what I got in the drawing
+in the lower left, fraction. That's how you determine sample size. I actually had a call years ago,
+from somebody who was about to conduct a survey in a province of Canada and they
+were being told that they should calculate the sample size as a certain fraction
+of the population of that province. And they were saying
+this is enormous in size. Does that really the way
+we calculate sample size? And when we went through this kind
+of an exercise it turned out to be quite a bit different. The larger the population,
+the larger the sample size, that's what would happen if we
+were doing a fraction like that. Directly proportional
+to the population size. It's kind of the lay understanding,
+that's how people think about this. Yes, the larger the population you
+should have a larger sample size. In fact,
+you have probably heard this some times. Here it is,
+this is the common sense perception. How can a sample size of only 800 or 2,500 represent the entire voting
+public of 250 million in the US? I chose 800, because a lot of
+the political polls that go on during elections in the United States and other
+countries are not much larger than 800. 800, 1000, 1200, maybe 2,000,
+maybe 2,500, but they're small in size. How can that represent the entire
+population when the population's so large? That is based on the misperception that
+population size determines sample size. And what we've just seen
+is that it doesn't. It's basically unrelated until we
+get the very small populations. Okay, so keep that in mind then as
+you're thinking about this sample size determination is something that is not
+based on the size of the population. And shouldn't be done on
+the basis of a fraction like that. Well that's it for simple random sampling. We've had a lot of formulas here. We're going to move on to talking
+about cluster samples next. And the unit is labeled saving money. Cluster samples are about saving money. You're not going to need to memorize
+the formula you've got here, you've got a reference back to them now. You've got these notes. But hopefully, when you look at them,
+you'll see them not as formulas, but as distilled representations
+of a set of ideas and principles about how to
+deal with the numbers, the data we get from supportive
+samples and then how to go backwards. How to go back to the beginning
+from an end point and figure out what we need
+in order to draw a sample that's going to give us a certain
+level of quality in our results. So, let's turn next to cluster
+sampling as we move into unit three about saving money. Thank you.

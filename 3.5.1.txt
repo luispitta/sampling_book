@@ -1,0 +1,197 @@
+We've been talking about complex samples,
+but more of the simple variety, the variety that deals with
+clusters that are equal in size. And we've dealt with two
+different issues there basically. When we take those clusters
+that are equal in size, we sample them and
+then we take all the elements within them. Or, the sub sampling,
+the two state sampling. And we dealt with some of
+the elements not only out of, make those selections and their levels of
+precision, but also their design effects. Here, in this part of unit
+three we're going to look at, in this lecture, the issues
+concerning unequal sized clusters. And we sort of labeled this, we have labeled this dealing with
+the real world unequal sized clusters. Because those examples were a little
+artificial, remember the equal size blocks or the equal size classes, we know
+that's not the case in the real world. What happens when those
+cluster sizes vary? Now when we start talking about unequal
+size clusters we need to talk about them in the context of some examples where
+there's more variation than we might see in school size or classroom size. Classroom sizes remain fairly similar, they don't usually go from
+a few to a few hundred. But here we're talking about
+cases where these unequal cluster sizes can vary
+a lot more than that. So, we're going to talk about
+the nature of the problem. There's a problem that arises
+when these clusters are unequal size in our sample selection. We're talking about some sampling schemes
+for those and then talk about a solution that's called Probability Proportionate
+to Size Sampling or PPS. And we're going to do PPS, two different
+versions of it, in this discussion here. So, we're going to deal with the basics
+of our problem and see if we can come up with a description of
+a method that deals with it, okay. So, we're dealing with naturally
+occurring clusters: schools or classrooms or we don't create those. If I created them, they'd be artificial. So by natural, those that are occurring
+out there in the real world. And in that real world construction, we get this phenomena where we
+get differences between them. If I were to construct these things,
+I'd try and construct them, so that they were had equal means the means were all the same there
+would be no variation between them. Now that would be a disaster right,
+because what I would have to do to do that would be for
+the school children massive busing. I would have to bus these kids all
+over the place in order to get them to the point where they could have roughly the same immunization
+rate in each classroom. That's not what we're talking about here. I'm taking materials that are readily
+available, a list of classrooms, and then I'm doing my
+sampling using that material. I'm trying to keep the cost
+down of the sampling operation. We've been talking about when we do
+the sampling then also about sampling rates of these clusters that
+were kind of fixed rates. We would take a fraction
+of the classrooms. We would take 20 of the 1,000classrooms. 2% and then we would take one half of the
+students within each of the classrooms. Now that works well when they're
+equal in size but when they're unequal in size we run into some problems
+and here's an illustration of it. This, just a hypothetical list
+of a set of 12 hospitals. I've put them in two columns because
+the numbers get a little small for our first display, we'll do that later. Here are the sizes of the hospitals
+in terms of employees. So, our task here is to sample
+the employees in these hospitals and, let's say, ask them about their
+satisfaction with their work environment. And the satisfaction with
+the benefits that they received, the work hours, the kinds of things that
+we're interested in studying because we want to assess how well our employees are
+doing in our particular hospital system. These are 12 hospitals from a hospital
+system in some In some state, in some province, across provinces but
+they're interlinked in some way. And so, that we can see here now
+that the number of hospitals varies. So, for each hospital there's
+a count in the number of employees. I've now called that capital B, capital B
+for the number of elements in the cluster sub alpha B because it varies from
+alpha equal to 1, to alpha equal to 12. So the hospital number is
+the value of alpha that changes. The B sub alpha is the size. We can see that these sizes vary from 60. Two of them have about 60 employees. To one of the hospitals having
+many times that number, 1860. So we've got a big variation here
+in the size, probably 30 to 1. And that gives us some pause. Because suppose what we decide
+to do is draw a sample. We've figured out that we can
+afford to do about 100 employees. And we're just going to do two
+hospitals just to keep it simple here. Now ordinarily in practice we'd
+want more hospitals than this, but we're going to do this sample by selecting
+100 employees from two hospitals. So, we're going to group our data, so that we can do more
+interviews in each hospital. I added up the sizes there are 6,000
+employees across these 12 hospitals. So, an average of 500 but
+they vary from 60 to 1,860. Okay, so I am going to do a hundred from
+6,000 that is my sampling fraction though we haven't talked in these terms before,
+but that's really what I've specified. Now by specifying that sample size, and
+knowing what the population size is, I'm taking one out of
+every 60 employees there. That's my sampling rate. And we're going to do this by first
+selecting two of the hospitals. And let's say we are going to do a simple
+random sample, as we did before. We're going to generate two
+random numbers from 1 to 12. And take those two hospitals
+without replacement. That's a first stage rate then of 1 in 6. 1/6th of the 2/12th. So that means that if I've now said
+that I'm going to do 100 employees from the 6,000 hospitals,
+that's the overall rate. That's the overall f. And then, I'm taking 1/6th of
+the hospitals to get there. I've also forced something. Maybe I didn't realize it at first,
+but I forced something. If I'm taking one-sixth of
+the hospitals to get one-sixtieth of the employees overall,
+I can only take one-sixtieth of the employees in each
+hospital to pull this off. Those two numbers, one-sixth times
+one-tenth have to equal one-sixtieth. And what I did was I sort of naturally
+thought about what's the overall rate? 1 in 60. Now let's start in hospitals,
+take 2 from 12, 1/6th of them. That forces me to have 1/10th
+from each of the hospitals. Okay, all right, that sounds, okay. I can do some kind of sampling there
+by figuring out what one-tenth would be in each case and
+draw that simple random sample, except that there's
+a problem here [COUGH]. Suppose that at random,
+hospitals 2 and 6 are chosen. And now, what I'm going to do is take
+1/10th of each of those hospitals. Now, hospital 2 has 180 employees. You can go back and check it. So, I'm going to take 18 from hospital 2. But hospital 6 has 360 employees. I'm going to take 36 from them,
+one-tenth of each. And when I add them up it's 54. It's not 100. Now my sampling rate is still 1 in 60,
+but I'm not getting my sample size. Even worse, suppose instead of 2 and
+6, I got 2 and 10. Now, I have 18 employees that I'm going to
+get from the first hospital of 180 and 186 from the second hospital of 1,860. Now my sample size is 204. I'm not even coming close. I'm coming half as large as what I wanted,
+and twice as large as what I wanted just
+by chance selection of the hospitals. The sub sample size varies in this case. Sample administration is
+a little bit difficult. I'm going to have to think about this. If I only have one interviewer,
+I know they are going to spend half a day at the first hospital
+interviewing 18 employees. Two days at the hospital number 6,
+but a lot more time, 10 times as many days and
+5 10 times as much time in hospital 10. So, I don't like this. It's also impossible for
+me to estimate cost. I'm going to be called upon to say for
+this sample design what can we have in the way of
+information about how to estimate cost. And I've got a sample size that
+varies by a factor of four to one. This scheme has got some problems in it. And the reason is because
+the hospital sizes vary and I did something fairly naive
+about the sample selection. Now the variation in the overall sample
+size is undesirable from the operational point of view and
+from the budget point of view. It's also undesirable from
+the statistical point of view. Recall that we calculated our means y bars by taking the sum of
+the characteristic we were measuring. And in this case,
+maybe it's a satisfaction score. We asked them to rate on a scale from 0
+to 10 how satisfied they are with their overall working conditions. And they gave us a number from 0 to 10. And we take the average of those numbers,
+and that's what we're looking is
+that satisfaction vector, but the n that we're dividing by will not be
+100, it's going to be 54 in one case, 204 in another in different samples
+will get us different samples. The hospitals will give us
+different sample sizes. So, okay, we're just going to divied by
+the 54 the 204 that makes the most sense. But the statistician now points out that,
+hey, that sample size is not n anymore. It's not 100. It varied. It's a random variable. And when you do this,
+when you divide by 54 in one case, or 204 in the next one,
+depending on which hospitals you've got, you're really getting an estimator
+that varies in the denominator. And now, we've got a numerator, y,
+the satisfaction score, summed up. And in the denominator, the sample size. That the sample size is going
+to vary from cluster to cluster. Well, I'm giving you that ratio estimated
+formula there, we're not going to deal with it, we just don't have
+the time to do that in this course. Some of this will come up
+in a latter course, but none the less,
+it changes the nature of the estimator and life gets more complicated and we'll talk
+a little bit about that at the very end. In terms of variance estimation,
+that's a tough one to deal with. Okay, so even more, what I'd like
+to do is control that sample size. I'm now calling it x instead of n. It's like y, it's a variable,
+it depends on what sample I've got. It will provide administrative
+convenience if I can control it, and it will also improve
+the efficiency of my estimators, that ratio estimator gets more efficient,
+it gets smaller variance for the same input of cost, if I can reduce
+that variability in the nominator. Now, there's several ways to reduce
+that variability in that nominator, one way would be to force it. Take exactly the same number
+of elements per cluster. Instead of doing 2 hospitals and
+taking one-tenth of the employees, I'm going to do 2 hospitals and
+then take 50 employees in each. Maybe that's what you were
+thinking about anyway. Jim, why are you doing this? Just take 50 and
+then you're guaranteed the sample of 100. No matter which hospitals you get, you
+take 15 each you've got your sample size. But there's a problem with that,
+that we need to go over. And the solution to that problem
+turns out to be this probability portion of the size, there it is
+spelled out PPS sample selection. Okay, so
+we're back to two hospitals now, but now we're going to do 50 employees
+per hospital that are chosen. So, we're going to get
+out sample size of 100, it wont vary depending on
+which hospitals there are. But here's the problem we get, We do not
+have equal chance selection of employees. Those employees who
+are in small hospitals, their hospital has the same chance of
+being selected as the big hospitals. But when we get there,
+we take a very large fraction of them. So if the hospital only had 16 employees, their chance of coming in
+the sample is almost one. It's 50 out of 60. Whereas, when we got that hospital 10,
+that had over 1800 employees, their chances of being selected is much,
+much smaller, 1 in 35, 1 in 36. So, five-sixths,1 in 36,
+that's a big difference in sample rates. So, the probability of selection of
+the small hospital employees is bigger. In other words, what we're going to
+do is over represent on average across all possible samples
+employees in small hospitals. Now if small hospital
+employees have varying satisfying levels,
+they have higher satisfaction levels. Then when I'm done Is built in a bias. I'm now going to over estimate
+the satisfaction level by the nature of the sample inside. So, you can see my cake down there. We're not dividing the cake up equally. Well, yes we are. We're sort of taking
+the population of 6,000 and dividing it up into groups of 50 that
+we're going to use in our sample. But in fact we're taking same size
+slices from cakes that vary in size. So, it's gotta be something
+that we repair here, we can't live with this because we're
+going to build in a bias potentially for any characteristics that's
+related to hospital size. Just to illustrate the sampling rates
+here, if we take the hospitals 2 of 12, 1/6 in the first line there,
+in the first f, we're taking 1/6 and then we're taking 50 of 180 employees. Now if I multiply those things through and
+just sort of rearrange thing to get that, so that I've got a one in the numerator
+and a rate in the denominator. We're taking one of every 21,
+22 hospital employees in that hospital. Whereas, hospital ten which has 10
+times as many employees, it's 1 and 220, much smaller rate, that's
+unequal probability of selection, and any time you see that eans that somebody's
+getting sampled at a much higher rate, they're being over represented,
+that was the term that I used. So, this variation in
+rates can be remedied and we will talk about weighting in Unit 6. But right now,
+if we don't do anything to compensate for it We're going to over represent
+employees in small hospitals, on average there hospital has the same
+chance as the large hospitals. And I'm going to end up with a bias. >> So we have a dilemma here, in terms of
+sampling these unequal sized clusters. We can have variation in sample size. Or we can have variation
+in our sampling rates. And have overrepresentation and
+the need for waiting. Turns out there is a better
+way to deal with this. In terms of changing how
+we select the sample. And let's take a little break from
+this discussion right now and talk about unequal sized clusters. And then, come back to this topic. Let's come back and then talk about
+this alternative which involves varying our sampling rates at
+the first stage as well as the second. So, join me for
+the second part of lecture 5 next. Thank you.

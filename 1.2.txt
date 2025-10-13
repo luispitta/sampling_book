@@ -1,0 +1,163 @@
+This course that we're talking about
+that we've been putting out through just an overview lecture in one lecture. And is going to present One way of considering an important part
+of research, as we mentioned already, the part about where we get the things
+that we're going to measure. And as we've discussed in the overview, this kind of operation is done
+in many realms of science. Many different scientific fields. It's often done quite informally as
+we noted before, a physicists may draw a sample by just using materials
+that are readily available to them. The phenomenon that's seen on earth and
+they'll project to the phenomenon going on throughout the solar system,
+or the galaxy, or the universe. We're always doing this kind of thing,
+taking a sample in a particular way and the projecting it to
+other kinds of things. We're often doing it by
+studying relationships and associations in a particular location and
+generalizing that to others. Thinking about causal mechanisms and
+so on. What we're going to be doing here is
+doing things that are a bit more formal with respect to the sampling process. We're going to be thinking about
+this in the context of surveys, as a way of helping us
+formalize these things. A particular kind of research
+investigation rather than all kinds of research investigations. And in this particular context,
+we're going to look at large scale data collection,
+this so called survey that collects observational data about a particular set
+of topics on a sample of individuals. Now surveys are used in all
+kinds of scientific and non-scientific investigation. And a matter of fact, they're so
+pervasive that in some countries, people complain about the being unable to
+escape them, they seem to be everywhere. They are very useful and
+powerful tools for finding out about how people think and
+act. What happens, what kinds of things
+happen as they behave in different ways? It may be collecting data about how
+they think about political candidates. It may be about national government,
+national and local government issues about education,
+about transportation, and related issues. It could be about crying for
+your prep and so on and so on. So the topics are incredibly diverse,
+which makes it a very powerful tool if you're going to apply it to many
+different kinds of problems like that. And then we get the results back and sometimes we get results
+that are surprising to us. We're mystified. How did they get that result? It just doesn't fit with my
+understanding the way the world works. So how did they do it? How they ask the questions? What process did they use? I want to talk about that process and
+that may generate some questions for you as you're thinking about critically
+these kinds of things that we're getting all the time in our world
+about how to evaluate them. But we're going to talk about surveys and
+their general framework. We're going to do that in four
+steps in the upper left there. We're going to talk about
+problem specification first and then talk about measurement, and
+then talk about outcomes and results. So there's a problem specification,
+we're going to make some measurements and then we're going to draw some
+conclusion and some results. Except that we're going to add
+one more thing to that a formal consideration of sampling. Sampling is seldom a very large share of
+a research investigation even a survey sample in terms of budget
+in terms of activity. But it can be a critical one because
+it helps established the population and the relationship to the result
+to that population. We're going to use this framework that's got four boxes to it to
+describe the survey process. A simple representation
+of the survey process. Whether it's formal or informal we need to think about all
+of these boxes as we think about it. And even if people tend to deemphasize
+the sample there is implicit, an assumption about what a population is. What the full set of molecules are? What the full set of chemical values are? What the full set of people happen
+to be that we're interested in? But this process starts with
+a specification then of a population and a problem. Generally, the problem comes first. People are interested in the problem. They can be focused on any
+number of things here. But that's where people
+put most of their thought. What is the issue that we're dealing with. The people who run them. The people who pay for them. The people who design them. They have a pretty good idea by
+the time they are ready to go. What the topic is or
+what the topics are going to be. And they also know how they are going to
+make their observations in these kind of things. They will do them in such
+a way that they can establish fairly immediately whether
+one thing causes another. Well, they'd love that to be the case but
+as we saw when we talked about science, it's hard to do unless you've got
+a carefully designed experimental study. So we're doing observational
+research methods. But one thing that sometimes doesn't
+get addressed as much as it should is the population. What are you examining? What's the collection of subjects
+that you're interested in? And there very many surveys that don't
+even think about this very well. It's kind of,
+as I said before implicit task. It;s not specified,
+it doesn't specify the place. It does with the population resides/
+It doesn't specify what the units are. Are they people? Are they events that we're looking at? And at least in some confusion then as you're trying to develop
+the research investigation. There may be some limits that we
+need to place on the population. We're not interested in all
+the persons in the United States. We're interested in only those
+who are eligible to vote. They have to be 18 years of age and older. We're interested in only
+talking to females, because this is a set of issues
+that only concern females. Those kinds of things need to
+be thought through, as well. Just as important as
+the problem specification but sometimes not as carefully attended to. Well, let's talk a little
+bit about measurement. The problem of the question of interest, the most compelling thing about a survey
+is what it is we're going to measure? But that often starts with a very
+general notion of a construct. A general thing that we want to measure. We want to measure stress in a population. We want to measure how stressed
+out this group is, but we don't have a stress meter. We have indirect measures of stress. We can measure it in
+terms of blood pressure. We can measure it in
+terms of eye twitching. We can measure in terms
+of coffee consumption and number of hours slept, sleeplessness,
+all sorts of things that can be done. Those kinds of measures are what
+we're going to be using but we have to have the underlying
+construct first specified. We may be interested in what
+people think about a new product. Well, we have to have that
+product available and then what aspects of it do
+we want them to think about. These are all measurement kinds of issues. What you decide to measure, sometimes it's
+fairly easy, it's a direct observation. Other times, it's much more complex
+because we can't make direct observations. But nonetheless in that process, we're
+going to design some kind of instrument or use some kind of instrument. May be our survey involves height and
+weight and overweight and so we have a scale and
+a measuring device to measure height. And we can apply those fairly easily
+borrowing an instrument from somewhere. Other case we have to design in this
+group like a questioner that allows us to obtain this data, this observational
+data through an interview process. But even when we've designed that
+instrument, we have to specify procedures. Are we going to make sure that that
+scale is placed on a level surface that is uncarpeted,
+that has a certain rigidity to it? We measure it only certain time of day and
+certain temperatures because it could be a little bit longer or a little bit
+shorter depending on those circumstances. We have to think about the process
+that we're going to use to apply the instrumentation as well. And then finally,
+if we're going to do some measurement, we may need to hire staff to do this. It may not be possible for
+us to have self measurement, self reports. The kind of thing that people fill out an
+instrument online in an internet survey. We may need staff to implement this and we're going to have to train
+them to do that implementation. Through all that process then when we've
+got that measurement all worked out, and what the instrumentation is, and how we're
+going to implement the data collection, and what staff are going to do it,
+and they're all trained and ready to go, then we collect data. And that's the last box,
+that we collect, we process, we analyze. And most people think about this
+as the heart of the survey, and I suppose in many ways it is. But the prior step, the measurement is
+extremely important in order to obtain reliable valid data for us to be able to
+draw firm conclusions about a population. Okay, that's the whole process but
+I skipped something didn't I? I didn't talk about representation but
+that's the focus of our course. And that representation side is the one
+we're dealing with, the sample. And in that process there, we have to think about how we're going
+to go about doing the sample selection. This is a bit like specifying procedures. How are we going to figure
+out what sampling technique we're going to use in and how to apply it? In some ways,
+that depends on knowing the frame. Their effect many of the sampling
+techniques that we looked at were derived to deal particular frame problems that
+is the set of materials that we use. Let me define that I used
+that term without defining. A frame is that, it's a set of materials
+we used to- Select the sample. It could be a simple list. It could be a list of people
+who are in the population. It may be that that list is
+a little bit out of date. So maybe we've got a list of people who
+are employees of an organization, and it was obtained from
+the personnel department, but they've Not kept it up to date fully. They didn't get the latest hires. The new hirings. And there were a couple people who died. Big organizations, some people died and
+they're no longer eligible. There could be a discrepancy
+between that list and the actual population at
+the time we're doing it. That's very important to doing this. It assumes that we have a way of taking
+a list and then drawing a sample from it. That's in opposition to a scheme in
+which we say, all I need here to do, is to recruit subjects. I don't care where we get them. I don't care where we get the individuals
+we're going to interview. I don't care where we get the chemical. Product that we're going to use. I don't care where we get the sample
+of water that we're going to examine. I don't care where we get the sample
+of air that we're going to compare. For us its randomly mixed but in the human context that's hard
+to make that kind of thing. Recruiting a sample that
+way is sometimes dangerous, we can end up with groups that are quiet
+peculiar that we drawn our sample from. We're talking about the sampling
+operation where there's a list, we sample from it and we follow
+that sample, that's what we pursue. And we think about a list and a scheme for slumping from it at random that
+is suitable for that at least. And then we select our sample. Then we go through and choose the particular individuals that are
+going to feed into that data collection. We're not just leaving it up to a field
+staff, to a trained staff to do. We're telling them precise steps that
+they need to follow through on and specific kinds of things
+that they need to do in order to execute the data collection
+on the representation site. All right, that's the kind of
+thing that we're examining here. We're talking about that sampling
+process and how it ought to be done. We're going to stick to the more
+formal mechanisms for doing this. It's not to say that we
+shouldn't do the others. I do them, I design them. But I want to do the more formal
+mechanisms because when we understand those, Then it makes it easier for us to evaluate what's done
+when we don't follow them. And that is an extremely
+valuable perspective. So I think about this more as a strategy. Let's cut it down, get it down to
+the point where we really understand how to do sampling in a formal way. And then we can depart from that. On the basis of convenience, on the basis
+of cost, on the basis of other phenomena. That's the way the survey process fits and
+how sampling fits into it. We've already talked about surveys and
+survey sampling and how they fit into research investigations. Now how sampling fits into surveys. Let's turn now to why sample at all? What is the need for this? And we're going to talk there about
+censuses and contrast those with samples. But that'll be our third
+lecture in our series here on sampling as a research tool. Thank you.

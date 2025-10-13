@@ -1,0 +1,183 @@
+Hello. You know in our last lecture we were
+talking about imagining what would happen in a realm in which we did random sampling
+and we took all possible samples. We're combining some ideas from
+previous lectures where talked about sampling as an important
+feature of research. Sampling's an important
+feature of surveys, and survey data collection, and
+survey sampling, and randomization, and how those random numbers can
+be used to draw samples. So here we want to take what we learned
+before about the consequences of sampling, in terms of what happens to our ability
+to understand the quality of our results by looking at what happens
+to all possible samples, and how we can actually do
+that from just one sample. We want to think about that in terms of
+defining some measures of data quality, and again,
+talking about some of the same results but looking at it in a little
+different terms now. So here what we're going to be doing is
+continuing our Unit one, Lecture six, where we're going to talk about,
+how do we evaluate how good a sample is? And in doing that, we want to talk about,
+not only the evaluation, but we're going to do this in several steps,
+we want to go back to our sampling distribution, go back to our seven
+step process, if you recall that. Our seven step process for the sampling
+inference, statistical inference, drawing conclusions from the sample
+process, and then we're going to talk a little bit about the standard
+error, which we did before, and the confidence interval, before we turn to
+looking at two measures of data quality. So, [COUGH] I'm going to break into
+this process, I'm skipping over, you'll recall that there were seven steps, the first was that we had a population
+that was specified, the second was that we had a frame that matched up as best
+we could to that population, but was a list that we could use, or
+a set of materials for drawing the sample. Third, we drew samples, one sample,
+and we computed an estimate, and then fifth, as what's shown here, we
+imagined repeating that process again and again, and so up on that hand on
+the upper right, there's an S in there, a green S now for sampling distribution. We're now thinking about all these
+possible samples, and what happens across all those possible samples that
+we can use to assess what's going on. So, we said that there was a spread, and
+I gave a messy formula, we'll talk about that in more detail later when we talk
+about simple random sampling, but we basically said what's the spread of the
+means across all those possible samples, and we came up with that
+sampling distribution. The standard error, the sixth step, a way to calculate from one sample the
+variability across all possible samples. So, from the sample of distribution,
+which is built on that frame, and population, and sampling, and estimation, to the estimation of the spread across all
+possible samples, that's standard error. And again, by way of review,
+we noted that we could calculate that, and again we'll come back to that calculation,
+but we want to keep reminding ourselves
+that there's a numeric way that we can determine what the spread is
+across all possible samples. And then we talked about a confidence
+interval, that was the last step, this is now where we take
+that standard error and we convert it into an uncertainty
+statement, a confidence interval, an interval that tells us what's
+going on across all possible samples. And we had a result from our sample size
+20 that we did in one of our previous lectures, where we had
+an interval from 66-98, so that's kind of wide, we're not very
+certain about it, it's not our best, we prefer it to be narrower,
+how might we improve that? Well, we could do that by increasing
+the sample size, because we know now something about that standard error,
+and we haven't looked at it, but it turns out that it is inversely
+related to sample size, and remember, that's the result of algebra, some of
+you just didn't think about it, and make up that formula, there was an
+algebraic derivation from that conceptual framework that we're dealing with. So, how can we think about this now, this
+process, in terms of evaluating quality? And here is a display where we're going to
+look at two measures of sample quality, and this is a fairly, classic representation of what happens
+with quality in research investigations, and you'll see this in other kinds of
+descriptions of research investigations. And we have a five targets that could
+be used for some kind of sport, and we have, in each one of them,
+representations of multiple shots at it. Think of our samples now as those multiple
+tries, so, we're going to get six shots at it, we're going to draw six
+of those possible samples, there could be a lot more, but what kinds
+of things could happen when we do that? In the one on the far left,
+we have our six shots and they are all very close to the middle,
+very tightly grouped, very close, not only are they tightly grouped,
+but they're right at the middle. In the second representation,
+the next one to the right, they're still grouped very close together. As a matter of fact, the same pattern,
+no, not quite the same pattern, but very similar pattern, grouped tightly together,
+but they're away from the middle. I don't know if you ever watch people
+playing darts, and the really good ones, they're very precise, they can group
+their shots, their darts, in the same location very consistently, and they
+can move around what they're aiming at. They could aim for the middle or they
+could aim at a target off to the side, there are point totals for
+doing this, of course. Now, that kind of thing is similar
+to what we're seeing here, they're grouped tightly together,
+they're very precise, but they can be thought of as
+being accurate or inaccurate. Low accuracy in the second one, as opposed
+to the other two representations here, the third one is where we have a spread,
+a wider spread of the results, this would be equivalent to our samples
+giving us means that are more widespread. There are more differences among those
+means than in the tightly grouped kind, less precise but, in this case,
+on average, we've got it right, they're targeting the middle
+of that pretty closely. And then finally, on the far right,
+they're spread out and their average is away from the targeted
+middle, they are low precision and low accuracy, that allows us to
+think about two kinds of measures here that are typically used to
+summarize this kind of result. And now, we're thinking about this
+now in terms of our samples producing estimates and how close they come
+to the true population value. So we have one measure that is
+the distance from what we're getting on average to the thing that we're aiming
+for, and so in the second display, we've put in a double-headed arrow, a nice black
+double-headed arrow there to represent the difference between what we're
+getting on average and the true value. Now, in our sampling realm, we're not
+aiming to be away from the middle, not like playing darts, here, we really
+want to get towards the middle and there's a discrepancy, we're going to
+call that bias, that's the term that's typically used, the difference between
+what it is we're trying to estimate, and what we're getting on average. But then we also can talk
+about the spread, and we've highlighted here that
+the spread is larger, particularly larger than the other displays, and
+so now we can talk about variance. Variance, that standard error
+that we're talking about, is a measure of the size that,
+if you will, the diameter of that circle, and that larger standard error means
+that circle is wider in diameter and were less precise in our results,
+our survey, there's something about our sampling processes producing
+results that are more widespread. Okay, so we have bias, well,
+how do we determine that? In practice, this is very difficult,
+theoretically, with the sampling processes that we're
+dealing with, it turns out that if we go back to that conceptual framework,
+that sampling distribution, we can determine whether or
+not there is a bias in our process. On average, if we're going to
+get the right thing, and so, we can measure the size of that bias, or
+actually determine that there is no bias, so simple random sampling,
+that we're going to talk about next, turns out to be unbiased, on average,
+we're getting them grouped together. Now, it may be that they're spread out
+because we have a small sample size, or narrowly concentrated because they have
+a large sample size, but, either way, they're centered on
+the true population value. The variance, there we've got to measure
+a standard error that we can compute from the data, we do not need to rely on
+some theoretical derivation that says what's going to happen overall,
+we can take a particular sample and calculate the spread,
+the diameter of that circle. And so, in the second diagram, where they're fairly narrowly
+concentrated together, small diameter, small standard error, precise,
+wider, larger diameter circle, less precise, and that means that
+we can compare those diameters and compare the quality of what we're getting,
+that's the quality measure, something that we can use to compare different
+ways of doing the sampling operation. So, [COUGH], it all depends on the random
+process used to select the sample as to what these outcomes are. If we have a process that is biased but
+precise, we could also have a process that is
+unbiased but not very precise and so on, across these, these are all possible
+ways of evaluating the sample. We are going to use those two dimensions,
+biased and variance, in order to assess what's going on
+with the quality of our results, and we're going to calculate one
+of those from a given sample. If we've drawn a probability sample,
+we can use the standard error calculation to get that diameter calculated for
+all possible samples from just one. I was trained as a statistician, you
+always need at least two things to measure variance, well, that's natural, right? We can't talk about variance unless we
+have two experiences with something, at least two. Here's a case where we can have
+an experience with one of them, but if we've selected it, our process
+has been done in a certain way. I can tell you what's going on
+across all of them from just one, so this is really pushing our thinking here,
+that it is not just a simple process, but one that has some properties
+that can be extremely valuable. So to return to something that we
+said at the end of the last lecture, there are two measures here,
+now we've explained them, the bias and the variance, they both depend on
+understanding this process in which we've taken random digits and applied them
+to a frame, and gotten a sample, one sample, of many possible ones
+in theory, and we can measure the variability across all of them by
+looking at just one possible sample. Now, [COUGH], this is possible with random
+sampling, with probability sampling, which is why I'm emphasising it here. I do samples that don't have
+randomization in them, but I generally start with this as a strategy,
+thinking about probability sampling, because it has these valuable properties,
+because once I know that sampling mechanism, and
+apply it through this seven step process, I can make statements,
+uncertainty statements, about my results, I don't have to make any assumptions
+about the sampling distribution. So let's go back, just to wrap up here,
+to a kind of sample design that we talked about, the less formal designs
+that don't use randomization. So we're interested in understanding
+how consumers, shoppers, think about a new product that we're about
+to put on the market, and we decide to do something that's convenient, we go to
+the mall, we get them as they're coming in the entrance to the mall and
+invite them to participate in a study. That kind of sampling there does
+not involve randomization, well, think we reuse these results? We can if we're willing to
+make one of two assumptions, maybe two assumptions together. One assumption would be that
+that process that we've used, getting them as they come in the door and
+inviting them, is like a random sample of all possible shoppers, that’s a strong
+assumption, but it may be valid. But notice, we’re assuming that
+it's like random sampling, we’re relying on these results there. The other way to do it would be to take
+a set of observations that we’ve made, and then make an assumption
+back to the population, what was the original distribution
+of the income values? Was it normal, were they bell shaped,
+or did they have some skew? There are faculty out there
+who earn a lot more money and faculty who earn a lot less money, but
+we impose the distributional assumption. Now that's very common in statistics,
+and from that basis, with again, an assumption of random sampling, we can
+use the same kinds of inferential tools we're talking about here, a standard
+error as a way to assess variability, and we still need tools to assess bias. So in our next and final lecture,
+let's just talk a little bit about, again, come back to people, records, and networks
+just to see some illustrations of them to give us context and framing for
+what we're going to do as we apply these kinds of random methods to
+different kinds of populations and frames. Thank you.

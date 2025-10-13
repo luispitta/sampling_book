@@ -1,0 +1,183 @@
+Hello, welcome back to our lectures on
+sampling people, records, and networks. My name is Jim Lepkowski. And in this lecture, what we're going to do is continue
+what we've been doing before, where we saw what it was like to
+sample at all, and do so randomly. And in this lecture what we're going to
+be doing is looking at the issues of what happens when we sample in
+terms of the consequence. What do we get? Especially, what do we get
+when we sample randomly? And so, we're going to focus
+on these consequences here, in our probability sampling realm. We're going to need to use our
+imaginations as we do this. And I'll where we need
+to use our imagination, but it's not that hard for us to do. We're going to have to imagine
+certain kinds of things that we're never going to see. Sort of the the counterfactual,
+the thing that we wonder about. We made that decision and
+it went in one direction, what would have happen
+if it'd gone the other? Well, we'll going to imagine that here,
+except that here when we imagine it, we can make a quite concrete with
+those other kinds of outcomes are. And even come up with ways of
+understanding what those outcomes would have been like. But in any case, what we're going to do
+is talk about our selection process by talking about a seven step process. Where we're going to start out
+talking about a population, to frame, to sample kind of an operation,
+when we're interested in the elements. And then go on and talk about what
+happens when we have one possible sample, as opposed to many possible samples. So, our material is going to deal
+with a process of sampling, but in more conceptual terms for
+the time being. [COUGH] So,
+let's start with the following. Step 1 from our process, our survey
+sampling process, that we looked at before involves a population definition,
+a population specification. Let's suppose this is the population. This is the collection of all
+the faculty members in our list, all the transactions that we're
+going to be dealing with. And it's just a diagram
+to represent those, and that's really the first step in
+defining that population and there's even a tiny little blue e up there
+and that hand with one finger pointed up. We're dealing with the elements
+in the population. Well, we know right away that we cannot
+get all of those elements in a list. We can get a frame, a possibilist,
+and that frame quite possibly could be very close to
+being identical to the population, but in a lot of practice it's not. And so, this frame that's shown here now
+is step 2, getting the list that we're going to use, the materials we're
+going to use for the sample. This frame is not offset temporally, or
+physically that one is behind the other. This is the overlap. And the frame doesn't contain
+all the population elements. That's the little bit of light blue along
+the upper edge there for the population. Whereas the frame also contains some
+things that are not in the population, that you can see the shadow there
+to the right and the bottom. So, the frame is not
+a perfect representation, but that's what we work with. So, population to frame. And then [COUGH] we have our list. And from our list,
+this is a representation, we've looked at this before, this is
+a more complete list of the faculty, this is 150 of the 370 faculty from
+our example from the last lecture. And in this particular case,
+that's the list that we're using. And we don't know for sure whether we've
+missed some faculty who were newly enrolled in the university, some others
+who have been removed from the list, they've moved to other universities,
+they've passed on, whatever it might be. There might be a mismatch
+between this list and the actual set of faculty at
+the moment we're doing the sampling. From that list, we draw a sample,
+that's the third step. Okay, population, frame, sample. That sample is a microcosm of the frame,
+and we're going to do chance selections,
+right? So, we're going to use something like
+a table of random numbers to draw that sample from the frame. And there's our random numbers, this is
+the full representation of a list that I gave you just a little corner of when
+we were doing our example sample. And it lead to a possible
+sample that had 20 cases and there's the sequence numbers of those
+that were chosen that we did last time. And I've added the incomes because now
+we've gone out and we've interviewed these faculty and we've obtained their
+incomes and we've calculated the mean. Way down at the bottom we
+can see the mean income. Okay, that's the process
+we went through before. Our process would involve population
+specification, a frame identification, a random selection of a sample, and
+then computation of an estimate. Those four steps. And here we're on solid ground. These are all things that we
+can physically represent. But we also recognize that
+this sample [COUGH] and the one mean that we've got probably
+isn't the true population value. As a matter of fact, there's almost zero
+chance that that's the actual mean of the population, because we got
+a sample of only 20 from 370. There's some error, there's some discrepancy between what we
+have in our sample and the population. If we had done a census, we'd done every one, then we would
+have the exact mean under this scheme. So, we can imagine then that maybe
+we had gone back to our list, and started in a different place,
+and tried a different sample. We, instead of going down columns 1, 2,
+and 3, we started over in columns 10, 11, and 12. We went row-wise. We used the random number
+table in a different way, and we got a different sample and
+computed the mean. Drew a different sample from the 370 now. We'll put them back,
+there's another possible sample. There's at least three possible samples. There's, a matter of fact, given the
+scheme that we used for sample selection in our illustration, there are billions of
+possible samples of size 20 from the 370. And for
+every one of them we can compute the mean. And now, we're getting to
+the fifth step in the process. Because, as we think about this,
+there's billions and billions of them, possible different samples drawn and
+for every one, there's a mean. And for every one of those means
+we're using the same sample size, the 20 different elements,
+there's just a whole lot of them there. And we can actually count
+how many there are. We will do this for simple random samples,
+we're going to count how many possible simple random samples of
+size 20 we could get from 370. And so, we've got the first sample,
+the second sample, the third sample, going across the bottom. And then, dot, dot, dot,
+going on up to the last sample. And you see, I've actually got a little
+index there with a funny notation that I'll explain later. But that's the last sample. There's a countable number, there's
+a finite number of these possible samples. But what's interesting,
+is now we have a set of means. Billions of them. And there's a distribution to them. There's a range of values. There's a smallest mean and
+a largest mean. There's a group of means
+that's in the middle 95%. There's a group of means that's
+in the middle two thirds. There's a group of means up
+in the upper 5%, and so on. There's a distributional property,
+interestingly, and we'll come back to this later. Under probability sampling, these means will give us a distribution
+across all possible means that is normal. That normal distribution, I didn't mention
+this before, but it is bell shaped. It's quite remarkable really,
+if you think about it, that we would get that
+kind of distribution. That distribution has variance. It has spread. So now, we're up to a fifth step. We're thinking about this
+consequence of doing this. This is the consequence
+of doing random sampling. We got lots and lots of possible samples. We're never going to look at all of them. So, in concept,
+this is kind of a waste of time. Unless we could do something where we
+would say, can I estimate the spread of all those possible samples by not doing
+more than one sample but taking one? And it turns out that there's a piece of
+algebra, that we won't do, that would be more in our sampling theory class, a piece
+of algebra that gives us our sixth step. We start out with a population,
+we specified a frame, we drew a sample from it, then we realized,
+and we computed an estimate from it, and then we realized that we could repeat
+that sampling estimation process again and again a large number of times. And we had then means for every one of those samples and
+the spread of those means. We can define it. We could calculate it if we were
+to do all those possible samples. But instead, it turns out that that
+variance across all possible samples has a simplified expression,
+algebraic simplification, that is such that we can calculate
+that from just one sample. One sample and
+we get something called a standard error. And that standard error is
+a measure of the spread of those means across
+all possible samples. Now, this is quite remarkable. We can imagine that, but
+we don't have to go through it. Somebody's all ready done the algebra for
+us and given us that formula. We can calculate it, as I said. We can get these standard errors and calculate them in this sixth
+step that give us a number. In this case, the number from
+our sample size 20 is 6.02, 6, that's our standard error. Now, there's a meaning to it that will
+help us understand the uncertainty of what we've just done. Because we've got one sample from
+billions, we know it's not the right one, we know we're uncertain, but the standard
+error's going to allow us to specify, not only, it's not just a number,
+it allows us to specify the uncertainty. And that uncertainty can be reflected
+in also how we design the sample. It turns out that as we change the sample
+size, now, this isn't for our own illustration, but as we change sample
+size, those standard errors go down. And that helps us understand that I
+can get better and better results, this is what we'll talk about in the next
+lecture, by changing the sample size. Increasing it. I can get worse results by decreasing it. Okay, but back to our seven step process. We've got six I've outlined
+through standard error. Here's the last one. That standard error can be used to
+give us an uncertainty statement. That uncertainty statement is typically
+called a confidence interval. There we're getting a statement
+that involves an upper and a lower range on possible values for
+the means in the population. If that interval is wide,
+we have a lot of uncertainty. If that interval is narrow,
+we don't have as much uncertainty. It's a very valuable way of capturing,
+in one statement, not only what it is we've estimated,
+the middle of the that interval, but also how wide, how far apart it is,
+our uncertainty about the result. And so, there's a calculation
+of a confidence interval. A calculation of a confidence interval
+that is one that is something we'll look at. And in this particular case, for that
+sample size 20, way down at the bottom, we won't go through the calculations,
+we'll explain some of the technical detail as we go along,
+there's an interval there from 66 to 98. So, our mean is in the middle, 78,
+78.6 is in the middle of that range. And this is saying that our uncertainty is such that it could be from
+66 to 98 95% of the time. That interval's going to cover
+what the true population value is. If that were narrower,
+we'd feel less uncertainty about this. This is a pretty wide range. Now, it may be sufficient for our purpose. Not saying that it's not useful
+if it's still uncertain. But narrower would be better. So, there we have it. Six steps to get to where we need to be. 1 is a population,
+2 is a frame, 3 is a sample, 4 is an estimate, 5 is to imagine all
+possible estimates, 6 is to calculate the variability of those and 7 is to
+write it in an uncertainty statement. That's the statistical process
+that we're going to be doing. Okay, so just a bit of a summary. We're very close to talking about two
+important measures of results here. On average is this process
+giving us the right thing? We're going to talk about
+that in terms of bias. And then secondly, how variable is it? That's the uncertainty statement,
+the variance. Our random process, we're using
+random digits applied to a frame to generate our sample, and in theory,
+a large possible set of samples. And we can measure the variance
+across all of those, and only random samples allow us to do this. We can make assumptions to
+get to this conclusion, I'm not saying that we shouldn't
+make assumptions to get to it. But this is the kind of the frequency, the
+counting way of thinking about the world. It's not necessarily the best,
+it's not the most coherent, but it is one that you can get a clearer
+idea about than some of the others. And it involves a population and
+a sampling mechanism. It does not involve
+a population distribution. We've made no assumptions
+about the population itself. We've only got the sampling mechanism and
+our outcome that is then manipulated because of the sampling mechanism to
+give us an uncertainty statement. All right, we need to explore
+this just a little bit more. We can use these ideas now
+to make statements about how good the sample actually is. We can evaluate the quality
+of our samples. That is very important. Everybody wants to know. We started out talking about this. How did you get that number? How did you ask the questions, and so on? We want to know about the quality,
+how good the result is, and we're going to deal with the quality of the
+representation side of our survey sample by looking at this kind of framework in
+a little more detail in our next lecture. Look forward to seeing
+you at that lecture. Thank you.

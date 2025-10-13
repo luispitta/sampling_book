@@ -1,0 +1,336 @@
+Sampling is ultimately
+a practical activity, at least the way we're presenting it here. It's not a theoretically
+driven activity and that's something we've mentioned
+in our previous lectures. So welcome to Unit 3,
+entitled Saving Money. Certainly saving money is
+a practical kind of thing to do and what we're doing here in
+this unit is introducing and discussing sampling techniques that
+are usually labeled cluster sampling. And the purpose that I picked
+out to highlight here, to help you remember what these are about, is sampling techniques that are designed
+to reduce the cost of our data collection. And this cost reduction,
+as we'll see, comes about for a couple of reasons, but it's the primary
+motivation for doing this kind of thing. It will be something that we talk about, as we move through this,
+in terms of how we're going to save money. And then also how we draw our samples,
+in order to take advantage of certain features that
+we found in materials that are available. So what we're going to do is look at some
+different kinds of materials as we talk about saving money and
+talk about six topics here. Six lectures, starting with this
+lecture on simple complex sampling. That's kind of a putting the two words
+together that don't make much sense. But you recall that we talked about
+complex sampling as being any kind of a sampling that isn't simple,
+well, obviously. Where the simple sampling had to
+do with simple random sampling, selection only using randomization,
+not using any other kind of technique. And so what we're going to do here
+is introduce a different technique, in addition to randomization, and
+that will make this complex sampling. We're going to be choosing clusters,
+and we'll talk about what clusters are, and how they're selected. But then we're also going to talk
+about what the implications are for the results that we have, and
+that will move us into the second lecture. So the simple complex sampling,
+complex samples involve clusters and randomization, we're only going to do
+a simple version of that to begin with. And then in Lecture 2 we're going to talk
+about the impact of that on our ability to draw inferences about
+the population itself. Recall the things that we we're doing in
+simple random sampling having to do with confidence intervals. Well, confidence intervals
+are affected by changing, adding in this additional
+feature of cluster sampling. Lecture 3 then will move to something that
+is a little more complex complex sampling, two-stage sampling,
+where we will take clusters and then not take all of the elements
+within them, but a sub-sample. And Lecture 4, we'll talk about
+how to design such samples. How we think about the determination,
+the number of clusters, and how many elements to take per cluster. Then in Lecture 5, we're going to deal
+with unequal sized clusters, something we won't talk about up until that point,
+we're going to keep these equal in size, and then finally,
+some issues concerning sub-sampling. And that will be the range of topics we
+talk about here for cluster sampling. There's a lot of other topics we can
+talk about, as even with simple random sampling, but our purpose is to cover
+the major points of emphasis here. Again, the dice are showing
+here in our display. This is still probability sampling
+that we're talking about. And it will be this
+choosing entire clusters, as we'll illustrate with an example. A simple example, something we can see and
+get our minds around. And we're going to talk
+about this in four steps. We're going to talk about a population,
+what happens when we do simple random sampling on that population, and
+that population will be clustered. Now it's not something that
+we're going to create, but something that's already there. And then we'll do simple random
+sampling and ignoring the clustering. Then we'll turn to cluster sampling and then talk about what impact
+that has on sampling variance. Well, what we know as standard errors,
+what we know as the input factor to margins of error, the input factor to
+the confidence intervals and their width. So let's turn to then our population,
+and here it is. Imagine that what we're doing, this is
+just a stylized version of a Google Earth image of a neighborhood in some community,
+that happens to have housing units, those little green boxes there,
+the housing looking top down their roofs. And there we have them organized into
+blocks, the blocks are bounded by streets. We can see Main Street and Elm Street and so on in this part of town, as well as
+First Street and Second Street, and so on. And each block now is the same size, but
+that's not the relevant portion here. What is important is that each block
+contains the same number of housing units. Everyone of these blocks,
+you can see them number there from 1, 2, 3, 4,
+they're not numbered across a row, they're kind of numbered in a winding
+fashion through, all the way to 18. There's 18 blocks here, and every one of those 18 blocks
+have 8 housing units on it. And our goal is to draw a sample of
+housing units, because, I don't know, we work for
+a housing agency in the government. We work for some kind of company that deals with
+housing and maybe home improvements. We're interested in understanding
+some of the characteristics of these housing units. Now, there may be something
+else we're interested in. It may be that we're interested in the
+people who live in this housing units, and their characteristics. So, it's not clear what we're going to use
+this for, but it is clear that this is useful to us, because the housing
+unit is the sampling unit. It's the element that we're interested in. And we may be measuring something
+about each housing unit, such as the square footage. It may be the number of
+rooms that they have. It may be a household characteristic,
+such as the household income or the number of persons in the household,
+things like that. But here's our population. Now let's see, there's 8 housing
+units per block and 18 blocks. 8 times 18 is 144,
+144 housing units in our population, so our capital N here is 144. It's divided up in this way just for
+us for illustration purposes. In reality, what we probably would
+see is not an image like this. What we might see is a list of the blocks. We might have a list of the blocks,
+and not of the housing units. So this is kind of stylized to help
+us understand what's going on. But in this particular case, let's
+assume for the time being that for this population, which is all neatly organized,
+and as far as we're concern all we want to do is sample housing units, that is it's
+just a visual representation of the list. Here's the list,
+the list are the addresses for each of these elements in the population. There's 144 elements there. And you can see that I've just arranged
+them here by sequential address number and street name. Now, that isn't how they're organized
+on the list, in the blocks. So, those housing units that
+are on Main Street, in many, actually in most numbering systems
+that are used by postal systems, which is where a lot of the numbering
+of the addresses come from, the numbers are odd numbers on
+one side and even on the other. Now this is not uniformly the case, but
+we'll say that that's the case here. And so 101 Main St.
+is on the east side of the street but 104 Main St. is on the west side. So their block faces there. We just mixed them all together
+because it doesn't matter to us. It's just a list of each of
+the housing units by their address. Now we're interested in some
+characteristic for these housing units. And I'm going to talk in general now. We're going to use the symbols
+that we've looked at before. We should be a little more
+comfortable with them now. We're interested in some characteristic
+for each of these housing units, each of these population elements. And let's say it's square footage or
+square meters. It's just a conversion factor of ten,
+right? So ten square feet is a square meter,
+roughly. And so we're interested in
+understanding something. Because we're thinking about a business in
+which we're working on home improvements. Or we're thinking about from
+a government system in terms of the usable living space in housing units,
+but square footage. And so, for every one of these
+housing units that's there, how large it is in terms of usable space? And we could possibly
+get this from records. But we'd still have to look it up. Or we can get it by visiting each of
+the housing units and collecting the data. But there's a mean that we're interested
+in, the average number of square feet per housing unit in this
+part of our community. And that's our Y bar. There's also the variability of
+those living space measurements. The S squared that we've talked
+about before, that element variance. Of course, the square root is the standard deviation
+that gets us back to the same things. S squared is measured in
+square feet squared, or square meters squared, double square. But the scale we want is square meters or
+square feet, so we take the square root of
+that to get a standard deviation. That's all the same. Even though they're organized in clusters,
+none of this has changed. That's still what we're
+interested in estimating. Now in our particular case,
+we might draw a simple random sample. And the simple random sample
+could look like this. Now I didn't do the sampling
+according to block. I just went through and drew a simple
+random sample of the 144 addresses. And I think there were 24 of them here. 24 addresses, so I've taken a sampling
+fraction of one and six of them. One sixth of the housing units,
+and they're sampled at random. And they're scattered across the blocks. Curiously there are a few blocks
+there that don't have any. And that's because I didn't force
+it to come from the blocks. Simple random sampling won't force us to
+select a housing unit from every block. And matter of fact, a simple random sample from this one
+could have been the first three blocks. All the housing units,
+all 24 housing units there. Or the last three or
+any selected set of three. Or it could have been that
+we've gotten four per block. And half the blocks have them and
+the other half of the blocks don't, whatever it is. We would have a variety of simple
+random sampling representations. But here's one where we've just
+chosen them from the list and then we've plotted them
+on the visualization. Okay, they're scattered all over, now, in order to do this sample,
+we had to have the list. And we now face another problem. When we go to collect our data, if we're going door by door to the sample
+addresses, we have to visit each of them. Those two things are cost
+components that most of the time, we don't think seriously about. But they can be substantial cost
+factors in conducting a survey. But let's deal with the one, the list. If I had to, if I didn't have
+the list already assembled. And there are lots of cases
+where we don't have this. Lots of instances in countries around the world where
+we don't have lists of addresses. There are countries where
+there are address registries. Sometimes the address registries
+are built off of some kind of a person registration system. So the population is required to
+register with a local police authority. And if they're going to live in that
+address for a certain length of time, they have to go to the local
+police jurisdiction. And fill out a form and say that
+that's where they're residing now. In some cases,
+that's a formal registration. And that's their official place of
+residence for not only such things as might be voting behavior, but
+also for employment eligibility. In some countries that means you
+can only work in this community if you live in this community. But however it's assembled, it's some
+kind of registration system like that. And in those countries you can get access
+to such lists, in some but not all. So you have this collection of
+a large number of countries. And in most of the countries,
+not just the majority, but virtually 90% of them, where you
+don't have address lists like this. So what are you going to do then if
+you want to do a simple random sample? Well, one thing you could
+do is build your own list. For this particular one, I'm going to
+employ some of my graduate students. I'm going to send them
+around block by block. And have them go on each block and list all the addresses by hand,
+well, on a laptop. On some kind of device that has a place
+for them to register, and a spreadsheet. But make sure that they get
+all of the addresses there. And then bring that back and do the simple
+random sample, and then here's the result. But that list creation activity
+is going to cost money. Now, I shouldn't say this but
+graduate students are cheap, well, they're less expensive
+than some employees. They're more expensive than interviewers,
+[LAUGH] frankly. Because of a variety of things that you
+have to pay for for graduate students. But there's a cost incurred for
+doing that listing. Every penny that you spend,
+every dollar, every euro that you spend on the listing is taking away
+from the data collection cost. And so, if we can avoid that, we would. Well, turns out that in this particular
+case, we don't have the address list. I know I gave it to you, but now let's
+imagine not having that address list. And what we have is just
+the list of the blocks, where would we get a list of the blocks? Well in virtually every country
+there is a list of blocks or block like units that is
+used in a census operation. A census of population,
+a census of housing, sometimes a census of establishments
+of businesses, an economic census. Even agricultural censuses will have
+this where the country is divided into areas that are bounded by streets. In this case, in an urban location,
+generally bounded by streets. But by rivers or smaller waterways, by a railroad,
+by major highways and so on. And they divide the area, the land area, up into these smaller units that they
+may call blocks or enumeration areas. And the enumeration areas is the key. They're interested in
+counting all the population, counting all the housing units. So they're going to count them by those
+land areas to keep track of it and make assignments. Now they're spending
+the money to create the list. Say, well there we go, it's available. No they don't release the addresses. Even in countries that have very
+well developed census systems. They don't list the individual addresses
+oftentimes for confidentiality reasons. And so they provide you with the blocks. They'll give you a list of the blocks and they'll show you their
+geographic location. But they won't tell you where
+the housing units are on them. So in that case then, we've got
+the cluster, we've got the grouping, but we don't have the addresses. And in a case like that, we would have
+to get the addresses Spend that money. Reduce our data collection capability. The number, the sample size. Because we've had to invest in it. Now, for a small case like this,
+18 blocks, it's not a big deal. But if you're talking about an entire
+country, I'll take the United States, where there are tens of thousands
+of blocks in the census operation. Going and listing all the housing
+units in each is a huge task and something we're just not going to do. We'd spend so much money creating that list we'd never
+have enough money to do the survey. Frankly, we would not get enough
+money to even do the listing. And there's potential to buy
+addresses from commercial sources but sometimes they're very expensive or
+they're incomplete. So building a list is a huge deal,
+making the frame is a huge deal. If we can do this by a different
+technique we can maybe get away with a little bit of an advancement and
+reduce our costs of data collection. When we go to make our data collection
+we've got to go to all these blocks now. And maybe we could reduce this
+by going to a subset of blocks. Well, in any case,
+let me just add one additional thing here. The simple random sampling, if you recall, if we're computing the sample mean
+from these 24 sample housing units, there is a sampling variance
+from the sampling distribution. You recall in unit one
+we've talked about this and in unit two we've talked
+about sampling distributions. We even talked about the variability of
+the means from the sampling distribution. And here's the sampling
+variance of the mean for a simple random sample of size lowercase
+n, in our case 24, with a 1 minus f, the sampling fraction,
+lowercase n over capital N, 24 over 144, one sixth,
+divided by 24 times that element variance. And of course we don't
+know how to compute this. We do know that it's an exact
+representation of the sampling variance, theoretically because of the definition,
+and the algebraic transformation
+into this form. But we do not know S squared. But what we can do is go back to, and I'm going to go back to our
+representation for this kind of thing. You remember this very busy display,
+where we have a population, and you remember our 7 steps,
+I've got 6 of them here. So there was the population specification,
+that's the light blue box. And then the frame is the dark
+blue box that overlays it. And then sample sample sample, we only
+do one sample, but imagine then, doing all possible samples of a certain size,
+simple random samples from this frame. And each case computing an estimate,
+that's the fours that are shown there. And then finally,
+imagining the sampling distribution and the variability of those means
+across all possible samples and that's our number five,
+that sampling distribution. I'm just following through
+the things that we've seen before. Out of that,
+we were able to derive an expression for the sampling variance that didn't
+involve having to know all the means. Only having one mean, we can calculate
+a standard error from the sample, by computing the 1 minus f divided by n,
+just as we saw before. But now multiplying by the sample
+analog to that element variance. The variability of the sample values,
+lower case s squared. And we get a standard error. Okay, simple random sampling,
+a visual representation of what it would mean physically, geographically
+with a given sampling variance. In this particular case then,
+we have to be worried about when our population is distributed
+geographically like this. We can't afford to create an element
+frame if we don't have one. Nor could we afford to visit all the lower
+case N elements drawn randomly from the entire area because
+they'd be scattered. Instead of a few blocks in a city,
+an entire city. The blocks in a metropolitan area that
+includes a central city and a number or suburban areas around it. A province or a state. Now it's getting to be much larger in
+scale and the travel costs begin to mount. And we'd like to reduce those. So we're going to use cluster
+selections to reduce those two costs. First, we're going to identify
+clusters and select those. And then only list the elements
+in the selected clusters. I mean, it's the obvious thing to do. There's no theoretical justification. It's just a practical one. So we're going to reduce our
+listing to only a sample of the blocks of the clusters. And then when we go to
+those particular blocks, we reduce our travel costs because we're
+going to a much smaller number of blocks. The simple random sample will scatter our
+sample across a large number of blocks, perhaps as many blocks as number
+of elements in the sample. Okay so we're assuming that the cluster
+list is available and in case like blocks it is and many cases for the kinds
+of samples that we're interested in doing. Their clusters like this that are readily
+available, we don't create them but we grab them from another source. Often times,
+administrative sources such as a senses. And then we go to the cluster list,
+make a selection and we select the elements within them. The last point highlighted in red here
+though, is important to keep in mind. This particular illustration
+is very artificial. I've created it so
+that the blocks are all equal in numbers, in terms of housing units. That doesn't happen in the real world,
+they're seldom equal in size. And so
+we are going to have to deal with that. But that's one of our upcoming lectures,
+as you recall. Here we're just going to deal
+with the equal size clusters. Okay, here is the cluster
+sampling alternative. I've combined two steps, because I
+should have shown you one display that highlighted blocks one, nine and
+16, as having been selected at random. A simple random sample
+of the clusters first. Now of the elements, but of the clusters. And then when we get to those three
+blocks, we list all the housing units and in this case, we take all. This is what I mean by the simple complex. The clusters are all equal in size. We sample the clusters and
+then we take all the elements within them. That's only one possibility. We're going to talk about sub-sampling, two state sampling in another lecture
+coming up, in the third lecture. This is with a visual representation. And this looks quite different
+than simple random sampling. It's concentrated, and in many cases when we look at
+this it's a little bit troubling. We think, well wait a minute. Suppose that what you've got is block 16. And block 16 was all the big houses as
+my wife calls them, the mcmansions. The really big things
+that people aspire to and they've got really large square
+footage measures for each one. And the other 2 blocks are typical. 1 and 9 are typical or smaller. Don't you have a bias when you do this? No, you don't have a bias because
+you've gotta keep in mind that all of those blocks had an equal chance of
+being selected, including the large one. So there's no bias in this. What's going to happen is the variance
+is going to increase because when we get block 16 with the large
+measures, a larger average size. It's going to boost our mean for that particular sample above
+the others that don't include it. And those samples that don't include
+block 16, have an average that is lower. And remember, our variance is about what happens in
+the sample, from sample to sample. Not what happens for a particular sample,
+but from sample to sample. And we're going to need a way to calculate
+variance that takes that into account. Well, the red formula at
+the bottom does that. We'll talk more about
+this in the next unit but this is the sampling variance of
+the mean for a simple random sample. It's a random sample now of clusters,
+of lower case a clusters, capital A being 18 here. Lower case a here being 3,
+only 3 clusters selected. 1-f is the same thing we've seen before,
+the same sampling fraction. But then you'll notice it's multiplied by
+an s squared with a little subscript a. And we'll see that what this represents
+is the variability among cluster characteristics, not the element values
+now, the cluster characteristics. And what's happened here is that when
+we look at the sampling distribution, I'm going to go back now to our display,
+this one that's so busy for our purposes. Now I've added something to it. You can see some fine cross
+hatching here in the display. And in the population, it's clusters. In the frame, it's clusters. Then we draw the sample from each
+of these, and we compute a mean for one sample. Of course, we can conceptualize this
+as having many possible samples. Now I haven't written the right number for the total number of
+possible samples there. It should be capital A choose lowercase a. But I just wanted to repeat
+that here to remind us that that's how we did this before for
+elements, but not for clusters. We've gotta do it for
+all possible cluster samples. And when we do that, that standard error
+that you see in the lower right changes. It is now based on, in the denominator,
+the number of random events in my sample, which is only 3, not 24, but 3. 3 random selections of clusters,
+and then we take everything. There's no sampling of that take
+everything step, it's a census. And then the s of a squared is going to be
+variability among cluster characteristics. So we've made the shift in
+the sampling from a costly element sample that's going to cost us
+money both in terms of list assembly and a travel to go to the different
+locations to one in which we sample. We have two lists, actually,
+in our illustration, four. We have the list of the blocks,
+the 18 blocks of which we sample 3. And then we add three more lists
+by going to each of the blocks and sampling the housing units,
+in this case, taking all. Okay, let's stop at this point. We need a little bit of a break here. But it's now dealing with our
+cost of choosing entire clusters. We've reduced our listing problem from 18
+blocks that have to be listed to just 3. And our travel,
+our travel in the previous one, I think we had to travel to 15 or
+16 of the 18 blocks. Now we only have to travel to 3 of them. Now it's not a big cost savings here,
+but you can imagine in larger scale, larger populations,
+that being an important issue. Okay, so
+let's take a break from this right now. We're going to come back and
+pick this illustration up and elaborate this a little bit more. And understanding what happens
+when we sample clusters in the next part of Lecture 1, thank you.

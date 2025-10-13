@@ -1,0 +1,114 @@
+Welcome again to our continuing series
+of lectures on sampling people, records, and networks. We are continuing in unit two
+on simple random sampling or mere randomization as the device
+in the sample selection. And this lecture is about
+the sampling distribution. We're going to be looking at the nature
+of that sampling distribution as defined by Neyman. In our last lecture we talked
+briefly about Neyman's contribution. And looking at some of the properties
+of the sampling distribution. Repeating some things that we did before
+under sampling as a research tool. But here we're going to be doing it
+with respect to simple random sampling. So we're going to look at the simple
+random sampling sampling distribution and its properties and talk about some of those as way
+of preparation to design work. Understanding this will help us understand
+how we're going to design new simple random samplings,
+basically calculate sample sizes. We're going to talk about
+a basic framework for understanding sampling distributions. And then the properties of
+the sampling distribution before finishing up with some
+discussion about confidence intervals. So as I said, we were initially talking
+about a sample design in which there is a unit of selection that is the population
+element, simple random samples. And the basic framework for
+this was given by Neyman in 1934. And he talked about this basic framework
+being applicable to all kinds of populations. And that it shouldn't depend on
+assumptions about the population structure. As a matter of fact, it's appropriate for large populations of elements and
+can be done without making assumptions. Now, this is a bit disingenuous of me
+to put this forward at this point. Because we end up making assumptions
+when this kind of thing fails. And the failure I have
+in mind is non-response. But for our purposes here, we're not
+going to worry about non-response. We're just going to deal
+with what happens in the process when it's
+applied in principle. And we'll deal with some of the practical
+realities later in the course. Key idea here is the idea of,
+as we've said, repeated sampling. We want to process that this objective,
+simple random sampling is that. Because the selection is
+determined by the random numbers, not by any input in our part. It's mechanical and objective. And we want one in which we can
+consider the all possible outcomes, as Neyman did, of the sampling process. So that we can define
+the sampling distribution and be able to think about ways of calculating
+standard errors and confidence intervals. As a way of evaluating the whole set
+of possible outcomes that go with this. That idea is important as an imaginary
+device, as we talked about before. For a given sample,
+we can obtain a particular value of the statistic of interest,
+such a mean y-bar. But what we like to know
+is how good is that y-bar? And the way we're going to
+define that y-bar is in terms of how close do we think it's going to
+be to the true population value. And that will be where we
+end up in this process. Now, I'm not being very formal here,
+in terms of definitions. This is a little bit loose and so
+it's a little bit dangerous for us to be talking in these terms. But that's the basic idea. How close is that mean to
+the true population value, when we don't know
+the true population value? So if what we can do is come up
+with a process that, on average, is going to get the true population value. And then we can define
+how much variation there is around that true population value. That will be about as good of a way
+of expressing this as possible. Now we aren't going to be able to make
+this statement in terms of probabilities, this is important to statisticians. But we have a confidence interval
+statement that's widely accepted as useful in interpreting the uncertainty
+that we have in our results. And that's what that interval is about,
+that uncertainty. So we get one sample. We only get one shot at it, typically. Sometimes we can draw multiple samples. The estimate may be correct,
+not very likely. It's likely to be incorrect, in error. And so what we would like to do is somehow establish the probability
+of a satisfactory estimate. And so, what we're going to do is define
+two characteristics of the sampling distribution that will help us
+to make these statements that tell us something about whether
+the rest of it is satisfactory or not. The first of these is unbiasedness. We've mentioned this before. But we're going to be
+a little more formal, and there's a little more notation here. And so you'll see already that
+we're going to talk about unbiasedness in terms of something called
+an expected value, an average value. Average over what? Average over all possible samples. So the notation here that statisticians
+use involves expectation. We don't usually talk this way. We usually talk about average or
+mean today. But the original ideas that were expressed
+here about these things talked about, well, what's expected would
+be the mean of the sample. That's what we would expect
+the next value to be, if we were to draw another
+element from the population. So E is a convenient
+notation to represent that. And the question is,
+what is the expected value of our mean? Well, we've only got one. What would it be, though, if we looked
+at it across all possible samples? Now, you remember, for simple random
+sampling, that we had an expression for a way to calculate all
+possible random samples. It was a really big number for
+even the small problem we had. We had a population of 370 with
+20 elements selected from it. And there were just lots and
+lots of possible samples that were there. This is talking about getting the mean
+from all those possible samples and averaging them. Unless you got a really small
+population with small sample size, you couldn't calculate this directly. But you can express this in terms
+of algebraically in outcome. So that expectation means
+something like the following. So here's that expectation again,
+that E, and then in parentheses y-bar. We're worried about the mean, and what its average value is across
+all those possible samples. So what we're going to do is get
+the mean of each of the samples. And let's call those y-bar sub s. So you see that on
+the far right-hand side. And so that y-bar sub s is a value
+from one particular sample. And that particular quantity, y-bar sub s, is going to be looked at across all
+possible samples and summed up. Well, all possible samples. That's our expression. Capital N choose lower case n. That combinatory. That's the count, that's the number of possible
+samples in simple random sampling. This won't be true in other kinds of
+sampling but in simple random samples. What we're going to do is add them up. That's that Greek letter sigma, that
+capital sigma, from the Greek alphabet. And then we're going to go
+a little bit further and actually divide that sum by the total
+number of possible samples. So we're getting an average
+across all possible samples. Now nobody's going to be
+able to do this in practice. But we can show in theory
+what this thing is. And it turns out that for
+simple random sampling, we get a very interesting result. Where this statistic
+that we're interested in, is y-bar sub s, that we average
+across all possible samples. Summing up across all possible samples and dividing by the total number of all
+possible samples is the population mean. Capital Y-bar, that is,
+on average we're getting the right answer. That's what we mean by unbiasedness. We use the term unbiasedness in everyday
+language, we think about it differently. There we're talking about a particular
+phenomenon being unbiased behavior, a way of thinking. Here we're talking about
+what's happening on average. So we wouldn't use this kind of language
+in our conversations with one another. But in the statistical framing
+this is what it means. Simple random samples are unbiased for
+the mean. They're unbiased for proportions. They're unbiased for
+a whole host of statistics and that is a valuable property. Now we know that at least
+this process is centering on what we're trying to estimate. Well, that's only half of that. That tells us where we are in the middle,
+but how far away are we? What's the spread of those values? So let's take a little break here because
+this is getting a little bit long. And what we're going to do is continue
+on in our next lecture with the sampling distribution again,
+the simple random sampling distribution. Well, we're going to
+look at that spread and then applying it to the idea of
+a confidence interval and interval. Let's turn to that next. Thank you.

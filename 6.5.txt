@@ -1,0 +1,192 @@
+Let's talk about sampling network,
+shall we? We're in unit six of our six
+unit series of presentations and we're in the fifth lecture now in which
+we're talking about sampling networks. And talking about sampling networks
+from a couple of perspectives. We're going to do two illustrations here. We're going to do two different
+kinds of networks that arise in the survey literature. These are not the only kinds and it doesn't mean that this is the only way
+to think about doing network sampling. Certainly, the kinds of things that people
+think about for networks, social networks, and other kinds of
+things they have similar kinds of approaches to what we're
+going to be talking about here. But, I'm going to talk
+about two simpler examples, just the basics of what happens
+when you deal with networks. Now, these networks arise in
+all sorts of circumstances. You may have something that is a network
+system that is a social network. There are groups of people who
+are socially connected to one another. Many times those social
+connections are quiet complex. Their connected not only to one or two other people but lots of other people,
+sometimes only a couple of other people. And we can get very dense
+kinds of systems, but then having different groupings of
+these networks, different combinations. Now the basic diagram has
+those dots there, nodes. We'll think about those as persons. Now the lines are edges. They are the connectivity among the units
+and we're going to think about, as I say, people and
+the edge's relationships. But it could be computers and
+connectivity among them. It could be any number of
+networking kinds of circumstances. This network diagram represents one
+that has cases that are isolated, standalone in these kinds of networks. The networks can be quiet distributed. They're may be centralized around
+a single individual or even something in which there is a central location that
+is a node that is unlike the other nodes. Maybe they're connected
+through a common organization. But not everybody's connected
+to that organization, but they're connected to it indirectly. And so, the networks can be generalized
+to also include not only people, but people and collections of people,
+organizational units as well. We're going to look at two examples,
+as they say, of this kind of thing. But before we do that, we should recognize that there
+are different patterns to these networks. And what we're going to do is look at something that might be
+labelled a star pattern. Something where there's
+a central collection, where that unit may be a person or
+it could be an organization. And then we are also
+going to look at things that more fully connected networks that
+one that’s shown in the upper right. Even though there are other
+kinds of networks here. As you pose the problem of
+drawing samples of the nodes in these kinds of things think about how
+individual elements could be selected. The shape of that network,
+the pattern of that network will dictate certain kinds of things
+that influence our estimation. So let's suppose we have this kind
+of a pattern as part of our network. Here we have a group of nodes. The circles there are people. And they happened to be
+connected to one another. Well, not in all cases. Sometimes, there's a single circle there. It's a person that is unconnected to
+anyone else in our network framing. In other cases, they're connected to
+one other person or two other persons. But these are those
+kinds of mesh networks. They're connected to everybody
+in their local network, but they're disconnected from the others. Now how could something like this arise? Well, one of the ways that this arises in
+the survey literature is something that was referred to as multiplicity
+sampling and multiplicity waiting. So the idea was that you have
+a collection of those people available. And you sample those people,
+and as you do it, our red dots are the sampled people,
+you identify their network. What is their network that
+they're connected to? So now you see what we've done. We've actually taken a sample of people,
+and we've asked them what their
+network is in a particular way. Now, this particular network
+has to do with siblings. What is your network
+with respect to siblings? These could be siblings that
+are related to you by blood, or by adoption, or by marriage. We can define it in a variety of
+ways involving half siblings and full siblings and a variety of others. But let's just deal with the siblings
+now that we think about ordinarily in terms of brothers and sisters,
+whether it's by birth or by adoption. And so now what we've done is
+draw a sample of people, and define their network for them. The networks are unconnected. In this particular case we didn't draw
+anybody who was from the same network, we just happen to get individual networks. And so we've drawn a sample of nodes and now we're looking at
+the networks that they comprise. This has implications force in terms
+of sampling, because now we've actually identified a larger number
+of persons than in our sample. The red dots are a little less than
+half of the total number of persons in our network, as defined by our networks. That would allow us to take
+the sample that we have, and expand its reach to the sample plus all of
+those who are in the existing networks. So we can now talk about
+the individuals and their siblings. And that would allow us to possibly
+collect data about the individuals and the siblings through the single interview,
+and thereby have a larger base sample and
+potentially a more precise estimate, especially when we're dealing
+with rare characteristics. So suppose that in this sibling
+network we're what we're interested in is a disease condition, diabetes. And we know that the frequency of
+diabetes is low enough that if we just stuck with the red individuals, the
+sampled individuals, we're going to have a fairly small sample and a fairly small
+number of cases of diabetes in our sample. But if we expand to include the entire
+network, now we're going to have not only those that we selected, but also
+their siblings involved in the sample. And we will try a data collection
+in which we attempt to collect data about not only the sample person,
+but ask them about their siblings. Now there's a measurement
+problem that arises here. How do we measure that characteristic for
+those that we haven't selected? But there's also a sampling
+problem here and that is that if you happen to be
+part of a two sibling arrangement you were selected and
+you have one sibling who was not selected. And we collect data about you and ask you
+about information about your sibling. That sibling has two ways
+of coming in the sample. So do you. Because you came in because
+you were selected but you could also come in because your
+sibling was selected, and vice versa. Your sibling could come in
+because they were selected, or because you were selected and
+provided information about them. We have then multiple chances of
+selection, a duplication problem or triplication problem, or so on. We've got more than one opportunity for
+people to come into the sample. And that means that we're going to
+overrepresent people in this arrangement, who tend to be from smaller networks, relative to all of the persons
+across the networks. We've got a potential for bias. And over representation and over sampling a person's coming from
+certain kinds of smaller networks. In circumstances like that we would
+use a way to compensate for it. But we are going to have to calculate,
+figure out how what the sibling network is so that we know how many different ways
+that could come in at the sample, and then we factor that into a waiting
+factor for our particular case. Well here's a tabular display of
+what happened for those 10 cases. There were actually 10
+sample persons there. Sample person number one,
+I didn't number them, but sample person number one happened to be,
+has no living siblings. So they were all by themselves,
+they're one of those singleton dots. And we asked them, have you ever been
+told by a doctor that you have diabetes, by a medical doctor? And they say, no. Okay.
+Now there are, in the network now, there's no cases of diabetes. There's only one represented there. That person, let's suppose that each
+person was selected with a probability that we can identify and that person's weight corresponding
+to that probability was 100. Their network size was one so their
+chance of being in the sample is just based on that 1 in 100 probability that's
+expressed in terms of the weight in 100. They have a network adjusted
+person weight of 100. But now, let's look at the second
+person going across the second line. They have two siblings,
+that's one of those triangles. They have two living siblings. Now, none of them,
+not the person who was selected nor any of the siblings have diabetes. Now we're going to collect the amount
+of siblings from the informant, the sample person. But again, as we look across there,
+the base probability for that person is 1 in 100, a weight of 100. There are three people in the network but
+their weight now should be smaller. They have three times the chance of
+being selected because they could have been selected alone or through
+either one of their other siblings. So we're going to give them
+a weight that is one-third as large since their probability
+is three times larger. Let's try one with person number three who
+comes from a quad, comes from that quad. There are four siblings all together. We selected one and there are three
+others we haven't selected. The person we've interviewed
+does not have diabetes, or has never been told
+that they have diabetes. But one of their siblings does. Now in our network we've got
+a contribution of one case of diabetes to what we're doing
+among the total number of cases. The probability of selection in
+that particular case, 1 in 200. And the network size is 4, so
+the weight has to be adjusted. That weight of 200 has to be
+adjusted by a factor of 1 in 4. Now we're assuming that all
+the elements in the network have the same personal weight. There are some assumptions
+going on here but you can see how what we're doing is
+thinking through how does that network which we're now accessing as a way
+to increase our sample size, how does that influence the chance of our
+individual being selected and the members of the network being selected and how do
+we compensate for that in our weighting? And so we have now network adjusted
+person weights that accounts for that. So the network's sampling here is one in
+which we use the network to expand through the network connections the number
+of persons who are in our sample. Let's look at how this adjustment works. So we have, really, two cases of
+diabetes among the sample persons. Among the living siblings
+there are four more. So we've tripled the number
+of cases of diabetes. There are 10 sample persons but 27 persons in the networks that I've
+identified including the sample persons. If we just took the unweighted prevalence
+among the sample persons, it would be 20%. And that's perfectly valid, but
+it's only based on the sample of size 10. If we take the end weighted
+prevalence among all the networks, the 6 divided by the 27 we see
+that we've got a much lower rate, we're going to need to do a weighted
+prevalence in that particular case. But our network adjusted weighted
+prevalence comes out to be 0.256. And it's based now on 27 cases,
+properly weighted to account for the multiple chances of selection that
+are occurring, because of the networks and people being in those networks and reporting about other members through
+those relationships in the network system. Okay, multiplicity sampling. This is not intended to give you
+full tools on how to do this but to give you the idea about what happens
+when we sample persons in networks. There are other kinds of network
+sampling that occur in the survey realm. For example, this is one in which we have
+two central nodes, star patterns, two star patterns, which are also connected
+through one person in each of them. The outer circles around this pattern
+are clients to insurance companies. They're people who receive health
+insurance through a company. And the central circle in each
+is the insurance company. Now our goal here was to
+draw a sample of persons and identify characteristics about them. So we've drawn a sample of six persons and
+we're going to collect data about them. But we also want to know about
+their health insurance companies. And so what we're going to do is
+identify the insurance carrier for each sample person. In this case there are two insurance
+carriers across the six people. Five of the people are uniquely
+associated with only one carrier. One person's associated with both. Now, we're going to have to figure out, what is the chance of the insurance
+carrier coming into the sample? Well, we have to count all of
+the people who are in the network. We're going to need a count on
+the size of the insurance carrier, as well as any
+interconnectivity that goes on. And we would go through and
+systematically calculate for each of the insurance carriers,
+what their chance of selection was based on the sampling rates we have for
+the individual persons. Now, I won't go through
+that kind of calculation. But you can see now how the network is
+factored into a further expansion of our data collection to include, not just more
+people, as in the previous example, but here, people as well as an organizational
+unit, that we're very interested in. And we're going to combine both in our
+single data collection through one sample of people, and then extract from that
+information about insurance carriers and their probabilities of selection so that we can properly account for
+their size contributions to the industry. All right, multiplicity network sampling. The principles that we've
+been dealing with for probabilities, the randomized selection,
+all of that kind of thing can be factored in through a waiting system
+to allow us to utilize these networks as ways to increase our sample sizes,
+or increase the diversity of our units. Persons as well as insurance companies. We have one last topic to talk about, our final topic,
+lecture six on non-probability sampling. Just some thoughts about
+non-probability sampling to wrap up what we've been doing as we
+look at the last lecture in unit six next. Thank you.

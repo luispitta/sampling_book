@@ -1,0 +1,210 @@
+Welcome again to our unit
+on stratified sampling. Or, be more efficient in our sample
+selection as we continue to talk about sampling people, records and networks. And in our first two lectures, we're
+now on our third lecture on grouping, a little more on grouping. We talked about forming
+groups in lecture one, but now we're talking about some additional
+features of grouping that we ought to be thinking about now that we've
+looked at sampling variance a little bit. But we're going to, in this particular
+case, talk about four things. We're going to talk about how
+to use multiple variables in the grouping process,
+that's certainly possible and advisable. Give a little more advice
+on forming the strata, how we should pick out variables
+to use as stratifiers. A side note on multipurpose design, in the
+middle of which we're also going to talk something about domains and
+have one particular application. So there's some terminology that I've
+just introduce there that we will talk about as we move into
+those latter two sections. So first of all, it is possible to use more than one
+variable in the stratification. We have more than one, we had rank,
+we also have sex and division. We can use those in our stratification
+much in the way we would form a table, a cross tab, a cross tabulation of rank
+by sex, in order to form our groups. So instead of having three groups based
+on rank only, we can have six groups, in which we have first all of the female
+faculty, assistant, associate, and full. And then all of the male faculty,
+assistant, associate, and full, or however you want to mix them, but
+those six groups as our strata. Now, we can see here, we've just
+gone ahead and done the allocation. And we show the capital N sub h for each, the number in each of the groups,
+summing to our frame size, population size of 400, and
+the W sub h for each of these, as well. Now, why would we introduce this? Well because, we saw that one
+of the things we were getting was sampling variances where we were
+computing variances within each group and then combining them. What we want to do then, is to find
+ways that when we form the groups, we decrease the variance
+as much as possible. We want to make the internal
+characteristic of the group as homogeneous as possible. That way, those sampling variances
+within a group are smaller, and when we combine them,
+we get even more gains in precision. So I'm talking here about the same
+thing we did for cluster sampling, homogeneity within the groups. Homogeneity within the groups creates
+heterogeneity between the groups. So if what I can do by
+adding another variable is get even more variation in
+the mean salary across the groups, I'm going to get greater
+homogeneity within the groups. And I'm going to smaller sampling
+variance, same sample size, smaller sampling variance by
+allocating across more groups and smaller design effects,
+even more gains in precision. We won't go through and
+do that calculation here, but you can imagine what it is. This is a bit like in linear regression, in which we have regressing an outcome
+variable on multiple predictors. Why do we have multiple predictors? Because each of them contributes to
+explaining variation in the outcome variable, that's what we're doing here. The outcome variable is income,
+that's what we're sampling. And each of these factors are like
+predictors in the model, and each explain more and more that
+variation and we keep adding them in. So more variables is better, more
+variables is better than more categories, but that's a little beyond
+the scope of what we're able to do. We also need to then do the sample size or
+the allocation across each of the groups. The same thing, we won't use the same
+allocation, we're now going to use an allocation that is based on the
+proportionate distribution we see here. And if anything,
+it will mimic what we did before. It will sum to what we did before, but
+now we're going to have more groups. Let's suppose that again we're continuing
+to do a sample of 20% of the elements, 80 of the 400. And we allocate the sample of 80 across the groups as
+shown here in the last column. That allocation, if you go through,
+is 20% in each case. And so if you look at stratum one,
+female assistant professors, and there are 40 of them,
+one-fifth of them, 20%, is 8. When we do female associated professors, 25 of them,
+one-fifth of them is 5, and so on. So we're doing the same thing,
+that proportional allocation, just now with more groups. But in general then,
+how should we form the strata? What we're doing is, the best advice
+we can come up with is to say look for things that make the groups
+internally homogenous. Let me turn that the other way. Let's try and make them as different as
+possible, as we go across the groups. Have big differences between
+the means of the strata, sometimes that's an easier
+way to think about it. Will there be bigger
+differences between males and females than if we don't use them. Yes, we know the salaries for
+females are lower than they are for males, whatever the reasons. In this case,
+there's actually some structural element, because female faculty, there's a large
+share of them who are in certain areas, such as nursing, where they're
+disproportionately represented there and the salaries are lower there. So there's some structural elements as
+well as some other kinds of things going on, possibly with respect
+to discrimination. But regardless, our aim is to
+capitalize on that underlying social structural phenomena as much as possible. And look for things that
+are going to give us groups that have as big a difference
+between the groups as possible. But that's essentially what we're doing in
+linear regression, as I mentioned before. Another way to say this is that we're
+seeking to explain as much of the variance in the outcome variable or
+variables as possible. Now here we've got one outcome
+that we're looking at, income, but we may have more to consider. So what we're doing is adding to the
+auxiliary variable set and the number of strata by using more and more auxiliary
+variables in cross classifications. By the way, that cross classifications
+doesn't have to be done uniformly, we could collapse some of the groups
+if they're really small and not have symmetry. So suppose in our allocation one of those
+groups, the female associate professors, was so small that we couldn't
+really sustain a sample with it. We might very well collapse associate and
+full professors together for females, so that we have five
+groups in the end, three for the male professors,
+but two for the female. This is not to say that females don't
+deserve as many strata as the male, it has to do with the sizes of the groups. And that's going to be determined by
+population distribution across those auxiliary variables we're using for
+stratification. Now just as an aside, this business
+about these auxiliary variables, where are we going to get them? Where are we going to get the background
+information we need to form these? A lot of this could come from census or
+administrative reports or other surveys. Our understanding, our knowledge about
+how those auxiliary variables relate to the outcome variables, which we don't
+have, may come from other sources. It may come from other surveys, where
+we've got a good understanding about how salary relates to rank and to sex, and
+to their division, which determines the differences between people who are in
+engineering and those who are in nursing. And so in those particular cases, we're
+going to use that kind of information, our substantive understanding
+of what's going on, in order to choose among those variables. We may also have past surveys in which we
+can calculate what differences there are, what percent of the variance is being
+explained by different factors. Different auxiliary variables, in order
+to decide which of them are the most important to explain most of the variance, and the ones that we want to
+use in our stratification. So shown on the lower left,
+it's this idea of the stratification, these differences between the group. Homogeneous within, differences between, we want to capitalize on these auxiliary
+variables to create that kind of stratification that is as stark and
+sharp a contrast as possible. But there's a corresponding part of this,
+and that has to do with multipurpose surveys. And that is, I'm talking about multiple x
+variables in a regression model, multiple right hand side variables, multiple
+auxiliary variables informing the strata. But we also have to realize that in these
+surveys, we don't just measure one thing. Very few of the surveys
+that are being done, whether it's in government context or
+in private industry or in academic settings, very few of them
+deal with just one variable as an outcome. They have many kinds of
+things that they measure. So, for example, we might have been doing
+this particular survey among faculty and records, but we might be doing
+a much larger household survey. Households being collections of people in
+a country, and I've picked out a country in the Persian Gulf, some of you
+may need to look this up, Qatar. And in this particular country, maybe
+we're doing a national survey looking at such things as assets, building ownership,
+use of expatriate labor, expenditures on various kinds of food and
+housing and so on, income, health, healthcare use, psychological well-being,
+social integration. A host of factors, some of which we're
+doing because this is our one chance to do it, lets get the data and
+do a multipurpose survey. We're going to do health, but by the way, we better bring in
+the income items as well. We're going to do social and psychological
+well-being, because we think they're related to health, and so we're going to
+include those as part of our survey. And so we have many variables
+in that same survey. The stratification then
+becomes more complicated. But it turns out that that
+scheme we just looked at, that proportionately allocated
+stratified sampling scheme, gives us gains in precision for almost all
+the variables in a multipurpose survey. It turns out to be a very good way
+to approach the stratification. Not the only way, but
+it is a good starting strategy for thinking about these kinds
+of things as we go along. There's another aspect to this. If we're talking about
+dividing these up into groups, maybe I also want estimates for
+each of the groups. Sub-populations for
+which separate estimates are required, maybe we want a separate estimate for
+each the ranks. That means that we're going to have to
+have adequate sample sizes in each of them to make this work. More often, this comes up in
+the context of geographic subdivisions. And I picked one that I'm particularly
+fond of, the University of Michigan, where I work, I live in the State of Michigan,
+is very near the country of Canada. As a matter of fact, it's just 60
+kilometers down the road, it's east of us. We're actually a little bit north of
+the southernmost portion of Canada here. Canada is divided into ten provinces and
+this is important. Because what provinces represent
+are not just political divisions, they also represent important divisions
+within the governmental system. And they have a survey that
+they estimate unemployment for the entire country, the unemployment rate. This is something that many countries
+do as a measure of the well-being of their population, they measure
+it on a regular basis every month. And in their particular survey, they're
+making that measuring of well-being based on a sample of let's say 30,000
+households, with probably 75,000 people who are interviewed in those households,
+in which they ask about unemployment. And so,
+that's the overall goal of the survey. We're going to divide our
+sample up into provinces, because we think the unemployment
+rate's different across the provinces, matter of fact, they know that they do. Much higher unemployment in the, what
+they're called the maritime provinces on the Atlantic coast, where they have
+traditionally relied on fishing and other kinds of industries that are less
+stable in terms of the economy. And so unemployment rates tend to be
+higher, as opposed to some of the more centrally located provinces that
+are more dependent on manufacturing and other kinds of areas and
+economic development areas. And so what they do in their sample is, if
+they distributed the sample proportionate, like we've talked about, they would have actually very small
+sample sizes in the maritime provinces, which are geographically small and
+have small populations. Their W sub h's are quite small. That means that they wouldn't have large
+enough samples in the maritime provinces to produce separate estimates for
+each of the provinces, a domain estimate. And so what they actually do is allocate
+the sample equally across the provinces, there are ten provinces. Every province gets the same sample size,
+every province gets 3,000 households. Even the smallest gets 3,000 households,
+so that they get equally precise estimates. And if you focus on domains of study, this is a feature of stratification
+that we have to keep in mind. We could also do this for socio-demographic characteristics,
+age groups, occupation, income, education. But most often we see this kind of thing
+with respect to geographic subdivisions, stratify by those, because we
+want separate estimates by them. But then it begs the question, how large is the sample going to be in
+each of them if we do it proportionally, and if we don't do it proportionally,
+how far can we push it? Let's come back to that, we talk a little
+bit more about allocations in the end. Okay, so when we have multiple
+potential stratifying variables, just to wrap up here, come back to
+our issues about stratification, how do we decide which one to choose? We're going to find the one that has
+the most variation in group size, that explains the most
+variation in the outcome. Has the most variation in
+the means across the groups, but also explains the most
+variance across those groups. The second consideration is how large
+should the strata sizes be, and that's going to have an impact
+on what we're doing as well. And then if we're able to use only one or
+a subset of those, we're going to have the ones that have
+the bigger differences in income, are there such bigger
+differences in what we're doing? So those are the kinds of considerations
+that we're putting into thinking about grouping now. We're being more and more sophisticated
+now that we understand more and more about how stratification works and
+what it can actually do for us. We need to talk about
+that allocation problem. I want to come back to that example,
+concerning Canada, and talk a little more about that allocation
+for domain estimation purposes, before we go on and talk about a few
+other topics in stratified sampling. So that concludes our lecture three
+on grouping, more about grouping. We're understanding more and more about
+how these groups ought to be formed as we understand more and
+more about stratification. What we need to talk about as well,
+the allocation problem, and that will be the next two lectures. The next lecture, lecture four,
+will be on basics of allocation and then lecture five on more
+sophisticated kinds of allocation. And it's that combination of allocation
+and grouping that will teach us the most about how to use stratified sampling the
+most effectively in being more efficient. Please join me then for
+lecture four next, thank you.

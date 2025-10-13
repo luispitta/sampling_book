@@ -1,0 +1,164 @@
+We've been talking about systematic
+sampling now as part of unit five. Having discussed the basic principles
+of systematic sampling and the features that make it simple and
+applicable in many situations. In this lecture, lecture two from unit
+five, what we're going to do is discuss the interval, the sampling interval
+that we calculated before. Except in our earlier illustrations that
+sampling interval had a whole number, there was no fractional part. And it's quite possible to get intervals
+when we take the approach that we looked at last time that involve
+a fractional part of the decimal. So what we're going to do is talk
+about the nature of that problem. And then, three solutions to that problem. And in this lecture, we will talk
+about rounding as a solution and circular lists as a solution. Then we'll take a break and we'll come
+back to talk about something that's called a fractional interval as a way of
+dealing with this particular problem. But first the problem. Our process is one in which we first
+determine a sampling interval by taking the population size, the length of the list and dividing by
+the sample size to get an interval k. And then we choose a random number
+from 1 to k as our starting point and when we take that random number,
+we select that case and then we add k to that random number
+to get the second selection. We add k again to get
+the third selection and so on. So for example, if there were 12,000
+elements on a list, in this case, dwellings, housing units, in a city,
+we had a list of all of them and we were doing a systematic sample of them,
+of size 500, our interval would be calculated as
+k of 12,000 divided by 500 or 24. We're going to take every 24,000 unit
+from the list after a random start and suppose our random number for
+that random start was 03. We look up a two digit random number
+between zero one and two four. And if it's 03 then, we take the third
+dwelling and then we add 24 to get the 27th, and we add 24 to
+that to get the 51st and so on. So that's the basic
+features of the problem. But, what happens if in calculating
+that interval, the ratio of population size to sample size
+has a decimal, a fractional part. So for example, a very small
+population just to see it immediately of 9 elements of which we're taking 2,
+then our integral is 4.5. If we happen to have 952 elements,
+as I once had on a list and was sampling 200 of them and the interval
+is 4.76 it can be even more decimals. For example, a list with 170,345
+elements of which we are taking 1,250, well there the interval has
+three decimals to it and we can get repeating decimals and
+other problems. But let's limit our consideration to one
+or two decimals even if we have three or more we may round to three or
+round to two decimals there to work with. What are our alternatives for
+dealing with a situation like this? We could do an obvious thing which is
+to consider among our alternatives. The idea of rounding, rounding
+the interval to eliminate the fraction. So for example,
+when that population was of size 9, and we took 2,
+we could take an interval of 4 or 5. We could take the 4.5 as the interval and round it up to 5 or simply truncate it and
+round it down to 4. We don't have to follow the usual rounding
+rules that are used in statistics and math and in science. We can simply move it up or down depending
+on our individual circumstances. Now, I'm an American baseball fan and have
+been watching baseball the past year and this is not the kind of
+rounding that goes on there, where they're rounding the bases. Now, this is the kind that
+although it has the same feature, this is the kind in which we are choosing
+an integer either the integer that precedes the decimal portion or
+one more than that integer. So for this particular case,
+if we rounded, decided to round to 4 as an interval,
+and chose as a random number 1 then, we would select the first,
+and the fifth, and the ninth. In each case, we've added the interval and
+when we got to the last one and we were adding the interval
+one more time to the ninth, we realize we're off the end of the list. So there's only three
+possible selections there. On the other hand though, when we
+routed to an interval of size 4 and our random starts are 2, 3 or 4, 2, 3, or
+4, the sample will have only two elements. It would be 2 and 6,
+or 4 and 7 or 4 and 8. So we now see that we've got our
+sample size variation when we round. And it goes in both directions, it doesn't solve the problem to
+round up in this particular case. If our interval is 5 and
+our random starts are 1, 2, 3 or 4, the sample could have two elements
+chosen when those random numbers or random starts are 1, 2, 3 or 4 and if the random number were 5 then we
+only have one elements that's chosen. So we get fluctuation between
+two numbers in the sample size. Well, that kind of an approach can be more
+complicated with larger kinds of problems. For example, 952 in the population and
+200 in the sample. Here, if we round the interval to be 5,
+that was a 4.76, we rounded up to 5,
+random numbers 1, 2, 3 and 4, we'll select now, not 200 but 191. In random number 5 gets us one less, we don't even get the exact sample
+size for this particular one. And so the rounding product
+can be more severe in certain circumstances even when we have
+a 170,345 and the sample of 1,250. Our rounding of that interval that we
+had before, could lead to 1, 252 or 1, 253 elements in the sample. So rounding is a feasible solution but
+it has two problems with it. One is that the sample size will
+vary depending on the random start, vary by one. The second is that it may also not lead
+to the exact sample size that we were interested in or even being one away. We maybe further away than that. So with that in mind,
+that the sample size is not fixed and we don't get the target sample size,
+we have to seek another solution. Ignoring rounding is an alternative. This is being aware of
+the consequences of doing it. Whether we round up or round down and
+whether we get the sample size that we desire or a sample size that is
+one more or one less than we desire. If that is acceptable in our
+particular framework, in our context, in our problem, then rounding
+is a perfectly valid solution. But many people would prefer
+to see a fixed sample size. They don't want to see it fluctuate. It could be for budget reasons. It could be for cosmetic reasons. You've told the sponsor they're going
+to get so many cases and instead, you come back with a different number. A solution that some people then
+would advocate is what's referred to as a circular list. As before, we're going to calculate
+an interval and when we have a fractional part, we'll round up or
+round down to some interval say k*. So, before if we had an interval
+of 4.5 we could round down to 4 or up to 5, those would be our k* for
+that one. But now, when we go to choose our random
+start, we don't choose it from one up to the interval,
+we choose it anywhere on the list, anywhere of the capital N
+elements on the list at random. And then,we start there and keep going
+until we have n elements selected. But, there's the obvious problem that we could get to the end of the list
+before we our lower keys n elements. But let me repeat that again. We're going to make our selection with
+that random start and keep adding the interval, we only stop when we have
+our sample size, the required sample size. Not the rounded up on the one that we make
+up with the rounding, where we go up or down but the fixed sample size. Now, think about this one like
+a clock as a solution here. This is the wrapping of the numbering and
+we do this all the time. So here's a 12 hour clock
+in my lower left image. There's a 24 hour clock. But we do it all the time as
+we get to the higher numbers, we just start rounding around. So if it happened to be 11 o'clock at
+night or 11 o'clock in the morning and someone said to you,
+I'll be there in two hours. You know to add two hours, you're going to
+count up by 1 to 12 and then 1 o'clock. Well the same kind of thing happens here
+when we're doing this kind of rounding. Suppose that in this particular case,
+we're going to choose an interval of 2. We got a population of 12, we're
+going to choose 5 of those elements and our interval is 2.4, 12 divided by 5. Suppose we've decided to round
+our interval down to 2 and we choose our random start anywhere
+in the list now not between 1 and 2 but anywhere from 1 to 12. So we look up a two digit
+random number from 01 to 12 and we've identified that,
+we begin the process. So suppose that our start was at 7,
+randomly chosen. Then we would add 2 to get to 9. And to that 9,
+we would add 2 to get to 11 but now when we add two,
+we're off the end of the list. And so what we would do is wrap around
+to the next one that is 1, from 11 to 1. And, then we would add our
+interval again to get 3 and we're done with our sample at that point. So we have in our sample,
+7, 9, 11, 1, and 3. Random start of 7, interval of 2, and wrapping from the end of the list
+back to the beginning of the list. Now remember with this one,
+we can start anywhere on the list but then when we get to the end of it,
+we wrap. So circular list. Just think about this as a giant clock and if we had a clock with 900 elements on it,
+it's the same thing. When we get to the end of that list and
+our interval, adding our interval to that last selection
+takes us beyond the end of the list, we count, however, many it takes
+to get to the end of the list and then we resume our counting
+at the beginning of the list. So, if our last selection in
+a list of 900 was 890 and our interval were 20,
+we would count out a 91, two, three, four, five, six ,seven, eight, nine. And then we would continue nine and
+zero to 900, there's ten and then we count ten more, one through
+ten to get our selection which is the tenth element now at
+the beginning of the list. Okay, now it's a little bit tricky
+because this is going to be confusing for some of us. Rounding, we choose one
+of two alternatives. We take our rounded interval and
+we choose a random start between one and that interval and
+then apply that to the list. We're going to start at the beginning and go all the way through
+until we get to the end but we know that we may not get our exact
+sample size and it may fluctuate by one. Or, instead of choosing the random
+start between one and the interval, the rounded interval, we treat it like
+this clock, like this circular list and we choose a random start from anywhere
+on the list from one to capital N. And then, we begin our process
+of taking that random start and then the next selection is that
+random start plus the interval, the next one is the random start plus
+two times the interval and so on and when we get to the end of the list
+wrapping around the beginning. Now, just one cite to note here. I've assumed that we know capital
+end is actually there in the list. Sometimes we do systematic sampling and settings where we don't have
+the full list assembled. Say for example, we're dealing
+with a process in which there are people flowing through
+a meeting point, a starting point, a stopping point, passengers
+getting off of an airline flight. People entering into a conference
+at a single entrance and we decide to take every so
+many subjects there. Well, we would have to gauge roughly,
+how many subjects are going to go, get beyond that flight? Or how many subjects are going
+to pass through our entry point in order to control our process
+under what size sample we want? But there, we wouldn't have
+certain of this problem nor would we have this fractional interval kind of problem where we're going to
+have fluctuation in sample size. So we can do systematic sampling without
+knowing capital N but the approach that we would take would likely be
+the one where we've got some rounded whole number interval that we're going
+to be using in a circumstance like that. Well, there's two techniques. There's one more that we want to talk
+about called fractional intervals. Before we go onto that, let's take
+a break and resume our discussion for lecture two after a little bit of a break. Thank you.

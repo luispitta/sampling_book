@@ -1,0 +1,222 @@
+Hello, and welcome back to our continuing
+discussion about cluster sampling here in unit three of our six unit session on
+sampling people, records and network. In this lecture, the second of our
+lectures on cluster sampling, we're going to be talking about the effect the impact
+of cluster sampling on our estimation. And as we do this,
+we're going to take the simple complex sampling ideas that we just
+developed in lecture one. And compare and contrast them to what we find in simple
+random samples of the same size. And we will have in this particular
+case then some new expressions, some new terminology. Even some new tools to use in
+helping us design samples, design effects and intraclass correlation
+that we will describe as we go along. Now as we do this in the lectures,
+there are three parts to this about the so-called design effects, which I've
+abbreviated in the upper left as d-e-f-f. We'll see that abbreviation in a minute. And roh, r-o-h,
+that we'll describe in a minute. And then we have some calculations. And between design effect and roh, or somewhere in the middle of the roh,
+we're going to take a little break and then come back to the rest of it to
+finish off discussing roh in calculation. So let's begin by talking
+about the idea of comparing a cluster sample
+to a simple random sample. And I just grab this image here, because
+when we do comparisons there are all sorts of things that we do in
+the way of comparisons. Here's a comparison of heights and
+buildings. Now this doesn't include the really tall
+buildings in the Persian Gulf today. But, we might be looking at the comparison of the height of buildings such
+as the Taipei 101 in Taiwan. And the Petronas towers in Malaysia. The Sear's tower in the United States. The Jin Mao building which has
+been superseded but in Shanghai. And the Empire State building
+in the Unite States. And then I put this one in here
+just because this relates to my background where this is being recorded here at the University of
+Michigan Is very near to Detroit. And Detroit sits on big salt deposits. It's not well known for this,
+but those salt mines go way down. Almost to the depth
+equivalent of the building. So we would compare these
+in terms of this measure. What we're going to do is the same
+thing for cluster sampling. We need a way to compare cluster
+samples to simple random. We need some quantitated measure. We're going to use the sampling variance. Because if you recall for cluster samples,
+simple cluster samples they're unbiased for the mean,
+just like simple random samples. So whether we have
+a simple random sample or a cluster sample on average
+we're getting the right answer. There is no effective design there. But those sampling variances
+are computed in different ways. For simple random samples based
+on element variability for cluster samples based on
+the cluster variability. And so we need a way to take
+that quantified statement and compare between the two. So we're going to be comparing precision. Well precision you recall would
+involve standard errors, but it's really that measure of precision our
+sampling variance we're going to be doing. We need to make sure that there's
+some commonality in the comparison. I don't want to compare a simple random
+sample of a 1000 to a cluster sample of 240. That wouldn't make sense. So we're going to put them on the same
+basis, the equal sample size, not equal costs. Simple random samples will be much
+more expensive than cluster samples. So if we had to have equal costs, then the cluster samples will have much
+better precision in simple random samples. But, when we have equal sample size,
+what we find is, the cluster samples have much larger
+variances than simple random samples. All right, so
+we're going to compare sampling variances, in this particular case. Now, if you recall our illustration in
+lecture two, where we had ten classrooms, each with 24 children selected
+from a 1,000 classrooms. So the total population
+had 240,000 children. We selected 240 children
+across the school classrooms. And did that by taking
+ten classrooms of 24. And then we asked each of those children,
+or obtained for each of the children, their immunization history, and 160 of
+them, turned out weren't fully immunized. That portion is an unbiased estimate
+of the population proportion among all 24,000 children. Well, we could have, at that point, done
+a simple random sample though instead, and suppose we got the same basic result,
+or something neighboring that. And then calculated the simple
+random sampling variance. And so here's the calculation from
+a simple random sample of the same size of 240. Actually, it uses the results
+from our cluster sample. We didn't draw a separate sample. What we're going to do is treat our
+cluster sample both as a cluster sample, we know what that variance is and
+we'll come back to it in a minute. And as a simple random
+sample of the same size. And just take the data and
+ignore the clustering in it and calculate the variance. Now that allows us then
+from one sample to get the two estimates that we need to compare. And here is the sampling variance from
+the cluster, not the cluster sample, but the simple random sample. You probably don't remember
+what we had before, but we're going to compare what we have for
+the cluster sample. And as we see it here that
+we have this quantity that involves variance of the mean. Where what we're going to do is take
+that variance of the proportion actually rather than a mean, although I
+think about them in the same way, and compare it to the variance
+of a simple random sample. For the same estimate, so
+we're taking a ratio of variances. We won't take a difference. When you're comparing
+building heights you'd say, well this one is 250 feet
+taller than the other. But what we're doing here is saying,
+no, no, this one 6% larger. Or this one is 100% larger
+by taking the ratio. And we're going to label this where we're
+comparing the variance of the proportion for our cluster sample for sample 240. That's that numerator I circled to
+the variance of a simple random sample of the same size 240 school children. The sampling variance in the denominator. And that's what we're going to
+label as the Design Effect. Design Effect. And we're using an abbreviation here. This was invented by a social scientist,
+who was among statisticians known as a statistician, and among social
+scientists known as a sociologist. And he came from that the different
+tradition statistication would treat this not a single symbol that
+might use something like a delta. Or maybe just to denote that it's
+on a squared scale a delta squared. Okay, they're going to go with
+the Greek letter, why Greek? Well, classical reasons but,
+spare notations as possible. Whereas, the social science community
+tends to prefer mnemonic devices, memory devices so here D for
+design and e-f-f for effect, deff which is a ratio of variances for
+that sample proportion p. All right, same sample size numerator and
+denominator and at the last line in the very
+bottom of our display. We see the ratio, you probably
+didn't recall that the sampling variance we computed from our
+sample of size 240 was 0.00276. And for the simple random sampling
+equivalent taking the same data and treating it as a simple random
+sample came out to be 0.0009. Those numbers are hard to. Taking differences here
+would be a real headache. This is the scale we're getting for a
+sample of this size involving proportions. This is what variances
+would tend to look like. But what's important is the ratio. And we notice that the cluster sampling
+variance is three times larger than the simple random sampling variance. A three fold increase. The same sample size, much reduced cost. Now you could raise the question. Well why would I do the cluster sample if
+I'm going to lose invariance compared to, I'd rather do the random sample for
+the same sample size. No you wouldn't because the simple
+random sample would cost much more money to build
+the list necessary to select it. Now if you already got that list
+assembled, that's a different matter. But here,
+we don't have a list assembled, and that's what happens in most of
+these cases with cluster sampling. We have a list assembly cost, and that list assembly cost could
+be a hundredfold higher. Let's say it is a hundred fold higher. It costs us 100 times as much to assemble
+that list of all of the names as it does to get a list of the thousand classrooms,
+select 10 of them and then go to those classrooms and
+get the classroom rosters for those 10. And if it's a hundred fold difference, a threefold loss in precision
+from cluster sampling is nothing. We're still ahead by 33 to 1. So we're willing to suffer this
+loss because we save so much money. Now, we don't often do that calculation. Often?
+I don't think I've ever done it at all. It's just so obvious that the cost would
+be so much less with a cluster sample. And I haven't even mentioned the travel
+cost to go from classroom to classroom. So it's not about cost here, it's
+about variance and equal sample sizes. We lose in precision on that comparison,
+but it's a convenient kind of comparison. It's not about now getting these things so that we can compare this on
+the basis of the same budget. That's typically not done
+although it could be done. All right, now this design effect comes
+up all over the place in literature and it comes up in many different ways. For example,
+one way that it comes up is the following. That design effect is
+a ratio of variances. Well if I multiply both sides of it,
+if I multiply the right hand side and left hand side of the simple
+sampling variance. I get the variance of the proportion, just
+the numerator the one side is equal to the design effect times the simple
+random sampling variance. That is, the design effect can
+be thought of as an adjustment on what happens in simple random sampling. In this case, as I said, a three-fold increase in the variance
+compared to simple random sampling. And that sometimes is used by people to
+assess the impact of the cluster sampling on their design,
+when they're looking at the analysis. They've done simple random sampling
+calculations and they say, but I think the design effects here,
+based on other calculations, are a factor of two or three. They're going to take the simple
+random sampling variances and inflate them correspondingly. That's one way to use them,
+that's a little bit crude. Typically you just want to compute
+the design effect and be done with it, and know exactly what that
+increase in variance was. But actually this expression is much more
+useful in designing new surveys, which is in the next lectures that are coming up,
+in lectures three and four in this series. So we'll come back to this. We're going to take that design effect and
+use it as an adjustment factor for simple random sampling variances
+in order to build up projections of what sampling variance would
+look like for cluster samples. Now the design effect is a function
+of the differences between clusters. If you remember, the design effect, the numerator that cluster variances
+variability among cluster characteristics. And so what we're doing is
+we're comparing variability for cluster characteristics to variability for
+element characteristics. And that design effect is greater than 1. The clusters are more
+variable than the elements. Why? You know if the elements happened to be. I got this illustration
+of sheep down here but if the elements happened to be tufts
+of wool, taken from me to the sheep. We can see there's big differences
+between white sheep and black sheep. And that what's going on here, we're getting bigger differences
+between than we're getting within. There's not an even uniform distribution
+of color of the wool across those sheep. So what we're contrasting here is
+heterogeneity between the clusters, that's the term that's used. Based on the Greek, hetero for between if you will and that it's what's
+in the numerator of our variances. If we have heterogeneity between that is we have very great
+differences between like those sheep. It also implies something that's very
+important and that is homogeneity within. So the maximum contrast that we've
+got right there is between black and white sheep which is also the difference
+between black and white tufts of wool. And so, that homogeneity within,
+if it's high, means that there's also
+great differences between. This is, kind of, the essence of
+the social sciences anyway, particularly, sociology, in studying groups and
+group differences. But, if you study group differences,
+you're also studying the extent to which, within groups, there's homogeneity. The elements are more like one another
+within the group than they are alike those that are coming from different groups. So, the more different
+clusters are from one another, the more similar are the elements
+within clusters one to another. Now, this is observed empirically. They revealed that this design
+effect Is a function of indeed the extent to which the elements within
+the clusters are like one another. They're also it turns out related
+to how large the clusters are. So it's not just one factor, it's two. And so there is a measure of this
+within cluster correlation that we're going to be developing called
+Intracluster correlation intra- much like the difference between
+inter- and intra- comparisons. So I drive on highways in the United
+States and you'll pass vehicles and they'll say the intra-state
+[COUGH] commerce commission. Between state it's a federal agency that
+regulates what goes on between the states as opposed to interstate, within state commerce where things
+don't pass outside the state borders. Well, that's what we're dealing with here. We're dealing with the Intra, the within kind of thing,
+and the cluster phenomena. And we're going to measure that
+in terms of the correlation, the extent to which the elements
+resemble one another. Well now for correlation, we typically
+would use the symbol r for relation. Right, correlation has that
+built in to the middle. But again remember the statisticians. They prefer the Greek symbol here. They prefer that Greek letter for
+the letter r, roh. All right,
+I hope that doesn't look like a p. It's meant to look like
+that Greek letter roh. So they're capitalizing on the same sound. But that kind of thing is spelled R-H-O. We live in a university environment
+in which there is housing here for a community called the Greek Community,
+organized by the students. And they have these
+Greek letters on there. They're called the Greek Community
+because their houses are named with typically two,
+three letter sequences of Greek letters. And so you'll see rho used in that letter. In that case though see,
+we've got something spelled r-o-h. Well, that's because again this was
+specified by a social scientist. That social scientist
+wanted a memory device, and he wanted us to remember
+what this thing was. So the term r-o-h is a memory device
+rather than r-h-o, the Greek letter. Its a memory device and it stands for rates, r- a-t-e or R of homogeneity. Beginning with the letter h, just
+a rearrangement of the letters of roh. So it's to remind us that what we're
+dealing with here is not the Greek letter, a concept that's outside
+of our understanding. It's dealing with the homogeneity within
+the clusters, which is a direct reflection of the heterogeneity among them
+that's driving that variance. So the rate of homogeneity is a part of
+this in our design effect then is given as a factor. As a part of this and it is built up
+in terms of the rate of homogeneity and the number of elements per cluster. Now A was the number of elements,
+number of clusters. B going alphabetically as is done
+in this particular notation, is the number of elements
+we've selected per cluster. In our case it's all 24
+students in the classroom. But we will do some subsampling
+in our next lecture. So in this particular case then,
+that design effect is driven by, if you will, a 1. That's simple random sampling. That's the base that's there, by how
+many elements we take per cluster, and by the rate of homogeneity
+within the clusters. Those three factors. Given that, that allows us then
+to estimate that homogeneity. What is it, we expected to be
+a number that's less than one. And indeed, we can manufacture
+an estimate by taking the design effect expression we just were looking at. And deriving, backing out of it,
+that rate of homogeneity. We subtract one from the design effect and
+divide by b minus 1. And we see that here our rate
+of homogeneity is 0.088. So we've got our result now that
+tells us what the homogeneity is and the consequences of it. When we have 24 elements
+per cluster selected. Okay, let's take a little break from this. We're going to resume and talk about
+homogeneity a little bit further, and the consequences of homogeneity in
+our next part of lecture two, thank you.

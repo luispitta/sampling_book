@@ -1,0 +1,198 @@
+Welcome again to sampling people,
+records and networks. And our discussion in unit
+three on cluster sampling or saving money and
+using clusters to do that. We've moved on now to our third
+lecture on two-stage sampling. Where we're going to be discussing
+what happens when we don't take all the elements. So it's complex sample, it's clustered. But it's been simple. The clusters are still equal in size for
+this one. We will move to unequal size clusters,
+as we said, in Lecture 5. But they're still equal in size. But now instead of taking all the elements
+within each we take only a subset. And that's what we mean by the two stage, first the sampling in the first
+stage of the clusters. And a sampling of the second stage
+of the elements within the clusters. We're going to talk about four topics
+here on how the samples are selected. What impact that has on sampling variance. The design effect so that's a review
+of similar kinds of topics we had. But then what effect the sub
+sampling has on design effects. So let's go back to our representation for
+our cluster population now. The one involves the 18 blocks
+of eight housing units each. And we're estimating some
+characteristic for these housing units. And we're going to be doing our
+cluster sample now in two stages. In the first stage we're going
+to draw a sample of clusters. So we've selected six blocks,
+first of the 18. We have the list of 18, we do a simple
+random sample of six without replacement to avoid getting the same
+one more than once. Now there are some technical issues here,
+that we're going to ignore in this, that have to do with
+the sampling variance. I'm going to give you a simplified
+expression for the sampling variance, that's suitable for this. But it's not necessarily
+technically complete. But it's okay for our purposes. Six clusters are there to select and
+then what are we going to do? We're going to sub-sample
+housing units within each. And so, we have one sample for
+the clusters and now we have six additional samples for the housing
+units, one for each of the clusters. So in cluster one we drew a sub-sample and
+we got the corners by chance. In cluster four that fell into
+our sample we got the four housing units shown there, and so on. And those are random selections. Separate, independent, random
+selections within each of the clusters. Now for our purposes, the sampling variance of this kind of
+thing is the same as what we had before. It’s that 1 minus f over a. 1 minus the sampling fraction,
+divided by the number of random events in the first stage of
+selection times Sa squared. Sa squared being the variability
+of the cluster characteristics. Now we’re going to compute for each of
+the clusters then a mean or proportion. Whatever it is that we're measuring for,
+for these clusters. And look at the variability among
+them just the same way we did before. Now, as I said,
+technically this is not complete. There actually is a second component
+of variance, as you would expect, because we're doing additional
+six random samples. And there's a component of variance that
+averages the variability across those that could be added in here. But it turns out that when we
+go to estimate this quantity, when we go to compute the standard error. Now remember our display here,
+I keep coming back to this, where we've now got a cluster
+population and a cluster sample. And estimates from each of those and
+we could imagine our sampling distribution and its variability and
+the standard error. If we use in the computation of that
+estimated standard error in step six, lower case sa2. The same kind of between cluster
+variability that's based on cluster sub sample results. We get the right variance, and it incorporates into it the within-cluster
+variability automatically. Now, it's just beyond the scope
+of what we're able to do here. Both from a theoretical, and a practical
+point of view, to describe that. Other than to say the following. Remember that that sa squared was built
+around p sub alphas or y bar sub alphas. The characteristic for the cluster
+based on the sample information. And when we do the sub sampling that
+p sub alpha or that y bar sub alpha. The thing that happens within each cluster
+has two sources of variability in it. One source is the between cluster
+phenomenon, the selection of the clusters. Because we get a different value for the P sub alpha or the Y bar sub alpha
+depending on what cluster is there. And the second source is
+the within cluster sample. When we draw a sample of elements and we get one sub-sample of
+four housing units in one. We could do a different subsample
+in that same cluster and get a different subsample
+of four elements. And so we can get different
+values of p sub alpha even for the same cluster depending on
+the subsampling that occurred. So lower case sa squared there,
+the estimate from the data actually includes both between and
+within variance. So, as I say beyond the scope of
+this course to go into that in any more detail than I just have. Except to reassure you that
+between cluster variabilities, sample between cluster variability. Is sufficient to estimate the variance of
+the entire overall sampling distribution. So, let's go back to
+our classroom example. So we've been talking about the blocks and
+we can see how that works, but let's go back to
+the classroom example now. So the blocks we were sampling,
+I know it wasn't people but it was some kind of records perhaps for
+these housing units. It was some kind of data for
+the housing units. But maybe it was also for the people who were there in their
+aggregates in units called households. But now let's go to another
+example of cluster sampling. Or return to one in which we have 1000
+classrooms in our school district of elementary school children. Maybe they're in their first year,
+their second year, and we've sampled now in this case 20 of them. So instead of doing ten as we did
+before and take all 24 children. What we're going to do in this
+case is sample 20 of them and take 12 children in each. Now why would we do that? Well because we know that that
+design effect is driven by how many, in part,
+how many elements we select per cluster. If we do half as many kids per cluster,
+the design effect should go down. And, indeed, if we were to do this and
+empirically examine the results, we would see design effects
+decreasing when we did this. So from the capital N,
+we've drawn a sample again of 240. But, in this case, lower case a is 20 and
+lower case b is 12. We're taking a sub-sample. Here are the results now for
+the immunizations now. You can see what I'm telling you about. We now have twice as many classrooms. We have different rates,
+different fractions for these. I put them on two lines. That's the data we're working with. And we have a couple of classrooms
+here where everybody's immunized. And the smallest is about
+a third of them being immunized. And the sum of the numerators there,
+just for this illustration, is 160, so that I've got the same
+result that I had before. It's just that I've got it spread
+across twice as many clusters. Well the overall proportion
+immunized is still 0.67. This design is unbiased,
+the sampling process is unbiased for the proportion or the mean. On average if I did all possible cluster
+samples of 20 with 12 elements each. It's a complicated design, and counting the number of samples
+it's a more complicated process. But on average I'm going to get the right
+result across all of those possible samples. And the sampling variance,
+as we just noted, would be calculated in the same way. Treating the clusters now of
+12 students per classroom. I'd get the immunization rate for
+each of the 20 classrooms, and look at the variability of those
+around that 0.67, just as we did before. Calculating an Sa squared,
+add then a 1-f/a Sa squared. But now my sampling fraction is comprised
+of two parts, a/A, 20 from 1,000, 0.02. And then 12 from 24, one half. It's the same sampling rate as we had
+before because it's the same sample size. Lower case a20 times lower
+case b12 is still 240. So I've still got the same
+sampling fraction but now I've divided it across these
+two stages in the sample selection. But I've got the same
+sampling variance and the same standard error calculation that
+we've been doing, that we did before. I won't go through and
+do the calculation here. If you want to you could try it out and see what you get in the way of
+sampling variance and design effects. We're going to get a design effect though
+which is a ratio of the actual variance to the simple random sampling variance for
+a sample of the same size. Note in this case the cluster
+sampling variance would be different than what we had
+from the previous take all case. Here, with the sub sampling or
+two-stage sampling. We're going to expect that sampling
+variance to shrink because if the homogeneity holds up,
+I mean that isn't going to change. That's the characteristic of the cluster, not of the sample clusters but
+the clusters themselves. But the simple random sampling
+variance stays the same. It's still 240 cases, still the same
+proportion we had before of 0.67. And selecting many elements from clusters decreases our variances
+in this particular case. So still the roh value which was
+fairly small in this particular case when we dealt with this before,
+about 0.03. It can be magnified by b. In this case, b is 12 instead of 24 but it's magnified less because of
+the nature of the design effect. So one way to think about
+the design now to see how it affects possible sampling variance. And remember our sampling variance,
+our actual sampling variance. Is the product of our design effect and
+our simple random sampling variance. So that we can think about in this
+particular case a little bit about how that impact is going to change. As we change the nature of the design and
+change the design effect. The changing nature of the design
+in the cluster sample case. As long as we keep that
+sampling size the same. Still has the same support
+of sampling variance, but the design effect is modified. So any change to the design effect then
+is a change to the sampling variance. Any change to the sample design
+components that affect the design effect. B, the sub sample size,
+will change the sampling variance as well. So manipulating sampling
+fractions between first and second stages to maintain
+overall sample size. Which is what we've done. Will reveal something about
+the nature of the design effect and the effective sample size as well. Recall effective sample size can be now altered because our
+design effect has also changed. So, for example, suppose that we have
+our 20 classrooms and 12 elements each. What would I project the design effect
+would be in this particular case? Well, I have a formula for
+this that I can use. Recall that our homogeneity value
+was 0.088 in this particular case. 0.088, so I don't expect that to change
+just because I'm now taking 12 kids instead of 24, the homogeneity
+in the classroom's the same. It's going to be only 12 elements that you
+have available to measure that in terms of my design effect and roh calculations. So I'm going to use that same
+homogeneity from the past study to project forward to the new study. That 0.088 times 12 minus 1 or 11 plus
+1 gives me a design effect of 1.97. Not three, the design effect
+we had before, but two, 1.97. And my effective sample size if you
+recall from the previous example, where we took all. The design effect was three. And the effective sample size was 79, 80. Here I have lost about half of
+the information in my sample of 240 by doing cluster samples,
+from 240 to 120. Before where I took all of the children
+with this level of homogeneity, I lost two thirds of it. I went from 240 down to about 80. So we're better off doing this. But this is a little misleading. We have to be careful here. Because now what we've
+done is increase our cost. Cluster costs are bigger
+than element costs. And now what we've done is introduce more
+clusters, same number of elements, but more clusters. And those clusters cost us more money because of the listing that has to go
+with it and the travel that goes to them. And so there's a disproportionate
+effect here on the cost. This is not the same cost design
+as when we took ten clusters and took all 24 of the children
+in each of them. [COUGH] But we could alter this just
+to see the nature of the effects here. Where we have 30 classrooms and we take
+eight, children, the same sample size, 30 by eight is 240. The design effect now, again,
+projecting it forward 0.088, what we had for our homogeneity. Magnified now by a sample size
+of eight within each cluster. 8 minus 1, or 7, plus 1, 1.62. And my effective sample
+size goes up to 148. Okay, I can see now what's going on. The design effect is going down,
+the effective sample size is going up. Design effect is going down,
+my sampling variance for my cluster sample is going down. Same sample size times the simple
+random sampling sampling variance. And so I'm getting an impact here that
+is shrinking sampling variance but is costing me money. In order to reduce the sampling variance
+I can increase the number of clusters and decrease the number of
+elements per cluster. But I increase my cost. So I'm going to have to
+keep that in mind as well. And we'll come back to talking about
+this in our last lesson here for this particular unit. I can even go to the extreme and
+just take three kids per classroom, three students per
+classroom in 80 classrooms. And now I can see, boy,
+that design effect has shrunk to 1.18 and my effective sample size is up over 200,
+okay? Well, this is okay as a manipulation. It's just to illustrate
+what's going on here. I do need to figure out
+a way to manipulate this. I can't go on and do these calculations all the time in
+order to figure out where I should be. I need some way to balance
+the cost that I'm seeing. The cost is varied, these three designs,
+plus the one that we started out with, with ten classrooms and 24 elements each. Each costs a different amount. What should I do here? Which of these classroom
+sizes should I use? Which of the values of b should I use? What's the best mix for what I've got? And there's a model system that we've
+gotta come to discuss that we'll do later on in our lectures here
+in this particular unit. For now though let's move on, we're
+going to take these two-stage samples when we've been learning about
+design effects in roh. And we're now going to apply it to let's
+think about designing two-stage samples. What kinds of things do we need to
+do in order to do those designs? And then you'll see lecture 6 coming up,
+we'll figure out what that b value is. What's the best A and B to work with any
+particular cost system after we consider some unequal size clusters in lecture 5. But our next lecture, we'll be designing
+two stage samples, join me then, thank you.

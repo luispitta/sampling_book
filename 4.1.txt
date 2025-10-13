@@ -1,0 +1,218 @@
+Sampling people, records, and networks. In our discussion so far in the previous
+three units, we've been talking about increasingly sophisticated
+ways of selecting our samples. And we're now starting the fourth unit,
+a unit on a topic that, in the traditional treatment,
+would be labeled stratification. Stratification of your sampling
+units as a process that can, for almost no investment of cost,
+some investment of cost, but typically not a very large one,
+give us more efficient samples. That is, samples that have smaller
+standard errors than we can get by just randomization alone. And certainly by randomization and
+clustering, as we've talked about before. So, welcome. Welcome to Unit 4 on Being more efficient,
+the fourth of our six units. And here we're going to have a series of
+six lectures about the basic ideas of stratified sampling. Stratification is the idea,
+stratified sampling is the process. And in our discussions we're going to
+talk about how to form groups. This is a grouping exercise, this is
+one where we form the groups ourselves. And the ways of forming the groups
+through an illustration, something about sampling variance,
+the precision of our estimates. Having understood something about sampling
+variance then, more on how we might do grouping to achieve greater
+gains in efficiency. Gains in precision, smaller sampling variances, through
+alternative ways of forming groups. Then how to allocate our
+sample across groups. Two lectures there. As well as then, some issues concerning
+waiting with respect to stratification. In this lecture,
+the first of our six lectures on Unit 4, we're going to talk about forming groups. And there are four basic things
+that we want to talk about here. The procedure,
+the procedure of forming the groups. Using discreet variables, categorical variables would
+be a more common term today. The selection that goes on, and then how
+to combine things across groups to obtain estimates for
+the original population we started with. For our purposes, let's go back to
+an illustration we've had before where we have a list of individuals. A list of individuals, in this case, persons, who are members
+of the faculty of a university. And we have in that list,
+only a portion of which is shown here, the identification number, a sequence
+number for each element in the file. An ID number,
+in this case an eight-digit ID number. Their Division, their Sex, and their Rank. That’s what we know about them, and
+in our past sampling of activity when we work with this particular
+list of frame actually. We didn't use any of this background
+information, all we did was use the labels, the sequence number
+as a way to draw the sample. Here what we're going to do is use,
+deliberately and specifically, the additional information that’s
+available for every element in the frame. We're not going to let it go to waste. We'll call those additional variables,
+such as the Division, the Sex, and the Rank, the auxiliary information
+that we're going to use to form groups that we will create
+before we make sample selection. But, let me describe the process, then. The stratification procedure, we'll
+go through this in a series of steps, starts first with the finding
+of the population, in this case, it's the population of faculty. Now I've altered the list a little bit
+from what we looked at before just to give us more round numbers, even numbers, so that it makes
+things come out a little bit better. So I've actually added
+30 elements to the list. There's 400 faculty on our list now
+rather than, I think, before it was 370. But that's the population. It's been redefined slightly, but
+it's the faculty at this university. And we have a frame,
+a list of the faculty members. We know that that frame may be deficient,
+it may be missing some faculty who have joined recently and not gotten into
+the list before it was produced for us. Or there may be some faculty who
+are on the list who are no longer at the university, they've retired or
+they're deceased. So there are some flaws in the frame. But that is our list. And on that list we have auxiliary
+variables, things that we know about each element, each member of the frame
+before the sample is drawn. And in our case we know a sequence number,
+an ID, a rank, a sex, and a division. Now this corresponds to our diagram. If you recall our scheme, our seven steps to understanding
+the statistical estimation process. The first two steps the finding
+the population and the frame. Except what we're going to do is
+take that frame and as shown here, we're going to divide into groups. Now, not like we did with clusters, where
+there were lots and lots of clusters and then we sampled clusters
+to go into the sample. Here what we're going to do is divide that
+frame, implicitly dividing the population as well, but the frame into two groups,
+three groups, or more. And from each of the groups,
+we're going to draw a sample. All of the groups are going to be in our
+sample, unlike with cluster sampling, where only a subset of the groups
+are going to be in our sample. So the population definition
+corresponds to step 1, the frame to step 2 in
+our 7-step sequence. Well then, what do we going to do? We're going to divide the listed groups
+based on the auxiliary variables. The division mean that
+the variables that we're using for the subdivision, the auxiliary variables,
+have to be discrete categories, or categorical if you will. They must be known for
+every element on the list. If there are some elements on the list for which we don't know the value of a
+particular auxiliary variable, we may need to assign them to a missing data category
+and count that as one of the categories. Everything has to be grouped. Everything has to be in a group, and
+everything must be in only one group. And then what we're going to do is count
+up the number of elements in each group. And we're going to call that capital N,
+because that refers back to the population, but capital N sub
+something, capital N sub group. And a fairly typical subscript for
+this kind of thing is the letter h, and I'll mention more about why h
+a little bit later in the course. So here's our list, which has now been divided into
+three groups on the basis of rank. The Assistant, the Associate,
+and the Full professors. And we see in the last
+column of this table, how many of each category there are. They sum to 400, and
+this is our starting point. If we want, we could form three separate
+files, rather than having it in one file. Or we could keep them all in one file and
+only filter out the ones that we need for any given operation, but
+it's the same basic idea. There's another piece of information
+that we need for this, and that is, we not only need to
+know the number in each group, we also need to know the fraction
+of the population in each group. Do we need to know it? Well, maybe we don't need to know it, but
+it's a very useful part of the process utilized in a lot of the statistical
+notation that we're going to see. So we're going to follow
+that particular approach. It's actually not needed, but
+it's one way of dealing with this. So we also need the fraction of the
+population that's in each of the groups. So going back to our list for
+our three strata, Assistant, Associate and Full professors. With the counts, the capital N sub h,
+there's also a capital W sub h. W sub h being the fraction
+in each of the groups, so the Assistant professors are almost 30%
+of the population of the frame, 28.75%. The Associate professors
+are the smallest group, 18.75%. And the Full professors the are the
+largest group, just slightly over half. That W sub h, W for weight. We're actually going to use
+this as a weighing factor for combining things across
+groups when we're done. It's not the same thing as the weight
+that we're going to talk about at the very end of our six lectures here,
+as well as in Unit 6. It's a different kind of weighting scheme,
+but this is a weighting to combine the groups. And we're going to combine them on
+the basis of their relative size. That is, we want to see in the end,
+anything we come out with, that a little over of 50% of what we say about the
+population comes from the Full professors. A little under 20% comes from
+the Associate professors, and so on. All right, so, what we're going to do
+then, now that we've formed the groups. We know how large they are,
+we have their relative sizes, we're going to draw
+a sample from each group. Looking all the way down to
+the third bullet from the bottom. Draw a sample from each group,
+lowercase n sub h. This is step 3 in our 7-step process,
+and we're going to keep track in this particular case not only of that sample
+size, but also the sampling rates. These will be important for
+us for estimation as well. Their sampling rates or
+their sampling fractions, we'll use both terms interchangeably. The sampling rate,
+perhaps is a little bit more descriptive. Its lowercase n sub h, the number that
+are in the stratum that are in the sample, divided by capital N sub h,
+the number that are in the population or the frame, that are in the strata. And there will be three of those
+in our particular case, an f one, an f two and an f three. Three different sampling fractions,
+three different sampling rates. So in our particular case I've
+allocated the sample of about 80. We're doing a 20% sample,
+we're taking 80 from the 400, one in five. And I've made the decision to allocate
+the sample the same way across each of the strata as it is for
+the total population, the total frame. In this case,
+20% Of the first Stratum is 23. 23 of the 115 would be in the sample. For the second Stratum, 15 of the 75,
+again 20% would be in the sample. And for the third stratum, 42, or
+20% of 210 would be in the sample. So this is another part of the process. We have to decide how many
+in each of the strata, and the sampling rates help us keep
+track of what we're doing. In this case, we see we've got
+a very interesting design. This would be an EPSEM design. If you recall that term,
+equal probability of selection method. We have the same sampling
+rate in each of the strata. We're also going to refer to this
+when we talk about allocations as the proportionate allocation. We'll come back to that,
+let's not dwell on that right now, but this is just the illustration. What we're then going to do is take
+our sample and sort of our step 4, remember our step 4 was one of estimation. But there are going to be two steps
+to the estimation process here. What we're going to do is calculate
+a mean for each of the groups. We draw our sample of 23 from the
+assistant professors, we obtain our data, and perhaps what we're
+doing is measuring income. We're asking them, what was your total
+earnings from the university last year? Not your family earnings,
+not the earnings from all sources, just, how much did you
+earn from the university? Because our record keeping system
+may not show that exactly. Sometimes it comes from multiple sources,
+we just want to collect that information. And so here are the data for the three
+groups, for assistant, associate, and full professors. We see that the mean amount that they
+reported increases as the rank increases, and that's not unexpected. The associate,
+full professors have been there longer, they also have accumulated merit. For their sake of their promotion,
+that merit has led to increases in salary. And so we see differences across
+these groups, at least in the sample. Here's that data,
+just to reinforce it now. This is everything together. We keep squeezing things
+in from the right. The number in the strata, capital N sub h,
+the fraction in each of the strata, capital W sub h. The sample size in each of the strata,
+lowercase n sub h. The sampling fraction in
+each of the strata, 0.2. And by the way, W sub h and f sub h,
+we can see them both there, they're not the same thing are they? They're both fractions. The first one is the fraction of
+the population, capital W sub h, in each of the strata. The second one, f sub h, is the fraction
+of the Stratum that is in the sample. And those are two different things we're
+going to have to keep track of, and it will be confusing at times as we
+work with this kind of a design. Okay, part B is then to
+take that result and combine them to get an estimate,
+let's say in our case of a mean. What we want to do is take the means for
+each of the groups and combine them. And we're going to combine them by
+the relative sizes of the groups, the capital W sub h. So we have a formula here in which we're
+saying, let's take the mean from group 1, $50, multiply it by its fraction,
+0.2875 as I recall from that group. We're going to multiply those two
+together, and then add to that the $70 for the second group,
+times its fraction, 0.1875. And then finally,
+add to that now accumulating sum, the third mean, but
+multiplied by its fraction, 0.525. That will be our estimate of the mean. And what we're doing is taking
+the separate groups and giving them a relative contribution
+to the overall estimate that is reflected in terms of the population
+distribution across the strata. So in this particular case,
+if we do the calculation, we see that we end up with
+a mean of about 74,000. These are in thousands of dollars, I'm
+sorry, I should have said that earlier. $74,750 is our mean. Which is very close to the actual
+population mean, in this particular case. So this is our average, this is our estimate,
+it's obtained through this process. Now, of course, this is only step 4. We had steps 5,
+imagining the sampling distribution. Step 6, calculating a standard error
+from that sampling distribution. And step 7,
+looking at a confidence interval. So we're not quite done with this process
+even though we've pretty well filled out our table now. And have, in the very bottom
+right hand corner cell for the total, the estimate of the population
+mean on the basis of our sample. Now this particular sample
+has a very nice property from the credibility point of view. This has more credibility
+than a simple random sample, from the point of view
+that we have controlled, in our sample, the distribution
+across three important groups. We know those groups differ in salary, we would have anticipated
+this from the beginning. But now, what we've done
+is deliberately control it. So that our sample looks
+like the population, with respect to three important
+categories of our population, where we think that that
+salary rate would vary. We're not allowing that to just fluctuate
+by chance in simple random sampling. A simple random sample of size 80 could
+have been only Assistant professors. It could have been only Full professors. Not only Associate professors,
+because there's fewer than 80 of them. But there are some peculiar
+distributions across these three groups that are possible in
+simple random sampling, not likely, but possible, that we have eliminated. We are only looking at sample designs that the sample follows
+the population distribution. This is what some people would think of, we've used the term
+representative sampling before. This is probably as close to
+representative sampling as we're going to get with the techniques we're using. But we're not calling it that, we're calling is stratified random
+sampling with proportionate allocation. And now you see what that
+proportionate allocation means, the sample distribution looks like
+the population distribution because we're using the same sampling
+rates across the groups. Okay, so let's turn to those last
+two steps, two more steps to go, the standard error and the confidence
+interval in terms of computation. But now, we're poised to imagine all
+possible stratified random samples that have exactly the same characteristics
+as those that we just saw. Imagine all possible samples
+that had three groups, and from those three groups we drew exactly
+the same sample sizes that we were talking about in the previous displays. What then happens to our sampling
+variance in something like this? And let's turn to that discussion in
+our next lecture as we look at sampling variance, in the context of being more
+efficient in stratified sampling. Thank you.
