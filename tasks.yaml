@@ -1,0 +1,235 @@
+units:
+  - id: unit1
+    title: "Sampling as a Research Tool"
+    status: complete
+    notes: |
+      Unit 1 is already drafted in `unit1.qmd`. Remaining edits, if any, should keep the
+      narrative synchronized with the transcripts listed for each lecture task.
+    lectures:
+      - lecture: 1
+        title: "Research design & surveys"
+        source_files:
+          - 1.1.1.txt
+          - 1.1.2.txt
+        output: unit1.qmd
+        status: complete
+      - lecture: 2
+        title: "Surveys & sampling"
+        source_files:
+          - 1.2.txt
+        output: unit1.qmd
+        status: complete
+      - lecture: 3
+        title: "Why sample"
+        source_files:
+          - 1.3.1.txt
+          - 1.3.2.txt
+        output: unit1.qmd
+        status: complete
+      - lecture: 4
+        title: "Why randomize"
+        source_files:
+          - 1.4.txt
+        output: unit1.qmd
+        status: complete
+      - lecture: 5
+        title: "What happens"
+        source_files:
+          - 1.5.txt
+        output: unit1.qmd
+        status: complete
+      - lecture: 6
+        title: "How to evaluate"
+        source_files:
+          - 1.6.txt
+        output: unit1.qmd
+        status: complete
+      - lecture: 7
+        title: "What we sample"
+        source_files:
+          - 1.7.txt
+        output: unit1.qmd
+        status: complete
+  - id: unit2
+    title: "Mere Randomization"
+    status: todo
+    notes: |
+      Draft a chapter that mirrors the lecture sequence on simple random sampling.
+      Each task draws on the listed transcripts and should produce a new Quarto
+      chapter (e.g., `unit2.qmd`).
+    lectures:
+      - lecture: 1
+        title: "Simple random sampling"
+        source_files:
+          - 2.1.txt
+        status: todo
+      - lecture: 2
+        title: "A short history"
+        source_files:
+          - 2.2.txt
+        status: todo
+      - lecture: 3
+        title: "SRS sampling distribution"
+        source_files:
+          - 2.3.1.txt
+          - 2.3.2.txt
+        status: todo
+      - lecture: 4
+        title: "Sample size"
+        source_files:
+          - 2.4.txt
+        status: todo
+      - lecture: 5
+        title: "Margin of error"
+        source_files:
+          - 2.5.txt
+        status: todo
+      - lecture: 6
+        title: "Sample & population size"
+        source_files:
+          - 2.6.txt
+        status: todo
+  - id: unit3
+    title: "Saving Money with Clusters"
+    status: todo
+    notes: |
+      Translate the clustering lectures into book prose, emphasizing cost-saving
+      rationales and two-stage selection details.
+    lectures:
+      - lecture: 1
+        title: "Cluster sampling foundations"
+        source_files:
+          - 3.1.1.txt
+          - 3.1.2.txt
+        status: todo
+      - lecture: 2
+        title: "Design effects"
+        source_files:
+          - 3.2.1.txt
+          - 3.2.2.txt
+        status: todo
+      - lecture: 3
+        title: "Two-stage sampling"
+        source_files:
+          - 3.3.txt
+        status: todo
+      - lecture: 4
+        title: "Designing two-stage samples"
+        source_files:
+          - 3.4.1.txt
+          - 3.4.2.txt
+        status: todo
+      - lecture: 5
+        title: "Unequal sized clusters"
+        source_files:
+          - 3.5.1.txt
+          - 3.5.2.txt
+        status: todo
+      - lecture: 6
+        title: "Subsample size"
+        source_files:
+          - 3.6.txt
+        status: todo
+  - id: unit4
+    title: "Stratification for Efficiency"
+    status: todo
+    notes: |
+      Develop chapters on stratification techniques, linking each task to the
+      respective transcript and planned Quarto output.
+    lectures:
+      - lecture: 1
+        title: "Forming groups"
+        source_files:
+          - 4.1.txt
+        status: todo
+      - lecture: 2
+        title: "Sampling variance"
+        source_files:
+          - 4.2.txt
+        status: todo
+      - lecture: 3
+        title: "More on grouping"
+        source_files:
+          - 4.3.txt
+        status: todo
+      - lecture: 4
+        title: "Allocations"
+        source_files:
+          - 4.4.txt
+        status: todo
+      - lecture: 5
+        title: "Other allocations"
+        source_files:
+          - 4.5.txt
+        status: todo
+      - lecture: 6
+        title: "Weighting"
+        source_files:
+          - 4.6.txt
+        status: todo
+  - id: unit5
+    title: "Systematic Selection"
+    status: todo
+    notes: |
+      Capture the systematic sampling lectures, ensuring that fractional interval
+      logic and list-order risks are clearly articulated.
+    lectures:
+      - lecture: 1
+        title: "Process"
+        source_files:
+          - 5.1.txt
+        status: todo
+      - lecture: 2
+        title: "Fractional intervals"
+        source_files:
+          - 5.2.1.txt
+          - 5.2.2.txt
+        status: todo
+      - lecture: 3
+        title: "List order"
+        source_files:
+          - 5.3.txt
+        status: todo
+      - lecture: 4
+        title: "Uncertainty estimation"
+        source_files:
+          - 5.4.txt
+        status: todo
+  - id: unit6
+    title: "Specialized Designs"
+    status: todo
+    notes: |
+      Outline tasks for advanced topics, including network sampling and
+      nonprobability considerations. Each lecture should culminate in a section of
+      the eventual book manuscript.
+    lectures:
+      - lecture: 1
+        title: "Selection software"
+        source_files:
+          - 6.1.txt
+        status: todo
+      - lecture: 2
+        title: "Stratified clusters"
+        source_files:
+          - 6.2.txt
+        status: todo
+      - lecture: 3
+        title: "Weights for oversampling"
+        source_files:
+          - 6.3.txt
+        status: todo
+      - lecture: 4
+        title: "Weights for nonresponse"
+        source_files:
+          - 6.4.txt
+        status: todo
+      - lecture: 5
+        title: "Network sampling"
+        source_files:
+          - 6.5.txt
+        status: todo
+      - lecture: 6
+        title: "Nonprobability sampling"
+        source_files:
+          - 6.6.txt
+        status: todo
