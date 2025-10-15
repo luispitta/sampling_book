@@ -52,7 +52,7 @@ units:
         status: complete
   - id: unit2
     title: "Mere Randomization"
-    status: todo
+    status: in-progress
     notes: |
       Draft a chapter that mirrors the lecture sequence on simple random sampling.
       Each task draws on the listed transcripts and should produce a new Quarto
@@ -62,7 +62,7 @@ units:
         title: "Simple random sampling"
         source_files:
           - 2.1.txt
-        status: todo
+        status: complete
       - lecture: 2
         title: "A short history"
         source_files:
