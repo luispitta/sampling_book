@@ -1,0 +1,40 @@
+---
+title: "Mere Randomization"
+---
+
+## Unit 2: Mere Randomization
+
+### Lecture 1: Simple Random Sampling
+
+Simple random sampling (SRS) is the reference design for probability sampling: every element in the frame has the same chance of selection, and every possible sample of size $n$ is equally likely. In the unit opener, SRS is framed as "mere" randomization—a design that depends on chance alone without stratification, clustering, or other structural refinements. The simplicity of the definition hides practical complications, especially when populations are finite and duplicates must be avoided, yet the design remains central because it anchors how statisticians reason about sampling error.【F:2.1.txt†L1-L24】【F:2.1.txt†L71-L95】
+
+#### Frames, Random Numbers, and the Faculty Example
+
+Implementing SRS begins with a **frame**—a concrete list of eligible units. In the illustrative faculty roster, 370 professors are numbered consecutively, forming the population of interest. Auxiliary information such as rank or division may accompany the list, but for SRS those details are ignored; only the unique identifiers matter when matching random numbers to cases.【F:2.1.txt†L25-L58】
+
+Random digits supply the selection mechanism. One familiar approach reads three-digit numbers (001–370) from a random-number table, accepting each distinct match as part of the sample. After every draw, the interviewer checks for duplication; any repeated identifier is discarded and a new number is generated. The process continues until $n$ unique cases—twenty in the example—are secured. Because no element appears twice, the design is a **without-replacement** selection that satisfies the equal-probability selection method (EPSEM) condition.【F:2.1.txt†L59-L111】
+
+#### Alternative Selection Procedures
+
+The lecture emphasizes that SRS is defined by its probability structure, not by a single mechanical procedure. Several operational variants all produce the same set of allowable samples:
+
+- **Assign and sort.** Generate a random number for every record—perhaps with a software routine that draws values uniformly between 0 and 1—and append it to the frame. Sorting the list by these random numbers produces a randomized order; selecting the first $n$ cases yields an SRS without replacement.【F:2.1.txt†L112-L155】
+- **Machine-generated draws.** Random-number generators embedded in survey software or security tokens automate the assignment step. Seeds establish reproducible starting points, and transformations (such as truncating decimals or rescaling) adapt the draws to the frame’s indexing scheme.【F:2.1.txt†L156-L204】
+- **Reject duplicated samples.** Another strategy permits the generator to create samples with duplication, then discards any sample that repeats an element. Although inefficient by hand, automated repetition eventually produces a duplicate-free sample that is statistically equivalent to the direct without-replacement draw.【F:2.1.txt†L205-L255】
+
+Each technique respects EPSEM: fixed sample size, equal selection probabilities for elements, and equal probabilities for all possible combinations of size $n$.
+
+#### Combinatorics and the Sea of Possible Samples
+
+Thinking abstractly, SRS explores a vast universe of potential outcomes. The number of distinct samples equals the binomial coefficient $\binom{N}{n}$, computed as $N!/[n!(N-n)!]$. For the faculty roster, $N=370$ and $n=20$, generating an astronomically large count of possible samples. This combinatorial perspective motivates later lectures on sampling distributions: any realized sample is one point drawn from an enormous set, so inference must consider the distribution across all equally likely samples.【F:2.1.txt†L256-L300】
+
+#### Practical Considerations and Limitations
+
+Despite its canonical status, pure SRS is rarely the practitioner’s first choice. Administering the design in the field is administratively demanding, and other methods—stratification, clustering, or systematic sampling—often deliver higher efficiency or lower cost. Nonetheless, SRS remains invaluable as a conceptual baseline and as a building block for more complex designs; it clarifies the role of randomization and provides a benchmark for evaluating bias and variance in subsequent units.【F:2.1.txt†L301-L360】
+
+#### Key Takeaways
+
+- SRS relies on an objective randomization device applied to a well-defined frame, delivering EPSEM properties by construction.
+- Multiple operational procedures—reading random digits, sorting by assigned random numbers, or rejecting duplicate samples—lead to the same statistical design.
+- The astronomical number of possible samples under SRS foreshadows the need to analyze sampling distributions rather than single outcomes.
+- Practitioners often favor modified designs, yet SRS remains the foundational reference for understanding probability sampling.
